@@ -1,0 +1,52 @@
+{
+  "generated": "2026-10-23",
+  "generator_sha256": "45b598439340219068a22e60ba8122fe7b4f940b4e86bab23f7b0ec2559a2a0f",
+  "inputs": {
+    "lieux.json": "3e8c19057c78a554dee27ecaae8363a1ff07a34181bbb3e817229874816dd241",
+    "fond_osm.geojson": "35b1429093422ba3445da2aad34b2ab80143b049c934ef7ef7a8ab9a36358c35"
+  },
+  "outputs": {
+    "lyon_ensemble.svg": "95c9f53779fe6f9e7b2c16f50d0d66bc2304c7af6e45d1e95c6235b184fc32d6",
+    "lyon_guillotiere_saxe.svg": "d0be9281001a380c19b339c0268b33fdbea5525837e385f41369cbd92004e780",
+    "atlas_lyon.html": "b286d07a7948a74b274e68751defc24578fbbc00b0e996914f453b19efb00393"
+  },
+  "ensemble_ids": [
+    "six_janvier",
+    "place_antique",
+    "cafe_alpes",
+    "saint_andre",
+    "saint_sacrement",
+    "saint_louis",
+    "logis_jean_jaures",
+    "domiciles_gambetta",
+    "bellecour",
+    "perrache",
+    "fourviere",
+    "saint_jean",
+    "bibliotheque",
+    "terreaux",
+    "grand_theatre",
+    "maison_doree",
+    "cafe_morel",
+    "salle_rameau",
+    "mere_brazier",
+    "lugdunum"
+  ],
+  "zoom_ids": [
+    "six_janvier",
+    "place_antique",
+    "cafe_alpes",
+    "saint_andre",
+    "saint_sacrement",
+    "saint_louis",
+    "logis_jean_jaures",
+    "domiciles_gambetta",
+    "cintra",
+    "carlton",
+    "eldorado",
+    "cercle_rollet",
+    "saint_bonaventure"
+  ],
+  "projection": "Local equirectangular, phi0=45.76 deg, WGS84 input",
+  "limits": "Modern OSM base. Editorial static selection: 18 base loci, plus Brazier and Lugdunum in overview. Full dataset appears in HTML."
+}

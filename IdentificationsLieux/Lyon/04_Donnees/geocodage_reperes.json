@@ -1,0 +1,157 @@
+{
+  "saint_andre": {
+    "url": "https://api-adresse.data.gouv.fr/search/?q=19+rue+de+Marseille+Lyon&limit=1",
+    "response": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.840905,
+              45.752593
+            ]
+          },
+          "properties": {
+            "label": "19 Rue de Marseille 69007 Lyon",
+            "score": 0.9765163636363635,
+            "housenumber": "19",
+            "id": "69387_4600_00019",
+            "banId": "25473d6f-f94e-466d-836f-aa9a71442d0d",
+            "name": "19 Rue de Marseille",
+            "postcode": "69007",
+            "citycode": "69387",
+            "x": 843100.64,
+            "y": 6518667.37,
+            "city": "Lyon",
+            "district": "Lyon 7e Arrondissement",
+            "context": "69, Rhône, Auvergne-Rhône-Alpes",
+            "type": "housenumber",
+            "importance": 0.74168,
+            "depcode": "69",
+            "street": "Rue de Marseille",
+            "_type": "address"
+          }
+        }
+      ],
+      "query": "19 rue de Marseille Lyon"
+    }
+  },
+  "saint_sacrement": {
+    "url": "https://api-adresse.data.gouv.fr/search/?q=15+rue+Etienne+Dolet+Lyon&limit=1",
+    "response": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.851883,
+              45.757569
+            ]
+          },
+          "properties": {
+            "label": "15 Rue Etienne Dolet 69003 Lyon",
+            "score": 0.965911818181818,
+            "housenumber": "15",
+            "id": "69383_2585_00015",
+            "banId": "13802d78-4755-4b8c-b358-12e43834a8f8",
+            "name": "15 Rue Etienne Dolet",
+            "postcode": "69003",
+            "citycode": "69383",
+            "x": 843940.89,
+            "y": 6519239.76,
+            "city": "Lyon",
+            "district": "Lyon 3e Arrondissement",
+            "context": "69, Rhône, Auvergne-Rhône-Alpes",
+            "type": "housenumber",
+            "importance": 0.62503,
+            "depcode": "69",
+            "street": "Rue Etienne Dolet",
+            "_type": "address"
+          }
+        }
+      ],
+      "query": "15 rue Etienne Dolet Lyon"
+    }
+  },
+  "saint_louis": {
+    "url": "https://api-adresse.data.gouv.fr/search/?q=1+rue+de+la+Madeleine+Lyon&limit=1",
+    "response": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.848114,
+              45.750485
+            ]
+          },
+          "properties": {
+            "label": "1 Rue de la Madeleine 69007 Lyon",
+            "score": 0.9722781818181818,
+            "housenumber": "1",
+            "id": "69387_4420_00001",
+            "banId": "83987dd5-31da-4726-80b2-5d449bb64738",
+            "name": "1 Rue de la Madeleine",
+            "postcode": "69007",
+            "citycode": "69387",
+            "x": 843666.4,
+            "y": 6518446.43,
+            "city": "Lyon",
+            "district": "Lyon 7e Arrondissement",
+            "context": "69, Rhône, Auvergne-Rhône-Alpes",
+            "type": "housenumber",
+            "importance": 0.69506,
+            "depcode": "69",
+            "street": "Rue de la Madeleine",
+            "_type": "address"
+          }
+        }
+      ],
+      "query": "1 rue de la Madeleine Lyon"
+    }
+  },
+  "saint_bonaventure": {
+    "url": "https://api-adresse.data.gouv.fr/search/?q=place+des+Cordeliers+Lyon&limit=1",
+    "response": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.837405,
+              45.763616
+            ]
+          },
+          "properties": {
+            "label": "Place des Cordeliers 69002 Lyon",
+            "score": 0.9590981818181817,
+            "id": "69382_1920",
+            "banId": "4d3d57ce-b39b-4d27-877c-4cb8f512ecc5",
+            "name": "Place des Cordeliers",
+            "postcode": "69002",
+            "citycode": "69382",
+            "x": 842800.14,
+            "y": 6519884.82,
+            "city": "Lyon",
+            "district": "Lyon 2e Arrondissement",
+            "context": "69, Rhône, Auvergne-Rhône-Alpes",
+            "type": "street",
+            "importance": 0.55008,
+            "depcode": "69",
+            "street": "Place des Cordeliers",
+            "_type": "address"
+          }
+        }
+      ],
+      "query": "place des Cordeliers Lyon"
+    }
+  }
+}

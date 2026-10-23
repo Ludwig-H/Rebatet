@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-23",
+  "dataset_notices": 51,
+  "marqueurs_dans_cadre": 34,
+  "point_hors_cadre": "Parc de la Tête-d’Or",
+  "svg_selection_generale": 20,
+  "svg_selection_zoom": 13,
+  "rendu_svg": "rasterisé et inspecté",
+  "chromium_desktop": "1440x1100",
+  "chromium_mobile": "390x844",
+  "debordement_horizontal_mobile": false,
+  "recherche": "Alpes : une notice",
+  "filtres": "vérifiés",
+  "erreurs_javascript": 0,
+  "requetes_reseau": 0,
+  "empreintes": "../05_Cartes/manifest_cartes.json"
+}
