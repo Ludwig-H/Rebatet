@@ -57,7 +57,7 @@ Journal de Michel. Il se rend au rendez-vous de six heures, rue Créqui, quand u
 | 6 | « le boulevard des Belges, le plus élégant de Lyon » ; une « vague ruelle » et une maison opulente | XXI §94-95 |
 | 7 | « la tête de ligne des tramways » | XXI §97 |
 
-La scène est l'une des plus précises du roman. Michel l'écrit en marchant, et chaque phrase coïncide avec un pas. Le « je crois » de l'étape 1 est une prudence du narrateur, non une incertitude du lecteur : l'angle existe.
+La scène est l'une des plus précises du roman. Michel l'écrit en marchant, et chaque phrase coïncide avec un pas. Le « je crois » de l'étape 1 est une prudence du narrateur, non une incertitude du lecteur : l'angle existe. Mais Rebatet a reconnu que l'épisode amplifie une note de son journal : une très jeune fille en bleu marine suivie un soir, de loin, quelques instants, devenue une poursuite à travers Lyon (*Mémoires d'un fasciste* II, cité ici d'après la traduction italienne ; voir [07_temoins_et_modeles](07_temoins_et_modeles.md)). La précision du trajet est un effet de romancier qui connaît la ville, non le souvenir d'une marche.
 
 ## 4. Les « théologiens de Bellecour » (6 janvier 1926)
 
