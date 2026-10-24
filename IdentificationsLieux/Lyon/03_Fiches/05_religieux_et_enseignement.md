@@ -89,9 +89,11 @@ Repères complémentaires : XI §92, §98, §101, §207 ; XII §27 ; XX §1–45
 
 ## Collège des Lazaristes
 
-**Statut : atteste**. Établissement des Lazaristes, 24 montée Saint-Barthélemy : le nom et la situation sur les pentes de Fourvière concordent. Régis y propose à Michel une place de professeur des petites classes. L’établissement est confié aux Frères des Écoles chrétiennes depuis 1839 ; son nom ne suffit donc pas à attribuer les personnages à la congrégation des Lazaristes.
+**Statut : atteste**. Établissement des Lazaristes, 24 montée Saint-Barthélemy : le nom et la situation sur les pentes de Fourvière concordent. Régis montre à Michel le collège, où une place de professeur va être vacante « dans la division des petits » (XV §597). Michel rencontre le supérieur des Lazaristes (XVI §4) et est engagé comme professeur de sixième (XIX §3 ; conditions en XIX §21). Le P. Reboul le lui déconseille (XIX §21), puis le projet se heurte au refus de la Compagnie de Jésus (XIX §100). Pensionnat fondé en 1839 par les Frères des Écoles chrétiennes. Fermé en 1904, il est racheté en 1906 par une société d’enseignement libre et dirigé par un Frère sécularisé : c’est sa situation à l’époque du récit. Le nom « Lazaristes », hérité des Prêtres de la Mission (1668), ne suffit donc pas à attribuer les personnages à cette congrégation.
 
 Repères textuels : OEBPS/Text/XV_l_equation_mystique_suite.xhtml#p597.
+
+Repères complémentaires : XVI §4 ; XIX §3, §21, §100.
 
 - https://www.auxlazaristeslasalle.fr/qui-sommes-nous/
 - https://www.lyon.fr/lieu/colleges-prives/college-aux-lazaristes
@@ -102,9 +104,11 @@ Repères textuels : OEBPS/Text/XV_l_equation_mystique_suite.xhtml#p597.
 
 ## Primatiale Saint-Jean
 
-**Statut : atteste**. Cathédrale Saint-Jean-Baptiste, place Saint-Jean : identification explicite. Le roman l’utilise comme repère sonore et visuel, et y situe une messe avec les scouts. Distinguer la cathédrale de la bibliothèque voisine et du quartier portant le même nom.
+**Statut : atteste**. Cathédrale (primatiale) Saint-Jean-Baptiste, 8 place Saint-Jean (5e) : identification explicite. Le roman y situe la messe dominicale de neuf heures à laquelle Michel accompagne Régis (XII §144–153). Un étudiant crie un journal « sous le porche » ; la cathédrale est « plus noire que jamais » au-dehors, et l’intérieur « férocement barbouillé de chaux crue » ; suivent le prêche et la communion (XII §148–152). Le roman y place aussi le rendez-vous « devant Saint-Jean », suivi d’une messe que le quatuor entend dans une primatiale « envahie par des scouts », avant le départ par la gare de Saint-Just (XV §73–75). Il s’en sert comme repère sonore (horloge, IX §41) et visuel (XIX §143, la bibliothèque « au pied de la cathédrale » ; XXXVII §73), et mentionne « l’organiste de Saint-Jean » avec qui travaille Régis (I §65). Distinguer la cathédrale de la bibliothèque voisine et du quartier portant le même nom : IV §24, XV §191, XX §117, XXI §36, XXVII §12 et XXVIII §15 désignent le quartier, la bibliothèque ou la station de funiculaire.
 
 Repères textuels : OEBPS/Text/IX_venez_ravir_mon_ame.xhtml#p41, OEBPS/Text/XV_l_equation_mystique_suite.xhtml#p74, OEBPS/Text/XIX_le_vingt_huit_septembre.xhtml#p143, OEBPS/Text/XXXVII.xhtml#p73.
+
+Repères complémentaires : I §65 ; XII §144–153 ; XV §73.
 
 - https://www.lyon.fr/lieu/moyen-age/cathedrale-saint-jean
 - https://www.visiterlyon.com/decouvrir/sites-et-monuments/patrimoine-religieux/primatiale-cathedrale-saint-jean-baptiste
@@ -126,7 +130,7 @@ Repères textuels : OEBPS/Text/XXI_ephemerides_du_peche_mortel.xhtml#p207.
 
 ## Paroisse d’Ainay
 
-**Statut : atteste**. Paroisse Saint-Martin d’Ainay, dont la basilique constitue le centre. Rouchouze est dit fabricien de la paroisse ; ce renseignement situe son milieu religieux, sans établir une scène à l’intérieur de l’église. Le quartier d’Ainay mérite une entrée géographique distincte.
+**Statut : atteste**. Paroisse Saint-Martin d’Ainay, dont la basilique constitue le centre. Rouchouze est dit fabricien de la paroisse ; ce renseignement situe son milieu religieux, sans établir une scène à l’intérieur de l’église. Le quartier d’Ainay mérite une entrée géographique distincte. Le même paragraphe place les deux filles Rouchouze « au Sacré-cœur » (XX §102), c’est-à-dire chez les Dames du Sacré-Cœur ou dans une maison de ce nom. Le roman ne précise ni la ville ni la maison : à inscrire comme lieu non localisé. Prudence sur une localisation lyonnaise : la loi de 1904 sur l’enseignement congréganiste a fait fermer ou séculariser beaucoup de maisons françaises de la congrégation, et le roman évoque lui-même des maisons du Sacré-Cœur à l’étranger (XI §207 : un couvent irlandais ; XXII §304 : San Remo). Les fils Rouchouze, « chez les Jésuites de la rue Sainte-Hélène », ont déjà leur propre [notice](#externat_saint_joseph).
 
 Repères textuels : OEBPS/Text/XX_l_ouvrier_de_la_onzieme_heure.xhtml#p102.
 
@@ -137,9 +141,11 @@ Repères textuels : OEBPS/Text/XX_l_ouvrier_de_la_onzieme_heure.xhtml#p102.
 
 ## Faculté catholique / cours de Chaleyssin
 
-**Statut : atteste**. Facultés catholiques de Lyon, dans le secteur rue du Plat–rue Sainte-Hélène. L’histoire institutionnelle situe la fondation au 4 bis place Saint-Michel, aujourd’hui place Vollon, à l’angle du 35 rue du Plat, puis des extensions dont le 30 rue Sainte-Hélène en 1918 pour le droit. Aucun passage vérifié n’autorise une salle précise pour les cours de Chaleyssin.
+**Statut : atteste**. Facultés catholiques de Lyon, dans le secteur rue du Plat–rue Sainte-Hélène. L’histoire institutionnelle situe la fondation (1875) au 4 bis place Saint-Michel, rebaptisée place Antoine-Vollon dès 1907 (donc sous ce nom dans les années 1920), à l’angle du 35 rue du Plat et de la rue Sainte-Hélène, puis des extensions dont le 30 rue Sainte-Hélène en 1918 pour le droit. Aucun passage vérifié n’autorise une salle précise pour les cours de Chaleyssin. Le roman emploie « Faculté catholique » (XIX §109, §215 ; XXI §30 ; XXVIII §14), « Institut catholique » (XX §102, pour Lyon, alors qu’en I §51 la même expression désigne Paris) et « la Catho » (II §82 ; XVII §116 ; XXI §82).
 
 Repères textuels : OEBPS/Text/XIX_le_vingt_huit_septembre.xhtml#p109, OEBPS/Text/XX_l_ouvrier_de_la_onzieme_heure.xhtml#p102, OEBPS/Text/XXI_ephemerides_du_peche_mortel.xhtml#p30, OEBPS/Text/XXI_ephemerides_du_peche_mortel.xhtml#p81.
+
+Repères complémentaires : II §82 ; XVII §116 ; XIX §215 ; XXI §82 ; XXVIII §14.
 
 - https://www.ucly.fr/l-ucly/linstitution/notre-histoire/
 
