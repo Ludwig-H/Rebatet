@@ -167,12 +167,18 @@ Repères textuels : OEBPS/Text/X_christ_est_ressuscite.xhtml#p84.
 
 ## Cercle des étudiants catholiques du Père Rollet
 
-**Statut : probable**. Modèle probable : Maison des étudiants catholiques, installée vers 1920 dans l’ancien Hôtel de la Chanson, 4 rue Montesquieu. L’Inventaire nomme parmi ses animateurs Jean Roullet : convergence institutionnelle et onomastique forte avec le Rollet du roman. Le Centre Laënnec actuel a réuni plusieurs immeubles ; son entrée moderne au 5 quai Claude-Bernard ne prouve pas celle des années 1920.
+**Statut : probable**. Le roman donne le nom « Cercle des Étudiants catholiques » (XIX §1) ; IV §109 parle du « grand cercle d’étudiants catholiques » que préside le P. Rollet. La seule scène à l’intérieur se trouve en XIX §1–5 : la porte, la « grande salle », le P. Reboul « en train de clouer des caisses de livres », la salle déserte « à côté du billard ». Elle se prolonge en XIX §17–18, où le P. Monnardier est donné comme le « successeur au Cercle » de Reboul. Le cercle sert aussi d’adresse pour un télégramme (XIX §225), accueille une conférence sur les nouveaux cercles ouvriers (XXII §17) et la visite du P. de Grandmaison (XXIII §190). Il a eu un bibliothécaire, Reverchon (XVII §164). Les formules « chez Rollet » et « maison Rollet » désignent très probablement le cercle, sans le nommer : rattachement interprétatif. La convocation « chez Rollet » de XXII §233 (cf. §277) peut avoir eu lieu au cercle ou à la résidence du Père. Ne pas confondre avec la « maison d’étudiants catholiques » vue à Paris (VIII §165–166), ni avec les cercles ouvriers de Régis (XII §60, §163).
+
+Modèle probable : Maison des étudiants catholiques (MEC), installée vers 1920 dans l’ancien Hôtel de la Chanson, 4 rue Montesquieu (Inventaire ; Rocher 2005, §28 : « Installée d’abord rue Montesquieu »). Le « Cercle des étudiants ACJF » y est dirigé dès 1919 par le père Roullet, jésuite, remplacé en 1935 par le P. Édouard Margot (Rocher 2005, §27–28) : convergence institutionnelle et onomastique forte avec le Rollet du roman. Le prénom de Roullet reste à établir : le « Jean Roullet » prêté à l’Inventaire n’a pas pu être relu, et la création de la MEC est attribuée à l’avocat Jean Chaine. Convergence biographique : selon Rocher, d’après les souvenirs de Varillon (1980, p. 24-29), le modèle de Régis, venu à la MEC, « a été encouragé à l’action par le père Roullet », qui le détourna de l’Action française au profit de l’ACJF. Le roman prête à Régis ces penchants (I §100) et rattache Rollet à l’ACJF (VIII §170). L’ensemble actuel (MEC au 5 quai Claude-Bernard, Centre Laënnec à l’entrée voisine) ne prouve pas l’accès des années 1920, rue Montesquieu. Vérifier dans un navigateur les fiches IA69007091 et IA69007089 avant de les citer.
 
 Repères textuels : OEBPS/Text/I_ouverture_provinciale.xhtml#p100, OEBPS/Text/IV_la_rue_crequi.xhtml#p109, OEBPS/Text/XXIII_les_theologiens_de_bellecour.xhtml#p190, OEBPS/Text/XXX_les_figurants.xhtml#p22.
 
+Repères complémentaires : VIII §171 (« la taule de ton Rollet ») ; XI §190 ; XII §64 (« une équipe du cercle de Rollet », membres et non lieu) ; XVII §164 ; XIX §1–5, §17–18, §225 ; XXII §17 ; XXII §233, §277 (lieu non précisé) ; XXX §22 (« la maison Rollet »).
+
 - https://patrimoine.auvergnerhonealpes.fr/dossier/IA69007091
 - https://patrimoine.auvergnerhonealpes.fr/dossier/IA69007089
+- Ph. Rocher, 2005, §27–28 : https://books.openedition.org/enseditions/6593 (consulté le 24 octobre 2026)
+- *Lyon Capitale*, 2013 (MEC au 5 quai Claude-Bernard, Centre Laënnec à l’entrée voisine) : https://www.lyoncapitale.fr/actualite/la-maison-des-etudiants-catholiques-de-lyon-qg-des-hommen (consulté le 24 octobre 2026)
 
 
 <a id="chapelle_essarts"></a>
