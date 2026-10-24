@@ -10,7 +10,7 @@ Le centre de l'enquête est Lyon et sa proche périphérie. Le Beaujolais et les
 
 ## Deux enquêtes, un registre
 
-Le dossier réunit deux enquêtes conduites indépendamment sur le même témoin : l'une (23 octobre 2026) par dictionnaire lexical et dossiers thématiques ; l'autre par lecture intégrale, chapitre par chapitre, en dix tranches. La seconde a fourni les relevés par chapitre (`01_Corpus/releves_par_chapitre/`) et un répertoire de 110 lieux. Le 24 octobre 2026, chaque affirmation de la première enquête a été contre-vérifiée (journal du jour). Les deux répertoires ont ensuite été fusionnés dans un registre unique, `04_Donnees/lieux.json`, qui conserve les identifiants de la première enquête et donne à chaque notice un code de secteur (G Guillotière, B 3e nord et Brotteaux, P Presqu'île, D rive droite de la Saône, E environs, R région).
+Le dossier réunit deux enquêtes conduites indépendamment sur le même témoin : l'une (23 octobre 2026) par dictionnaire lexical et dossiers thématiques ; l'autre par lecture intégrale, chapitre par chapitre, en dix tranches. La seconde a fourni les relevés par chapitre (`01_Corpus/releves_par_chapitre/`) et un répertoire de 110 lieux. Le 24 octobre 2026, chaque affirmation de la première enquête a été contre-vérifiée (journal du jour). Les deux répertoires ont ensuite été fusionnés dans un registre unique de 162 lieux, `04_Donnees/lieux.json`, qui conserve les identifiants de la première enquête et donne à chaque notice un code de secteur (G Guillotière, B 3e nord et Brotteaux, P Presqu'île, D rive droite de la Saône, E environs, R région).
 
 Quand les deux enquêtes divergeaient, la notice retenue est celle que les pièces départagent ; à défaut, la plus prudente. Le désaccord est alors consigné dans la fiche.
 
