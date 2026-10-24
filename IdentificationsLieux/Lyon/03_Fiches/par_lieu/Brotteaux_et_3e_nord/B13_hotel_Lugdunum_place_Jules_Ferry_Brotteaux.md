@@ -32,7 +32,7 @@ Dossier d'argumentation : [03_etablissements.md](../../03_etablissements.md#lugd
 
 - Guichet du Savoir, questions 66835 et 58072, d’après l’Inventaire : hôtel PLM Lugdunum, place Jules-Ferry, « construit entre 1920 et 1924 », ouvert en 1924, « 1926 : l’Hôtel Lugdunum devient le Palace Hôtel », fermé en 1934 (secondaire documentée).
 - Rive Gauche, n° 7 (1963), p. 15 : terrain vendu par le Domaine « en face de la nouvelle gare des Brotteaux » ; histoire de la société hôtelière (secondaire non sourcée, concordante).
-- Rebatet, « Étude sur la composition des Deux Étendards » (inédit, 1951), citée par Ifri 2001, p. 168-169 : les scènes du Lugdunum sont faites de « détails qui ont tous été vécus, ici ou là, mais aucun avec la “fausse Anne-Marie” » ; le n° 348 est celui de sa cellule de Fresnes. L’hôtel est réel, l’épisode composite (primaire tardive, seconde main).
+- Rebatet, « Étude sur la composition des Deux Étendards » (tapuscrit de 1951, éd. Via Romana, 2017, non consultée), citée par Ifri 2001, p. 168-169 : les scènes du Lugdunum sont faites de « détails qui ont tous été vécus, ici ou là, mais aucun avec la “fausse Anne-Marie” » ; le n° 348 est celui de sa cellule de Fresnes. L’hôtel est réel, l’épisode composite (primaire tardive, seconde main).
 - Journal de Rebatet cité par Ifri 2001, p. 174 : pendants vécus, l’« hôtel de Provence » (non localisé) puis une chambre « très agréable au Terminus » (septembre 1926), vraisemblablement le Grand Hôtel Terminus de Perrache (déduction) (primaire contemporaine, seconde main).
 - Faux ami : les « Salons Lugdunum », 128-130 rue de Créqui, ouverts en 1930 (Guichet du Savoir, question 58072), sans rapport avec l’hôtel du roman.
 

@@ -33,9 +33,9 @@
 | `motifs` | Expressions régulières de la concordance (insensibles à la casse ; préfixe `CS:` pour une recherche sensible à la casse) ; elles alimentent l'[index des occurrences](../01_Corpus/index_occurrences.md) |
 | `sources` | Pièces historiques et géographiques utilisées (URL ou référence complète) |
 | `temoignages` | Apports des sources extérieures (témoins, biographes, archives nominatives), chacun avec sa référence et son degré de fiabilité |
-| `fiche` | Dossier thématique d'argumentation (chemin relatif depuis `05_Cartes`), pour les notices de la première enquête |
+| `fiche` | Dossier d'argumentation (dossier thématique de `03_Fiches`, ou `01_Corpus/INVENTAIRE.md` pour six notices ; chemin relatif depuis `05_Cartes`), pour les notices de la première enquête |
 
-Le statut du lieu et la forme de sa géométrie ne sont pas interchangeables. Un lieu que le texte situe sur une voie nommée, sans immeuble identifié, est `atteste` pour la voie ; sa géométrie est alors la voie ou le tronçon désigné, et sa certitude (B ou C) mesure la restriction au tronçon. La description le dit chaque fois. Un point déduit (une porte, un angle) suit au contraire la certitude de la déduction.
+Le statut du lieu et la forme de sa géométrie ne sont pas interchangeables. Un lieu que le texte situe sur une voie nommée, sans immeuble identifié, est `atteste` pour la voie ; sa géométrie est alors la voie ou le tronçon désigné, et sa certitude mesure la restriction au tronçon : A quand la voie entière est retenue, B ou C quand la notice n'en retient qu'un tronçon. La description le dit chaque fois. Un point déduit (une porte, un angle) suit au contraire la certitude de la déduction.
 
 ## Inventaire lexical
 

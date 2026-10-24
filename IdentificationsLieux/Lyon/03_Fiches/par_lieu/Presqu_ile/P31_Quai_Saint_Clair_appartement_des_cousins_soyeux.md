@@ -28,7 +28,7 @@ Nom explicite (XXV §203 « les soyeux du quai Saint-Clair » ; XXVIII §12 « l
 
 ## Sources extérieures (témoignages, biographies)
 
-- Acte de naissance de François Varillon (Bron, 1905 ; ADRML 4E11691) : le premier témoin est « François Varillon, négociant », 45 ans, demeurant 9 quai Saint-Clair. La famille du modèle de Régis avait donc un parent sur ce quai ; le roman y loge les cousins soyeux de Michel. Fiabilité : primaire contemporaine, contre-lue ; rapprochement sans valeur de preuve.
+- Acte de naissance de François Varillon (Bron, 1905 ; ADRML 4E11691) : le premier témoin est « François Varillon, négociant », 45 ans, demeurant 9 quai Saint-Clair. Ce témoin, qui porte le nom et le prénom de l'enfant, est vraisemblablement un parent du modèle de Régis ; le roman y loge les cousins soyeux de Michel. Fiabilité : primaire contemporaine, contre-lue ; rapprochement sans valeur de preuve.
 
 ## Passages du roman
 

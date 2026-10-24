@@ -10,7 +10,7 @@ Le centre de l'enquête est Lyon et sa proche périphérie. Le Beaujolais et les
 
 ## Deux enquêtes, un registre
 
-Le dossier réunit deux enquêtes conduites indépendamment sur le même témoin : l'une (23 octobre 2026) par dictionnaire lexical et dossiers thématiques ; l'autre par lecture intégrale, chapitre par chapitre, en dix tranches. La seconde a fourni les relevés par chapitre (`01_Corpus/releves_par_chapitre/`) et un répertoire de 110 lieux. Le 24 octobre 2026, chaque affirmation de la première enquête a été contre-vérifiée (journal du jour). Les deux répertoires ont ensuite été fusionnés dans un registre unique de 162 lieux, `04_Donnees/lieux.json`, qui conserve les identifiants de la première enquête et donne à chaque notice un code de secteur (G Guillotière, B 3e nord et Brotteaux, P Presqu'île, D rive droite de la Saône, E environs, R région).
+Le dossier réunit deux enquêtes conduites indépendamment sur le même témoin : l'une (23 octobre 2026) par dictionnaire lexical et dossiers thématiques ; l'autre par lecture intégrale, chapitre par chapitre, en dix tranches. La seconde a fourni les relevés par chapitre (`01_Corpus/releves_par_chapitre/`) et un répertoire de 110 lieux. Le 24 octobre 2026, chaque affirmation contrôlable de la première enquête (634, dont 24 restées invérifiables) a été contre-vérifiée (journal du jour). Les deux répertoires ont ensuite été fusionnés dans un registre unique de 162 lieux, `04_Donnees/lieux.json`, qui conserve les identifiants de la première enquête et donne à chaque notice un code de secteur (G Guillotière, B 3e nord et Brotteaux, P Presqu'île, D rive droite de la Saône, E environs, R région).
 
 Quand les deux enquêtes divergeaient, la notice retenue est celle que les pièces départagent ; à défaut, la plus prudente. Le désaccord est alors consigné dans la fiche.
 
@@ -35,17 +35,17 @@ Ces statuts qualifient la **localisation proposée**. Ils ne certifient ni une �
 
 ### Degré de certitude et statut cartographique
 
-Le registre conserve, à côté du statut cartographique, le degré de certitude de la lecture intégrale. Ce degré porte sur l'identification du lieu réel, non sur la forme de la géométrie.
+Le registre donne, à côté du statut cartographique, un degré de certitude. Repris de la lecture intégrale, il a été révisé à l'arbitrage (38 notices) ; les arbitres l'ont attribué aux 53 notices que la lecture intégrale ne comportait pas. Ce degré porte sur l'identification du lieu réel, non sur la forme de la géométrie ; pour un lieu que le texte situe sur une voie nommée sans immeuble identifié, il mesure toutefois la restriction au tronçon cartographié (voir 04_Donnees/README.md).
 
 | Degré | Sens | Statut cartographique correspondant |
 |---|---|---|
-| A | identification certaine (nom réel explicite, lieu repérable) | `atteste` |
+| A | identification certaine (lieu nommé ou désigné sans ambiguïté par le texte, et repérable) | `atteste` |
 | B | très probable (faisceau d'indices convergents, aucun concurrent sérieux) | `probable` |
 | C | probable (indices convergents, une pièce manque) | `probable` |
 | D | hypothèse (proposition compatible, concurrents non éliminés) | `hypothese` |
 | E | lieu inventé ou non localisable | `non_localise` (aucune coordonnée) |
 
-La correspondance n'est pas mécanique dans les deux sens : un lieu certain (A) peut n'être cartographié que par un segment, si le roman donne la rue sans le numéro.
+La correspondance n'est pas mécanique : un lieu certain (A) peut n'être cartographié que par un segment, si le roman donne la rue sans le numéro ; inversement, sept notices que le texte situe sur une voie ou une place nommée sont `atteste` pour cette voie avec une certitude B (B02, B09, B12, G32, G42) ou C (G06, G33), qui mesure la restriction au tronçon ou au point retenu.
 
 ## Critique du texte
 
@@ -58,7 +58,7 @@ La correspondance n'est pas mécanique dans les deux sens : un lieu certain (A) 
 
 ## Deux numérotations, une référence
 
-La référence est la numérotation P, définie ci-dessus : rang de l'élément `<p>` dans le fichier du chapitre, titres non comptés. La lecture intégrale avait d'abord numéroté les lignes non vides du texte extrait (numérotation L) : titre de chapitre compris, une ligne par `<p>`, par `<br/>` interne et par bloc. Ses relevés ont été convertis en P au moyen de la table `01_Corpus/concordance_numerotations.csv`, produite par `06_Outils/concordance_numerotations.py` (aucun texte du roman n'y figure). Les citations ont ensuite été recontrôlées contre le paragraphe P qui les suit. Une référence en L ne doit plus circuler.
+La référence est la numérotation P, définie ci-dessus : rang de l'élément `<p>` dans le fichier du chapitre, titres non comptés. La lecture intégrale avait d'abord numéroté les lignes non vides du texte extrait (numérotation L) : titre de chapitre compris, une ligne par `<p>`, par `<br/>` interne et par bloc. Ses relevés ont été convertis en P au moyen de la table `01_Corpus/concordance_numerotations.csv`, produite par `06_Outils/concordance_numerotations.py` (aucun texte du roman n'y figure). Les citations ont ensuite été recontrôlées contre le paragraphe P cité. Une référence en L ne doit plus circuler.
 
 ## Critique historique
 
@@ -85,9 +85,9 @@ Le roman est un roman à clef : Michel Croz doit beaucoup à Lucien Rebatet, Ré
 - **secondaire documenté** : biographie ou étude qui cite ses pièces ;
 - **secondaire non sourcé** : affirmation sans pièce (notice en ligne, article de presse).
 
-Une concordance entre le roman et la biographie (même rue, même établissement) renforce une identification ; elle ne transforme pas un surnom des personnages en toponyme. Une discordance n'invalide pas le roman : elle signale une transposition, à décrire comme telle. Les mentions de personnes réelles se limitent à ce que les sources publiées établissent.
+Une concordance entre le roman et la biographie (même rue, même établissement) renforce une identification ; elle ne transforme pas un surnom des personnages en toponyme. Une discordance n'invalide pas le roman : elle signale une transposition, à décrire comme telle. Les mentions de personnes réelles se limitent à ce que les sources publiées et les archives citées établissent ; les voisins d'un ménage ne sont nommés que lorsqu'ils prouvent la continuité d'une maison.
 
-Les archives nominatives (listes nominatives des recensements de 1911 à 1936, Archives départementales du Rhône, série 6 M) sont lues en deux temps. Un premier lecteur parcourt les vues d'une rue, transcrit chaque ménage retenu avec sa cote, sa vue et sa page, et signale ses lectures incertaines. Un second relit ensuite les mêmes images sans connaître la conclusion attendue. Une trouvaille n'entre dans le dossier qu'avec sa cote et son image. Les homonymes écartés sont mentionnés sans autre détail que ce qui justifie l'exclusion.
+Les archives nominatives (listes nominatives des recensements de 1906 à 1936, Archives départementales du Rhône, série 6 M) sont lues en deux temps. Un premier lecteur parcourt les vues d'une rue, transcrit chaque ménage retenu avec sa cote, sa vue et sa page, et signale ses lectures incertaines. Un second relit ensuite les mêmes images sans connaître la conclusion attendue. Une trouvaille n'entre dans le dossier qu'avec sa cote et son image. Les homonymes écartés sont mentionnés sans autre détail que ce qui justifie l'exclusion.
 
 ## Cartes
 
@@ -97,7 +97,7 @@ Les noms contemporains sont explicités lorsqu'ils aident à retrouver une voie 
 
 ### Itinéraires reconstitués
 
-Les itinéraires (`04_Donnees/itineraires.yaml`) ne retiennent comme étapes que des lieux nommés ou désignés sans ambiguïté par le texte, avec leur référence. Entre deux étapes, le tracé est le plus court chemin sur la voirie actuelle (`06_Outils/itineraires.py`). C'est une reconstitution graphique : le roman nomme rarement les rues suivies. Une étape dont la localisation est discutée est marquée « à confirmer ».
+Les itinéraires (`04_Donnees/itineraires.yaml`) ne retiennent comme étapes que des lieux nommés ou désignés par le texte, avec leur référence ; des points de passage sans référence (« via » : ponts, carrefours, angles de Bellecour, tour du pâté de l'Eldorado) orientent le tracé. Entre deux étapes, le tracé est le plus court chemin sur la voirie actuelle (`06_Outils/itineraires.py`). C'est une reconstitution graphique : le roman nomme rarement les rues suivies. Deux étapes sont marquées « à confirmer » (la sortie du cours Boudier et le café des Alpes) ; les autres étapes de localisation discutée (place Antique, brasserie des Archers, Royal, porte des Lanthelme, quai de Saône de la dernière nuit) renvoient au statut de leur notice.
 
 
 ### Fonds historiques

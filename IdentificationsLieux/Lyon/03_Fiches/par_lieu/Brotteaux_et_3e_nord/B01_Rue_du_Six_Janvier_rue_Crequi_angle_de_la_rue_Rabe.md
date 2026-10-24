@@ -31,7 +31,7 @@ Dossier d'argumentation : [02_toponymes_et_adresses.md](../../02_toponymes_et_ad
 ## Sources extérieures (témoignages, biographies)
 
 - Ifri 2001, p. 173, d’après le journal de Rebatet et les documents de Varillon et de S. Chevallier : Rebatet « a bien fait la connaissance de Simone le 6 janvier 1925 ». Confirme la date, non le lieu (secondaire documentée, lu par extraits).
-- Rebatet, « Étude sur la composition des Deux Étendards » (inédit, 1951), citée par Ifri 2001 : il n’aurait « pour ainsi dire pas romancé » cette première rencontre (secondaire documentée, fragment).
+- Rebatet, « Étude sur la composition des Deux Étendards » (tapuscrit de 1951, éd. Via Romana, 2017, non consultée), citée par Ifri 2001 : il n’aurait « pour ainsi dire pas romancé » cette première rencontre (secondaire documentée, fragment).
 - S. Chevallier, La Ville aux deux fleuves, Lille, Janicot, 1945-1946, p. 149-151, cité par Ifri 2001 et par le site Études rebatiennes : Armand Godard (Rebatet) est présenté à Françoise (Anne-Marie) dans « un petit café sinistre dans une rue basse ». Version divergente, elle aussi romancée ; ne localise rien (seconde main).
 - Guichet du Savoir (BmL), question 51150 (31/08 et 01/09/2015), d’après Ifri : S. Chevallier, « lycéenne » résidant cours Gambetta, rencontre Rebatet le 6 janvier 1925 ; lieu non précisé (secondaire documentée).
 - H. Ducours, « La rue Créqui », Rive Gauche, n° 163, déc. 2002, p. 12-13 : muet sur les années 1920 (recherche négative).

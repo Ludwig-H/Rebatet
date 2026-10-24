@@ -24,12 +24,13 @@ Deux propriétés de bourgeois lyonnais à l'ouest de Bron, entre le Vinatier et
 
 ## Arguments
 
-« une maison de sa grand-mère, juste en face de la villa des Lanthelme à Bron » (III §49) ; « Tenez, Anne-Marie, sous les trois platanes » (IX §144) ; « l'affreuse villa de cet affreux Bron » (XVI §3) ; « sa villa de l'affreux pays » où la grand-mère surveille les récoltes de fruits (XIX §138) ; « La porte du clos des Lanthelme était ouverte » (XXII §94), entre chez Carreau et « les rues de l'infâme Bron » (XXII §96) ; « ce mur blanc et ces sapins. C'est le fond du parc de sa grand-mère » (XXVI §167). Dans IX, l'avenue Président-Wilson vient « après des villas » (IX §152).
+« une maison de sa grand-mère, juste en face de la villa des Lanthelme à Bron » (III §49) ; « Tenez, Anne-Marie, sous les trois platanes » (IX §144) ; « l'affreuse villa de cet affreux Bron » (XVI §3) ; « sa villa de l'affreux pays » où la grand-mère surveille les récoltes de fruits (XIX §138) ; « La porte du clos des Lanthelme était ouverte » (XXII §94), entre chez Carreau et « les rues de l'infâme Bron » (XXII §96) ; « ce mur blanc et ces sapins. C'est le fond du parc de sa grand-mère » (XXVI §167). Dans IX, l'avenue Président-Wilson vient « après des villas » (IX §152). Archives : l'acte de naissance de François Varillon (1905) place la maison de campagne de sa famille route de Grenoble, et le recensement de 1906 nomme une maison « Varillon » au quartier de la Mairie ; la zone de la notice, tracée d'après le roman, reste à confronter à cette adresse.
 
 ## Sources extérieures (témoignages, biographies)
 
 - Varillon : maison construite par son père « dans une propriété de campagne à Bron », habitée de juin à la Toussaint (Beauté du monde, 2005, p. 12-14 env.) : primaire tardif ; aucune rue ni lieu-dit.
 - Ifri (2001) : Simone est « sa voisine de Bron » (celle de Varillon) : secondaire documenté ; confirme le voisinage réel des deux maisons, dont l'emplacement et le propriétaire (grand-mère ?) restent inconnus.
+- Acte de naissance de François-Joseph Varillon (Bron, 1905, n° 14 ; ADRML 4E11691) : le père « demeurant à Bron, route de Grenoble » (l'ancienne route nationale 6) ; recensement de 1906 (6 M 517) : une maison désignée « Varillon » au quartier de la Mairie. Fiabilité : primaire contemporaine, contre-lue ; situe la maison du modèle des Lanthelme sur la route de Grenoble, à placer sur la matrice cadastrale (non numérisée).
 
 ## Passages du roman
 
@@ -43,6 +44,7 @@ Motifs recherchés : `villa des lanthelme`, `clos des lanthelme`, `parc de sa gr
 
 - F. Varillon, Beauté du monde et souffrance des hommes. Entretiens avec Ch. Ehlinger, Paris, Bayard, 2005 (1re éd. Centurion, 1980), extraits plein texte : https://archive.org/details/beautedumondeets0000vari
 - P. A. Ifri, Les Deux Étendards de Lucien Rebatet : dossier d'un chef-d'œuvre maudit, Lausanne, L'Âge d'Homme, 2001, extraits plein texte : https://archive.org/details/lesdeuxetendards0000ifri
+- ADRML 4E11691 (Bron, naissances 1905, acte n° 14) ; 6 M 517 (Bron, recensement de 1906)
 
 ---
 [Index des fiches](../README.md) · [Synthèse lyonnaise](../../../README.md) · [Protocole](../../../00_Methode/PROTOCOLE.md)
