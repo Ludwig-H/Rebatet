@@ -6,8 +6,8 @@
 
 | Statut | Lieux |
 |---|---:|
-| identifiés (`atteste`) | 106 |
-| probables | 28 |
+| identifiés (`atteste`) | 105 |
+| probables | 29 |
 | hypothèses | 12 |
 | non localisés (sans coordonnées) | 16 |
 
@@ -38,7 +38,7 @@ Pour utiliser les atlas, télécharger l'HTML et l'ouvrir dans un navigateur ; G
 | **Café des Alpes** | C'est la forme lue dans le roman (X §149), et non « Café des Deux Alpes ». C'est un « café populaire de l'avenue de Saxe », à l'un de ses angles, « un peu après le cours La Fayette » en venant de la place Morand (XXII §34-35). | Voie et tronçon attestés par le texte ; ni l'angle, ni l'immeuble, ni l'enseigne réelle ne sont établis. Rebatet se souvient d'un « caboulot » de Pâques 1925. [Dossier](03_Fiches/01_cafe_des_alpes.md) |
 | **Rue du Six-Janvier** | Surnom de la rue Créqui (IX §68 ; XIII §13). Le point du souvenir est l'angle de la rue Rabelais, nommé en XII §124. La date du 6 janvier 1925 est confirmée par le journal de Rebatet (Ifri 2001). | Carrefour certain ; trottoir et réverbère inconnus. Simone Chevallier place la rencontre dans « un petit café ». [Dossier](03_Fiches/02_toponymes_et_adresses.md) |
 | **Place Antique** | Carrefour des rues Saint-Michel, Béchevelin et de l'ancienne rue de la Vierge (rue Gilbert-Dru depuis 1945). Le groupe scolaire achevé en 1924, avec son horloge d'angle, est l'« école neuve » d'en face (IX §85 ; XII §161). | Probable : faisceau d'indices ; les distances aux deux domiciles réels sont celles du roman. Le surnom date de 1925 (journal de Rebatet). [Dossier](03_Fiches/02_toponymes_et_adresses.md) |
-| **Les « Mulet », logeurs de Michel** | « Conducteur d'imprimerie » au *Progrès*, avenue Jean-Jaurès (XIX §133). Les recensements de 1921 et 1926 donnent un imprimeur employé au *Progrès*, au n° 294 de l'avenue (ancienne numérotation), sous un nom qui ne diffère que d'une lettre. | Rapprochement très probable ; lecture d'archives en cours de contre-lecture. Rebatet n'est pas inscrit à cette adresse au recensement de mars 1926. |
+| **Les « Mulet », logeurs de Michel** | « Conducteur d'imprimerie » au *Progrès*, avenue Jean-Jaurès (XIX §133). Les recensements de 1921 à 1936 donnent un imprimeur au *Progrès*, sous un nom qui ne diffère que d'une lettre (Mulnet), au n° 294 de l'avenue, devenu le **n° 32** entre 1926 et 1931. C'est un immeuble en pointe dont l'angle donne sur la rue Saint-Michel, « la petite rue qui mène de l'avenue à la place » (XXIV §251). | Très probable ; lectures contre-lues, renumérotation établie par les plans parcellaires et les recensements. Rebatet n'est pas inscrit à cette adresse au recensement de mars 1926. [Dossier](03_Fiches/07_temoins_et_modeles.md) |
 | **Banc du « quai Perrache »** | Le paysage décrit la Saône, Fourvière, un pont ferroviaire et un tunnel. Il ne correspond pas au quai Perrache officiel, sur le Rhône. | Zone probable sur l'ancien quai d'Occident (actuel quai Maréchal-Joffre), au nord du pont ferroviaire. Le banc n'est pas placé. Simone Chevallier situe une rencontre « sur le port Rambaud ». [Dossier](03_Fiches/02_toponymes_et_adresses.md) |
 | **Lugdunum, Brazier, Grand Théâtre, Rameau, Maison Dorée, Cintra, Carlton** | Bâtiments ou établissements identifiables, avec contrôles de chronologie et de transformations. Le Lugdunum est un hôtel réel. Le numéro de la chambre, 348, est celui de la cellule de Rebatet à Fresnes. | Date du bâtiment, ouverture de l'exploitation et état actuel sont distingués. [Dossiers](03_Fiches/03_etablissements.md) |
 | **Bibliothèque au pied de Saint-Jean** | Ancien palais archiépiscopal, siège de la bibliothèque municipale de 1912 à 1972. | Ne pas la déplacer à la Part-Dieu. [Analyse](03_Fiches/04_geographie_critique.md) |

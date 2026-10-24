@@ -26,6 +26,10 @@ Quai Saint-Clair (1er), renommé quai André-Lassagne en 1954 ; famille et immeu
 
 Nom explicite (XXV §203 « les soyeux du quai Saint-Clair » ; XXVIII §12 « les riches passementiers du quai Saint-Clair » ; XXVIII §40 ; XXXVII §6). AML : quai Saint-Clair renommé quai André-Lassagne en 1954. Les bureaux de ces cousins sont au Griffon (III §13 : « bureaux noirâtres et moisis du « Griffon » » ; P32).
 
+## Sources extérieures (témoignages, biographies)
+
+- Acte de naissance de François Varillon (Bron, 1905 ; ADRML 4E11691) : le premier témoin est « François Varillon, négociant », 45 ans, demeurant 9 quai Saint-Clair. La famille du modèle de Régis avait donc un parent sur ce quai ; le roman y loge les cousins soyeux de Michel. Fiabilité : primaire contemporaine, contre-lue ; rapprochement sans valeur de preuve.
+
 ## Passages du roman
 
 Passages retenus : XXV §203 ; XXVIII §12 ; XXVIII §40 ; XXXVII §6.

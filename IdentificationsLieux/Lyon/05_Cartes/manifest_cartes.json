@@ -2,13 +2,13 @@
   "generated": "2026-10-24",
   "generator_sha256": "5c68f3352a3f31057c3114a1af56f2c22ae396cfdd552bcdf8124a5de5132c36",
   "inputs": {
-    "lieux.json": "d6444c34d08f97a6abe905810fb6b32e3e4048be48daff33236ec844440b7071",
+    "lieux.json": "9520bdbbd2901508c45b43fe94c502a77f50e8fc66996e74fce856a381b035dc",
     "fond_osm.geojson": "35b1429093422ba3445da2aad34b2ab80143b049c934ef7ef7a8ab9a36358c35"
   },
   "outputs": {
-    "lyon_ensemble.svg": "03bca73886af74aab59cadaf4f5d7f7cfe70e775d21494a3b5c50463cdd53a66",
-    "lyon_guillotiere_saxe.svg": "4c1d337683a9ec0e093ef8c4b45a6fe95e75bc694193fef08163ab581ee1937c",
-    "atlas_lyon.html": "d4280d99fe2420c3964a876777a5f5a625a396b8b00b6dc9f80834c0ffcd22ad"
+    "lyon_ensemble.svg": "ae29988395791e7868511c34eb072b23565f956a3b0a08466c8b47a748583e22",
+    "lyon_guillotiere_saxe.svg": "ff3d69628759221c3cec163c00712f45558366065df27c708bcbccbf25caf924",
+    "atlas_lyon.html": "3877eb8fc63ea27327a0bbaa1273e914b481d966f94c3848810ef7b25d217994"
   },
   "ensemble_ids": [
     "six_janvier",

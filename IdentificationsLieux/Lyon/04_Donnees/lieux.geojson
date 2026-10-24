@@ -419,28 +419,10 @@
       "type": "Feature",
       "id": "logis_jean_jaures",
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            4.847005,
-            45.753904
-          ],
-          [
-            4.846138,
-            45.752447
-          ],
-          [
-            4.845882,
-            45.752036
-          ],
-          [
-            4.84566,
-            45.75162
-          ],
-          [
-            4.845365,
-            45.751098
-          ]
+          4.845417,
+          45.751531
         ]
       },
       "properties": {
@@ -450,13 +432,13 @@
         "secteur": "G",
         "categorie": "domicile",
         "statut_nom": "implicite",
-        "statut": "atteste",
+        "statut": "probable",
         "certitude": "B",
-        "precision_m": 150,
-        "description": "Premier domicile de Michel après son installation à Lyon en septembre 1925 : chambre au quatrième étage chez Mme Mulet, avenue Jean-Jaurès, « à deux cents pas de la place Antique ». Statut atteste pour la voie, explicite ; immeuble et numéro inconnus, tronçon nord très probable.",
-        "identification": "Chambre meublée chez la famille Mulet (le père conducteur d'imprimerie au Progrès de Lyon, la mère et la fille aînée dévotes, quatre enfants), avenue Jean-Jaurès (ancienne avenue de Saxe prolongée, renommée en 1914), « en pleine Guillotière ». Adresse fournie par le P. Rollet. Michel y monte ses bagages juste avant le 22 septembre 1925, la quitte brièvement pour le Modern House, y revient, puis s'enfuit « à la cloche de bois » le Vendredi saint 1926 (2 avril) vers la rue Basse-Combalot.",
-        "nom_1925": "avenue Jean-Jaurès",
-        "nom_actuel": "avenue Jean-Jaurès (7e), tronçon nord",
+        "precision_m": 20,
+        "description": "Premier domicile de Michel à Lyon, de septembre 1925 à avril 1926 : chambre chez Mme Mulet, avenue Jean-Jaurès, « à deux cents pas de la place Antique » (XIX §133). Le modèle probable des Mulet est le ménage de Charles Mulnet, imprimeur au Progrès, au n° 294 de l'avenue en 1921 et 1926, aujourd'hui le n° 32 : un immeuble en pointe dont l'angle donne sur la rue Saint-Michel, qui mène à la place Antique.",
+        "identification": "Chambre meublée chez la famille Mulet (le père conducteur d'imprimerie au Progrès de Lyon, la mère et la fille aînée dévotes, quatre enfants), avenue Jean-Jaurès (ancienne avenue de Saxe prolongée, renommée en 1914), « en pleine Guillotière ». Adresse fournie par le P. Rollet. Michel y monte ses bagages juste avant le 22 septembre 1925, la quitte brièvement pour le Modern House, y revient, puis s'enfuit « à la cloche de bois » le Vendredi saint 1926 (2 avril) vers la rue Basse-Combalot. Modèle probable : l'appartement de Charles Mulnet, imprimeur (employeur « Progrès » en 1921 et 1931), sa femme et leurs enfants (quatre en 1921, cinq en 1926), au n° 294 de l'avenue Jean-Jaurès, qui prolongeait alors la numérotation de l'avenue de Saxe ; renuméroté 32 entre 1926 et 1931. L'immeuble, de 1895 d'après la base des bâtiments, existe toujours.",
+        "nom_1925": "avenue Jean-Jaurès (ex-avenue de Saxe prolongée, nom de 1914), n° 294 (recensements de 1921 et 1926)",
+        "nom_actuel": "32 avenue Jean-Jaurès (7e), angle de la rue Saint-Michel et de la rue d'Anvers",
         "refs": [
           "XIX §133",
           "XIX §151",
@@ -476,7 +458,7 @@
           "Notes §11"
         ],
         "cle": "« avenue Jean-Jaurès [1], en pleine Guillotière, à deux cents pas de la « place Antique », chez un conducteur d'imprimerie » (XIX §133)",
-        "arguments": "Avenue nommée avec une note de l'auteur (Notes §11 : « Avenue populaire, relativement décente ») ; aucun numéro dans le texte. Indices de position : « à deux cents pas de la place Antique » (XIX §133) ; « cinq cents mètres » entre Michel et ses amis du cours Gambetta (XIX §168) ; Michel gagne la place par « la petite rue qui mène de l'avenue à la place » (XXIV §251), vraisemblablement la rue Saint-Michel ; on siffle sous sa fenêtre (XX §128 ; XXVIII §40). Mesures (voirie Grand Lyon) : le point de l'avenue le plus proche du carrefour de la place Antique est au débouché de la rue Saint-Michel, à environ 280-300 m ; le tronçon nord est à 475-610 m du 5 cours Gambetta, ce qui s'accorde avec les « cinq cents mètres » ; les « deux cents pas » (environ 150 m) sont donc approximatifs. Chronologie : installation avant le 22 septembre 1925 (XIX §133, §151) ; fuite le Vendredi saint, 2 avril 1926 (XXVIII §1). L'ancien intitulé « premier logis lyonnais » était faux : Michel a logé à Lyon en 1921-1923 (I §88, §114) et à l'hôtel en 1925 (IX §82 ; X §1).",
+        "arguments": "Avenue nommée avec une note de l'auteur (Notes §11 : « Avenue populaire, relativement décente ») ; aucun numéro dans le texte. Indices de position : « à deux cents pas de la place Antique » (XIX §133) ; « cinq cents mètres » entre Michel et ses amis du cours Gambetta (XIX §168) ; Michel gagne la place par « la petite rue qui mène de l'avenue à la place » (XXIV §251), vraisemblablement la rue Saint-Michel ; on siffle sous sa fenêtre (XX §128 ; XXVIII §40). Mesures (voirie Grand Lyon) : le point de l'avenue le plus proche du carrefour de la place Antique est au débouché de la rue Saint-Michel, à environ 280-300 m ; le tronçon nord est à 475-610 m du 5 cours Gambetta, ce qui s'accorde avec les « cinq cents mètres » ; les « deux cents pas » (environ 150 m) sont donc approximatifs. Chronologie : installation avant le 22 septembre 1925 (XIX §133, §151) ; fuite le Vendredi saint, 2 avril 1926 (XXVIII §1). L'ancien intitulé « premier logis lyonnais » était faux : Michel a logé à Lyon en 1921-1923 (I §88, §114) et à l'hôtel en 1925 (IX §82 ; X §1). Archives : le ménage Mulnet (Charles, né en 1879 à Dijon, « imprimeur », employeur « Progrès » en 1921 ; sa femme ; quatre enfants en 1921, cinq en 1926, l'aînée née en 1907) est au n° 294 de l'avenue en 1921 (ADRML 6 M 584, vue 37, page droite) et en 1926 (6 M 629, vue 39, page droite) ; il est au n° 32 en 1931 (6 M 676, vue 20, « imprimeur », « Progrès ») et en 1936 (6 M 725, vue 30), avec les mêmes voisins. Le nom ne diffère de « Mulet » que d'une lettre ; la profession, l'employeur, la fille aînée et les « quatre enfants dans la maison » (XIX §133) concordent. Les plans parcellaires (4S/233) montrent la même parcelle sous le n° 294 en 1921 et 1930 et sous le n° 32 en 1945, 1964 et 1993. L'immeuble ouvre sur la rue Saint-Michel, « la petite rue qui mène de l'avenue à la place » (XXIV §251) : la place Antique est à environ 280 m par cette rue, soit 370 à 400 pas ; « deux cents pas » est un ordre de grandeur. Réserves : Rebatet n'est pas inscrit dans ce ménage au recensement du 7 mars 1926 (absence, omission, ou séjour réel à d'autres dates) ; l'étage (quatrième) n'est pas vérifiable par ces sources ; les recenseurs regroupaient parfois plusieurs immeubles sous un numéro, mais le groupe Mulnet concorde chaque fois avec la parcelle en pointe.",
         "motifs": [
           "\\bmulet\\b",
           "avenue innommable",
@@ -485,14 +467,20 @@
         ],
         "sources": [
           "Archives municipales de Lyon, Liste des voies anciennes (2021)",
-          "Voirie Grand Lyon (adr_voie_lieu.adrlineairevoie)"
+          "Voirie Grand Lyon (adr_voie_lieu.adrlineairevoie)",
+          "ADRML 6 M 584 (1921) et 6 M 629 (1926), avenue Jean-Jaurès, n° 294 ; 6 M 676 (1931) et 6 M 725 (1936), n° 32",
+          "Archives de Lyon, plans parcellaires au 1:500, secteur 4S/233, tirages 1921, 1930, 1945, 1964, 1979, 1980 et 1993 (https://recherches.archives-lyon.fr/ark:/18811/xvcsh2pn4lf3)",
+          "Base Adresse Nationale, 32 avenue Jean-Jaurès, 69007 Lyon"
         ],
         "temoignages": [
-          "Collecte C1 (Les Décombres, Mémoires d'un fasciste, Étude et journal cités par Ifri 2001) : aucune adresse lyonnaise de Rebatet pour 1925-1926 ; la seule adresse vécue connue est le taudis de la rue Basse-Combalot au printemps 1922 (G22). Fiabilité : recherche négative."
+          "Collecte C1 (Les Décombres, Mémoires d'un fasciste, Étude et journal cités par Ifri 2001) : aucune adresse lyonnaise de Rebatet pour 1925-1926 ; la seule adresse vécue connue est le taudis de la rue Basse-Combalot au printemps 1922 (G22). Fiabilité : recherche négative.",
+          "Recensements de 1921 (ADRML 6 M 584, avenue Jean-Jaurès, vue 37, page droite, n° 294, ménage 8) et de 1926 (6 M 629, vue 39, page droite, n° 294, ménage 6) : ménage de Charles Mulnet, « imprimeur », employeur « Progrès » (1921). Fiabilité : primaire contemporaine, lecture confirmée par une contre-lecture indépendante.",
+          "Recensements de 1931 (ADRML 6 M 676, vues 19-20) et de 1936 (6 M 725, vue 30) : les ménages du n° 294 de 1926, dont celui de Charles Mulnet (« imprimeur », « Progrès » en 1931), sont au n° 32. Fiabilité : primaire contemporaine, vérifiée ; date la renumérotation entre 1926 et 1931.",
+          "Archives de Lyon, plans parcellaires au 1:500, secteur 4S/233, tirages 1921, 1930, 1945, 1964, 1979, 1980 et 1993 (https://recherches.archives-lyon.fr/ark:/18811/xvcsh2pn4lf3) : même parcelle numérotée 294 (1921, 1930) puis 32 (1945, 1964, 1993). Fiabilité : primaire contemporaine."
         ],
         "fiche": "../03_Fiches/02_toponymes_et_adresses.md",
         "georeferencement": {
-          "methode": "Tronçon nord de l'avenue Jean-Jaurès (cours Gambetta – Grande-Rue de la Guillotière – rue Saint-Michel – 60 m au sud), axe de voirie Grand Lyon ; remplace le segment antérieur, dont l'extrémité nord sortait de l'avenue (rue Auguste-Lacroix, 3e)."
+          "methode": "Point d'adresse BAN du 32 avenue Jean-Jaurès, 69007 [4,845417 ; 45,751531] : immeuble en pointe de la parcelle AM 22, entre l'avenue et la rue d'Anvers, dont l'angle nord donne sur la rue Saint-Michel. C'est le n° 294 de 1926 (plans parcellaires 4S/233 ; recensements de 1926 et 1931)."
         }
       }
     },
@@ -7249,7 +7237,10 @@
         ],
         "georeferencement": {
           "methode": "Axe du quai André-Lassagne (fond OSM du dossier, 04_Donnees/fond_osm.geojson, extrait du 23 octobre 2026, © contributeurs OpenStreetMap), de la place Tolozan au cours d'Herbouville ; immeuble non placé."
-        }
+        },
+        "temoignages": [
+          "Acte de naissance de François Varillon (Bron, 1905 ; ADRML 4E11691) : le premier témoin est « François Varillon, négociant », 45 ans, demeurant 9 quai Saint-Clair. La famille du modèle de Régis avait donc un parent sur ce quai ; le roman y loge les cousins soyeux de Michel. Fiabilité : primaire contemporaine, contre-lue ; rapprochement sans valeur de preuve."
+        ]
       }
     },
     {
@@ -8382,12 +8373,16 @@
           "https://fr.wikipedia.org/wiki/Bron",
           "https://www.ville-bron.fr/sites/default/files/2023-04/BJR-AVRIL-2023_page-histoire-web.pdf",
           "F. Varillon, Beauté du monde et souffrance des hommes. Entretiens avec Ch. Ehlinger, Paris, Bayard, 2005 (1re éd. Centurion, 1980), extraits plein texte : https://archive.org/details/beautedumondeets0000vari",
-          "P. A. Ifri, Les Deux Étendards de Lucien Rebatet : dossier d'un chef-d'œuvre maudit, Lausanne, L'Âge d'Homme, 2001, extraits plein texte : https://archive.org/details/lesdeuxetendards0000ifri"
+          "P. A. Ifri, Les Deux Étendards de Lucien Rebatet : dossier d'un chef-d'œuvre maudit, Lausanne, L'Âge d'Homme, 2001, extraits plein texte : https://archive.org/details/lesdeuxetendards0000ifri",
+          "ADRML 4E11691 (Bron, naissances 1905, acte n° 14) ; 6 M 517 (Bron, 1906) ; 6 M 595 (1921) ; 6 M 642 (1926)"
         ],
         "temoignages": [
           "Varillon : « Mon père avait de plus construit une maison dans une propriété de campagne à Bron qui comptait alors 1 000 habitants » ; « dès les premiers beaux jours de juin jusqu'à la Toussaint, nous allions à Bron » (Beauté du monde, 2005, p. 12-14 env.) : primaire tardif ; confirme la maison d'été du modèle de Régis et son usage saisonnier (cf. IX §142 ; XIX §37).",
           "Varillon est né à Bron le 28 juillet 1905 et y fut baptisé le 26 août 1905 (Beauté du monde, notes biographiques) : secondaire documenté.",
-          "Ifri (2001) : François a fait la connaissance de Simone, « sa voisine de Bron » ; d'après l'« Étude » de Rebatet, l'épisode de la promenade à Bron n'est « pour ainsi dire pas romancé » : secondaire documenté (citant des inédits de Rebatet, de Varillon et de S. Chevallier) ; renforce la valeur topographique de IX §140-194."
+          "Ifri (2001) : François a fait la connaissance de Simone, « sa voisine de Bron » ; d'après l'« Étude » de Rebatet, l'épisode de la promenade à Bron n'est « pour ainsi dire pas romancé » : secondaire documenté (citant des inédits de Rebatet, de Varillon et de S. Chevallier) ; renforce la valeur topographique de IX §140-194.",
+          "Acte de naissance de François-Joseph Varillon (Bron, 29 juillet 1905, n° 14 ; ADRML 4E11691, vue 5) : le père, Pierre Varillon, rentier, 48 ans, demeure « à Bron, route de Grenoble » (l'ancienne route nationale 6). Fiabilité : primaire contemporaine, contre-lue ; situe la villa du modèle des Lanthelme.",
+          "Recensement de Bron, 1906 (ADRML 6 M 517, quartier de la Mairie, vue 2, page droite) : une maison est désignée « Varillon » ; en mars, un chef cantonnier et sa femme l'occupent. Fiabilité : primaire contemporaine, contre-lue.",
+          "Recensements de Bron de mars 1921 et mars 1926 (6 M 595 ; 6 M 642) : ni Varillon ni Chevallier liés aux familles du roman. Les familles n'y vivaient que l'été. Fiabilité : recherche négative, attendue."
         ],
         "georeferencement": {
           "methode": "Centroïde de la commune (Nominatim, limite administrative OSM) ; repère communal. Les sous-lieux ont leur propre notice : église (E11), villas (E12), avenue Président-Wilson (E13), Vinatier (E14), guinguette Carreau (E02), chapelle des Essarts (E03)."

@@ -31,6 +31,9 @@ Nom explicite et récurrent. « Une banlieue de nom ridicule, au bout d'un fasti
 - Varillon : « Mon père avait de plus construit une maison dans une propriété de campagne à Bron qui comptait alors 1 000 habitants » ; « dès les premiers beaux jours de juin jusqu'à la Toussaint, nous allions à Bron » (Beauté du monde, 2005, p. 12-14 env.) : primaire tardif ; confirme la maison d'été du modèle de Régis et son usage saisonnier (cf. IX §142 ; XIX §37).
 - Varillon est né à Bron le 28 juillet 1905 et y fut baptisé le 26 août 1905 (Beauté du monde, notes biographiques) : secondaire documenté.
 - Ifri (2001) : François a fait la connaissance de Simone, « sa voisine de Bron » ; d'après l'« Étude » de Rebatet, l'épisode de la promenade à Bron n'est « pour ainsi dire pas romancé » : secondaire documenté (citant des inédits de Rebatet, de Varillon et de S. Chevallier) ; renforce la valeur topographique de IX §140-194.
+- Acte de naissance de François-Joseph Varillon (Bron, 29 juillet 1905, n° 14 ; ADRML 4E11691, vue 5) : le père, Pierre Varillon, rentier, 48 ans, demeure « à Bron, route de Grenoble » (l'ancienne route nationale 6). Fiabilité : primaire contemporaine, contre-lue ; situe la villa du modèle des Lanthelme.
+- Recensement de Bron, 1906 (ADRML 6 M 517, quartier de la Mairie, vue 2, page droite) : une maison est désignée « Varillon » ; en mars, un chef cantonnier et sa femme l'occupent. Fiabilité : primaire contemporaine, contre-lue.
+- Recensements de Bron de mars 1921 et mars 1926 (6 M 595 ; 6 M 642) : ni Varillon ni Chevallier liés aux familles du roman. Les familles n'y vivaient que l'été. Fiabilité : recherche négative, attendue.
 
 ## Passages du roman
 
@@ -46,6 +49,7 @@ Motifs recherchés : `\bbron\b`.
 - https://www.ville-bron.fr/sites/default/files/2023-04/BJR-AVRIL-2023_page-histoire-web.pdf
 - F. Varillon, Beauté du monde et souffrance des hommes. Entretiens avec Ch. Ehlinger, Paris, Bayard, 2005 (1re éd. Centurion, 1980), extraits plein texte : https://archive.org/details/beautedumondeets0000vari
 - P. A. Ifri, Les Deux Étendards de Lucien Rebatet : dossier d'un chef-d'œuvre maudit, Lausanne, L'Âge d'Homme, 2001, extraits plein texte : https://archive.org/details/lesdeuxetendards0000ifri
+- ADRML 4E11691 (Bron, naissances 1905, acte n° 14) ; 6 M 517 (Bron, 1906) ; 6 M 595 (1921) ; 6 M 642 (1926)
 
 ---
 [Index des fiches](../README.md) · [Synthèse lyonnaise](../../../README.md) · [Protocole](../../../00_Methode/PROTOCOLE.md)

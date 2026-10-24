@@ -17,6 +17,7 @@
 | Mme Villars | Jeanne Chevallier, née Mulatier à Oullins en 1872 | établi | recensements de 1926 et 1931 |
 | Robert, le frère, « l'interne » (XXXI §75) | René Chevallier, « étudiant » en 1926, « docteur médecin » en 1931 (né en 1896 ou en 1903 selon les registres) | probable | recensements de 1926 et 1931 |
 | M. et Mme Lanthelme, parents de Régis (cours Gambetta ; villa de Bron) | Pierre Varillon, « rentier » en 1926, et Jenny Varillon, née Desplaces, au 28 cours Gambetta ; maison de campagne à Bron, route de Grenoble | établi | recensements de 1921 et 1926 ; acte de naissance de François Varillon (Bron, 1905) ; *Beauté du monde* |
+| les Mulet, logeurs de Michel, avenue Jean-Jaurès (XIX §133) | le ménage de Charles Mulnet, imprimeur au *Progrès*, au 294 (auj. 32) avenue Jean-Jaurès | très probable | recensements de 1921 à 1936 ; plans parcellaires (voir § 2) |
 | Guitte (Mme Dufaure), la sœur aînée mariée richement | la sœur aînée de Simone, « millionnaire », à Marseille | probable | Ifri 2001 (fragment) |
 | le P. Rollet, jésuite du cercle d'étudiants | le P. Roullet SJ, aumônier des étudiants, à la Maison des étudiants catholiques | établi | Ifri 2001 (« Roullet, avec un "u" ») ; Varillon, *Beauté du monde et souffrance des hommes* (1980) |
 | le P. Reboul | un jésuite que Rebatet « rencontra réellement en 1925 » | probable | Ifri 2001, d'après l'*Étude* |
@@ -28,9 +29,9 @@
 
 Simone Chevallier a donné sa propre version dans un roman, *La Ville aux deux fleuves* (Lille, Janicot, 1945-1946). Elle s'y appelle Françoise Leverrier, Varillon devient Vincent Ramenel, Rebatet Armand Godard et le P. Roullet le P. Boulange (Ifri 2001 ; Wikipédia, d'après Belot 1994).
 
-## 2. Le cours Gambetta : les deux domiciles
+## 2. Les domiciles : cours Gambetta et avenue Jean-Jaurès
 
-Les deux domiciles du roman ont été retrouvés dans les archives. On a lu les listes nominatives des recensements (Archives départementales du Rhône et de la Métropole, série 6 M) sur l'image originale ; chaque lecture a été refaite par un second lecteur, sans connaître la première. On a confronté les numéros aux plans parcellaires de la Ville de Lyon (Archives de Lyon, série 4S, plans au 1:500 portant numéros et propriétaires).
+Les deux domiciles du cours Gambetta et la chambre de Michel ont été retrouvés dans les archives. On a lu les listes nominatives des recensements (Archives départementales du Rhône et de la Métropole, série 6 M) sur l'image originale ; chaque lecture a été refaite par un second lecteur, sans connaître la première. On a confronté les numéros aux plans parcellaires de la Ville de Lyon (Archives de Lyon, série 4S, plans au 1:500 portant numéros et propriétaires).
 
 ### Les Villars : le n° 5, et non le « 3 bis »
 
@@ -91,6 +92,20 @@ Les numéros 26 et 28 restent sur les mêmes parcelles en 1964 et en 1993 (cadas
 
 Le roman a été écrit en prison, vingt ans après les faits (§ 5). La justesse de ces mesures dit pourtant que sa topographie intime n'est pas approximative : elle repose sur des adresses réelles. Elle renforce aussi l'identification de la place Antique, puisque les distances sont mesurées depuis ce carrefour.
 
+### La chambre de Michel : le 294, aujourd'hui le 32, avenue Jean-Jaurès
+
+Le roman loge Michel, de septembre 1925 à avril 1926, « avenue Jean-Jaurès, en pleine Guillotière, à deux cents pas de la "place Antique" ». Son logeur est « un conducteur d'imprimerie qui travaillait pour le Progrès de Lyon », et la maison compte « quatre enfants » (XIX §133).
+
+**Recensements.** Au n° 294 de l'avenue habite le ménage de Charles Mulnet, né en 1879 à Dijon, « imprimeur » :
+- en 1921 (6 M 584, vue 37, page de droite), avec l'employeur « Progrès », sa femme et quatre enfants ;
+- en 1926 (6 M 629, vue 39, page de droite), avec un cinquième enfant.
+
+Le même ménage est inscrit au n° 32 en 1931, de nouveau avec l'employeur « Progrès » (6 M 676, vue 20), puis en 1936 (6 M 725, vue 30). Le nom ne diffère de « Mulet » que d'une lettre ; la profession, le journal, la fille aînée et le nombre d'enfants concordent. Rebatet n'est pas inscrit dans ce ménage au recensement du 7 mars 1926. Il était peut-être absent ce jour-là, ou omis ; peut-être aussi son séjour réel se place-t-il à d'autres dates.
+
+**Plans parcellaires** (4S/233). L'avenue Jean-Jaurès prolongeait alors la numérotation de l'avenue de Saxe (elle porte son nom actuel depuis 1914). La même parcelle porte le n° 294 en 1921 et 1930, puis le n° 32 de 1945 à 1993. Les ménages du 294 de 1926 se retrouvent au 32 en 1931 : la renumérotation date de ces années-là. L'immeuble est celui qui ferme en pointe l'îlot compris entre l'avenue et la rue d'Anvers ; il existe toujours. Son angle donne sur la rue Saint-Michel, « la petite rue qui mène de l'avenue à la place » (XXIV §251) ; la place Antique est à environ 280 m par cette rue. « Deux cents pas » n'est qu'un ordre de grandeur (280 m font 370 à 400 pas).
+
+**Conclusion.** Le modèle des Mulet est, très probablement, le ménage Mulnet, et la chambre de Michel a pour modèle le 32 avenue Jean-Jaurès. Une contre-lecture indépendante confirme les lectures de 1921 et 1926, et un vérificateur a rouvert les plans et les listes de 1931 et 1936.
+
 ## 3. Les lieux que les témoins confirment ou précisent
 
 | Lieu du roman | Ce que disent les témoins | Fiabilité | Effet |
@@ -108,6 +123,7 @@ Le roman a été écrit en prison, vingt ans après les faits (§ 5). La justess
 | **Facultés** (P29, G25) | Varillon : « Mes parents m'avaient mis aux Facultés catholiques pour les lettres et le droit » ; examens de licence à Grenoble (*Beauté du monde*, p. 20-22 environ). Simone Chevallier : faculté de droit, après un échec à la philosophie (autobiographie, d'après Ifri). Rebatet : un quart d'heure avec les amies d'Anne-Marie « dans le hall de la fac de Lyon » (*Étude*, citée par Ifri, p. 171). | primaire tardif ; secondaire | La « Fac » de Régis est la Catho ; le hall où passent Anne-Marie et ses amies (XXXII §1) est celui de la Faculté d'État, quai Claude-Bernard. |
 | **Cours Boudier** (B04) | Simone Chevallier, recalée à la philosophie, se retrouve dans « une boîte à bachot » (autobiographie, d'après Ifri) ; Ifri la dit aussi « lycéenne ». | secondaire documenté | Aucune source ne nomme l'établissement. Le « cours » privé de la place Morand garde son statut ; le modèle est peut-être cette « boîte à bachot ». |
 | **Banc du « quai Perrache »** (P23) | Dans *La Ville aux deux fleuves*, la dernière rencontre de Françoise et de Vincent a lieu « sur le port Rambaud » (Ifri 2001). | roman, de seconde main | Concorde avec l'hypothèse d'un banc au bord de la Saône, au sud de la Presqu'île (quai d'Occident ou quai Rambaud), et non sur le quai Perrache officiel du Rhône. |
+| **Quai Saint-Clair** (P31), « le bel appartement » des cousins soyeux de Michel (XXXVII §6) | Le premier témoin de l'acte de naissance de François Varillon (1905) est un « François Varillon, négociant », domicilié 9 quai Saint-Clair. | primaire contemporain | Coïncidence notable : la famille du modèle de Régis avait un parent sur ce quai. Le roman y loge la famille de Michel. Sans valeur de preuve. |
 | **Flammarion**, **bibliothèque Saint-Jean**, **Grand Théâtre** | Varillon : « de fréquentes stations chez Flammarion, place Bellecour » ; « les journées entières à la bibliothèque municipale, la bibliothèque de Saint-Jean » ; *Tristan* joué « à l'Opéra le jeudi saint » (*Beauté du monde*). | primaire tardif | Lieux réels de la jeunesse de Varillon, repris tels quels. |
 | **Dernière nuit** (XXXVII, novembre 1927) | Rebatet date son adhésion à l'Action française « d'un soir lyonnais de 1927, après la Rhénanie », où un « des plus chers compagnons de jeunesse », entrant au noviciat jésuite quelques semaines plus tard, rompt avec l'AF (*Les Décombres*, 1942). Varillon entre au noviciat d'Yzeure le 17 novembre 1927. | primaire tardif | La dernière nuit du roman a un modèle daté. |
 
@@ -131,8 +147,9 @@ Deux conséquences pour l'enquête :
 
 **Primaires contemporaines**
 - Archives départementales du Rhône et de la Métropole, listes nominatives des recensements de Lyon, « Gambetta (cours) » : 1911 (6 M 538), 1921 (6 M 574, côté impair ; 6 M 583, côté pair), 1926 (6 M 615, côté impair ; 6 M 628, côté pair), 1931 (6 M 661), 1936 (6 M 709). En ligne, par exemple : <https://archives.rhone.fr/ark:/28729/qxtmv1620s74> (6 M 615) et <https://archives.rhone.fr/ark:/28729/h3rdwt6f72l4> (6 M 628). Lues sur l'image le 24 octobre 2026 ; chaque trouvaille est relue indépendamment.
+- Mêmes archives : listes nominatives de l'avenue Jean-Jaurès, 1921 (6 M 584), 1926 (6 M 629), 1931 (6 M 676), 1936 (6 M 725).
 - Mêmes archives : recensements de Bron, 1906 (6 M 517), 1921 (6 M 595), 1926 (6 M 642) ; état civil de Bron, naissances 1905 (4E11691, acte n° 14).
-- Archives de Lyon, plans parcellaires de la Ville au 1:500 : secteur 4S/200 (côté impair, tirages 1926, 1944, 1995 ; <https://recherches.archives-lyon.fr/ark:/18811/m9fcjz1ldx0s>) et secteur 4S/217 (côté pair et place du Pont, tirages 1911, 1926, 1964, 1993 ; <https://recherches.archives-lyon.fr/ark:/18811/b98fpjr57kzv>). Consultés le 24 octobre 2026.
+- Archives de Lyon, plans parcellaires de la Ville au 1:500 : secteur 4S/200 (côté impair, tirages 1926, 1944, 1995 ; <https://recherches.archives-lyon.fr/ark:/18811/m9fcjz1ldx0s>) et secteur 4S/217 (côté pair et place du Pont, tirages 1911, 1926, 1964, 1993 ; <https://recherches.archives-lyon.fr/ark:/18811/b98fpjr57kzv>) ; secteur 4S/233 (avenue Jean-Jaurès, tirages 1921 à 1993 ; <https://recherches.archives-lyon.fr/ark:/18811/xvcsh2pn4lf3>). Consultés le 24 octobre 2026.
 - Archives de Lyon, demandes de permis de construire de 1909 pour les Grandes Galeries Modernes, 22-24 cours Gambetta (314W/356 ; 344W/170), connues par l'inventaire en ligne.
 - Action de la SA « Aux Grandes Galeries Modernes », 1er février 1925, et carte postale « Lyon, place du Pont et cours Gambetta » oblitérée le 31 juillet 1934 (annonces de vente Delcampe, consultées le 24 octobre 2026).
 - *Bulletin officiel du ministère de la Justice*, n° 66, avril-juin 1892, nominations (décret du 26 avril 1892).
