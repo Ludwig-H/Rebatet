@@ -4,7 +4,7 @@
 
 **Règle de lecture.** Un témoignage ne prouve pas la topographie du roman : Rebatet transpose, compose et invente, et il l'avoue pour plusieurs épisodes. Il éclaire le *modèle* d'un lieu. Chaque apport est qualifié selon l'échelle du [protocole](../00_Methode/PROTOCOLE.md) : document **primaire contemporain** (recensement, journal tenu sur le moment), **primaire tardif** (souvenirs publiés des décennies plus tard), **secondaire documenté** (biographie qui cite ses pièces), **secondaire non sourcé**.
 
-**Accès réels.** Les sources les plus riches ne sont pas en libre accès. Il s'agit de l'*Étude sur la composition des Deux Étendards* de Rebatet (1951, inédite), de son journal intime de 1924-1927 (inédit), de l'autobiographie inédite de Simone Chevallier, du *Journal d'une passion* de Varillon et de la biographie de Varillon par Étienne Fouilloux. On les connaît par Pascal A. Ifri, *Les Deux Étendards de Lucien Rebatet : dossier d'un chef-d'œuvre maudit* (L'Âge d'Homme, 2001), qui a eu accès aux papiers de Rebatet et à l'autobiographie de Simone Chevallier. Ifri n'a pu être lu que par fragments, au moyen de la recherche plein texte d'Internet Archive, et les entretiens de Varillon de la même façon. Ces fragments sont cités comme tels. Les recensements, eux, ont été lus sur l'image originale, et chaque lecture a été refaite indépendamment.
+**Accès réels.** Les sources les plus riches ne sont pas en libre accès. Il s'agit de l'*Étude sur la composition des Deux Étendards* de Rebatet (achevée le 4 août 1951, publiée en 2017 chez Via Romana, non consultée ici), de son journal intime de 1924-1927 (inédit), de l'autobiographie inédite de Simone Chevallier, du *Journal d'une passion* de Varillon et de la biographie de Varillon par Étienne Fouilloux. On les connaît par Pascal A. Ifri, *Les Deux Étendards de Lucien Rebatet : dossier d'un chef-d'œuvre maudit* (L'Âge d'Homme, 2001), qui a eu accès aux papiers de Rebatet et à l'autobiographie de Simone Chevallier. Ifri n'a pu être lu que par fragments, au moyen de la recherche plein texte d'Internet Archive, et les entretiens de Varillon de la même façon. Ces fragments sont cités comme tels. Les recensements, eux, ont été lus sur l'image originale, et chaque lecture a été refaite indépendamment.
 
 ## 1. Les clefs établies
 
@@ -19,7 +19,8 @@
 | Guitte (Mme Dufaure), la sœur aînée mariée richement | la sœur aînée de Simone, « millionnaire », à Marseille | probable | Ifri 2001 (fragment) |
 | le P. Rollet, jésuite du cercle d'étudiants | le P. Roullet SJ, aumônier des étudiants, à la Maison des étudiants catholiques | établi | Ifri 2001 (« Roullet, avec un "u" ») ; Varillon, *Beauté du monde et souffrance des hommes* (1980) |
 | le P. Reboul | un jésuite que Rebatet « rencontra réellement en 1925 » | probable | Ifri 2001, d'après l'*Étude* |
-| Vignon ; Guillaume ; Chastagnac | Marcel Brunet ; un ami prénommé René ; « un certain Chazal-Martin » | probable | Ifri 2001, d'après l'*Étude* |
+| Vignon ; Guillaume ; Chastagnac | Marcel Brunet ; René Gontier, ami de collège ; « un certain Chazal-Martin » | probable | Ifri 2001, d'après l'*Étude* ; Belot 2015 (index) |
+| Jacques Béchetoile, le « vainqueur sans combat » | « Roger B... », que Simone Chevallier épouse en 1928 | probable | Belot 2015, ch. VI, n. 1 ; Ifri 2001 |
 | Bouhours (Paris) | l'École Bossuet, rue Guynemer, où Rebatet était surveillant | établi | Ifri 2001 |
 | le collège de Saint-Chély | l'institution des pères maristes de Saint-Chamond (Loire) | probable | *Mémoires d'un fasciste* II ; *Les Décombres* ; Ifri 2001 |
 | l'Épervière, village de Michel | Moras-en-Valloire (Drôme), village natal de Rebatet | probable | *Mémoires d'un fasciste* II ; Radioscopie de 1969 |
@@ -74,7 +75,7 @@ Un autre recoupement est probable mais non prouvé. Un décret du 26 avril 1892 
 
 ## 5. La géographie du roman est une reconstruction
 
-Rebatet a écrit le roman en prison, entre 1946 et 1950, vingt à vingt-cinq ans après les faits. Il « avait de la peine à se rappeler la topographie de la ville de Lyon » et a sollicité des codétenus lyonnais (Ifri 2001, p. 41 et 45). Selon R. Belot (*Lucien Rebatet. Le fascisme comme contre-culture*, PUR, 2015, ch. XXIX, signalé lors de l'audit de la bibliographie), l'édition originale de 1951 s'ouvre sur une note de l'auteur. Empêché de revoir les épreuves, il n'a pu vérifier d'après nature quelques décors accessoires et les a remplacés par des lieux fictifs. Cette note est absente du témoin EPUB ; elle est à relever sur un exemplaire de 1951.
+Rebatet a écrit le roman en prison, entre 1946 et 1950, vingt à vingt-cinq ans après les faits. Il « avait de la peine à se rappeler la topographie de la ville de Lyon » et a sollicité des codétenus lyonnais (Ifri 2001, p. 41 et 45). L'édition originale de 1951 s'ouvre sur une note de l'auteur, qui commence par « L'auteur, ayant été empêché de lire les épreuves de ce livre » : « Il regrette d'autre part de n'avoir pas pu choisir d'après nature quelques décors accessoires de son récit, auxquels il a dû substituer des lieux fictifs » (citée par R. Belot, *Lucien Rebatet. Le fascisme comme contre-culture*, PUR, 2015, ch. XXIX, p. 379). Cette note est absente du témoin EPUB ; elle est à relever sur un exemplaire de 1951. Elle vise des décors « accessoires » : elle autorise à douter d'une enseigne ou d'un lieu secondaire, pas des lieux que le roman nomme avec insistance.
 
 Deux conséquences pour l'enquête :
 
@@ -91,7 +92,7 @@ Deux conséquences pour l'enquête :
 **Primaires tardives**
 - Lucien Rebatet, *Les Décombres*, Paris, Denoël, 1942 (lu en entier dans une numérisation d'Internet Archive).
 - Lucien Rebatet, *Mémoires d'un fasciste*, II (1941-1947), Paris, Pauvert, 1976 (lu dans la traduction italienne de M. Marchi, *Memorie di un fascista 1941-1947*, Rome, Settimo Sigillo, 1993) ; Radioscopie (Jacques Chancel, France Inter, 1969).
-- Lucien Rebatet, « Étude sur la composition des *Deux Étendards* », 1951, inédit, cité par Ifri 2001.
+- Lucien Rebatet, *Étude sur la composition des Deux Étendards* (tapuscrit daté du 4 août 1951 ; Paris, Via Romana, 2017), citée d'après Ifri 2001 et Belot 2015.
 - François Varillon, *Beauté du monde et souffrance des hommes. Entretiens avec Charles Ehlinger*, Paris, Le Centurion, 1980 ; rééd. Bayard, 2005 (lu par extraits).
 - François Varillon, *Journal d'une passion*, éd. Robert Belot, Paris, Le Centurion, 1994 (non consulté ; connu par Ifri et par les comptes rendus).
 - Simone Chevallier, *La Ville aux deux fleuves*, Lille, Janicot, 1945-1946 ; autobiographie inédite (non consultées ; connues par Ifri).
@@ -105,10 +106,11 @@ Deux conséquences pour l'enquête :
 
 ## 7. Pièces à consulter
 
-1. Le chapitre IX d'Ifri 2001 en entier (pagination, notes, extraits du journal et de l'*Étude*). C'est la source la plus dense sur les lieux réels.
-2. *La Ville aux deux fleuves*, pour la topographie lyonnaise vue par Simone Chevallier : la « rue basse » du 6 janvier, le port Rambaud.
-3. Le *Journal d'une passion* (mars 1924 – avril 1925) et la préface de R. Belot.
-4. Fouilloux 2007 : le numéro du domicile Varillon, la maison de Bron.
-5. Les plans parcellaires et les arrêtés de numérotage du début du cours Gambetta, pour faire correspondre le n° 5 de 1926 à la numérotation actuelle (Archives municipales de Lyon).
-6. Les recensements de Bron (Archives de l'Isère) et l'acte de mariage de Simone Chevallier en 1928 (Archives municipales de Lyon, 3e arrondissement), qui donne le domicile des parents.
-7. Un exemplaire de l'édition originale de 1951, pour la note de l'auteur sur les lieux fictifs.
+1. L'*Étude sur la composition des Deux Étendards* (Via Romana, 2017), où Rebatet distingue lui-même le vécu de l'inventé ; puis les chapitres VIII et IX d'Ifri 2001 en entier (pagination, notes, extraits du journal) et les chapitres V-VI de Belot 2015.
+2. La « Chronologie biographique » de Rebatet publiée par P. Vandromme (*Rebatet*, 1968, p. 109-122) : date de son installation à Lyon, logis et emplois de 1925 à 1927.
+3. *La Ville aux deux fleuves*, pour la topographie lyonnaise vue par Simone Chevallier : la « rue basse » du 6 janvier, le port Rambaud.
+4. Le *Journal d'une passion* (mars 1924 – avril 1925) et la préface de R. Belot.
+5. Fouilloux 2007 : le numéro du domicile Varillon, la maison de Bron.
+6. Les plans parcellaires et les arrêtés de numérotage du début du cours Gambetta, pour faire correspondre le n° 5 de 1926 à la numérotation actuelle (Archives municipales de Lyon).
+7. Les recensements de Bron (Archives de l'Isère) et l'acte de mariage de Simone Chevallier en 1928 (Archives municipales de Lyon, 3e arrondissement), qui donne le domicile des parents.
+8. Un exemplaire de l'édition originale de 1951, pour la note de l'auteur sur les lieux fictifs.

@@ -185,18 +185,22 @@ Repères complémentaires : VIII §171 (« la taule de ton Rollet ») ; XI §190
 
 ## Chapelle des Essarts
 
-**Statut : hypothese**. Candidat à vérifier : ancienne chapelle Notre-Dame-de-Lourdes aux Essarts, à Bron. La mairie publie une carte postale de cette chapelle ; le toponyme et le contexte périurbain rendent le rapprochement plausible. L’unique occurrence du roman ne donne ni commune ni trajet. Ne pas confondre l’ancienne chapelle avec l’église moderne voisine, ni prétendre une parcelle exacte.
+**Statut : probable**. Candidat : ancienne chapelle Notre-Dame-de-Lourdes aux Essarts, à Bron. La mairie publie une carte postale de cette chapelle. L’unique occurrence du roman (XXII §210) ne donne ni commune ni trajet. Mais Bron est le lieu de séjour commun des deux amants : la villa Lanthelme et celle de la grand-mère d’Anne-Marie s’y font face (III §49 ; IX §142 ; XIX §37, §138), et Varillon, modèle de Régis, y est né. Le rendez-vous date du début du printemps 1924 (XXII §210 ; IV §109), non de 1920. Selon une source secondaire non institutionnelle (géocache GC5K6PZ), la chapelle aurait été aménagée en 1908 dans une ancienne grange et détruite en 1973 : elle existait donc en 1924, sous réserve de confirmation par les archives paroissiales ou diocésaines (Bron relevait alors du diocèse de Grenoble). Ne pas confondre l’ancienne chapelle avec l’église moderne voisine (Notre-Dame-de-Lourdes, 1962-1963), ni prétendre une parcelle exacte.
 
 Repères textuels : OEBPS/Text/XXII_rege_quod_est_devium.xhtml#p210.
 
+Repères complémentaires (contexte brondillant) : III §49 ; IX §140–142 ; XIX §37, §138.
+
 - https://www.ville-bron.fr/bienvenue-bron/decouvrir-bron/memoire/le-domaine-des-essarts
+- https://fr.wikipedia.org/wiki/Église_Notre-Dame-de-Lourdes_de_Bron (église actuelle, Pierre Genton ; consulté le 24 octobre 2026)
+- https://fr.wikipedia.org/wiki/François_Varillon (naissance à Bron ; consulté le 24 octobre 2026)
 
 
 <a id="notre_dame_saint_louis"></a>
 
 ## Église Saint-Louis de la Guillotière
 
-**Statut : probable**. Notre-Dame-Saint-Louis, 1 rue de la Madeleine : identification très vraisemblable du nom abrégé Saint-Louis par le contexte du trajet. Le roman nomme l’église lors d’un retour en tramway, entre la place de l’Abondance et la place Antique. L’édifice et ce secteur de la Guillotière concordent ; ne pas confondre avec Saint-Louis-de-Gonzague, nom d’un cercle au chapitre XXV.
+**Statut : atteste**. Notre-Dame-Saint-Louis, 1 rue de la Madeleine (7e). « Église Saint-Louis » n’est pas une abréviation romanesque : c’est la dénomination usuelle de l’église, que retient encore la liste des voies anciennes des Archives municipales. Aucune autre église de ce vocable ne se trouve sur le trajet. Le roman la nomme au retour de Bron (XXII §99). Le trio descend du tramway place de l’Abondance, place Aristide-Briand depuis 1934 selon les Archives municipales ; « on fit halte à l’église Saint-Louis », donc à pied, avant de gagner la « place Antique ». Ce nom est un surnom donné par les personnages (« l’antique place », IX §84–85) à un carrefour de ruelles de la Guillotière, « à cinquante mètres de la rue de Marseille ». L’édifice et ce secteur de la Guillotière concordent ; ne pas confondre avec Saint-Louis-de-Gonzague, nom d’un cercle au chapitre XXV.
 
 Repères textuels : OEBPS/Text/XXII_rege_quod_est_devium.xhtml#p99.
 
@@ -219,7 +223,35 @@ Repères textuels : OEBPS/Text/XXVII_printemps_trempes_de_boue.xhtml#p89.
 
 ## Cercle Saint-Louis-de-Gonzague
 
-**Statut : non_localise**. Cercle où Régis passe un dimanche avec de jeunes mécaniciens. Nom explicite dans le roman mais aucune adresse établie. Les recherches font aussi apparaître un cercle homonyme à Charonne, Paris ; cette homonymie ne justifie aucune transposition lyonnaise. Ne pas fusionner avec l’église Notre-Dame-Saint-Louis.
+**Statut : non_localise**. Cercle où Régis passe un dimanche avec de jeunes mécaniciens. Nom explicite dans le roman mais aucune adresse établie. Régis anime aussi un « cercle de petits ouvriers cathos », sur un détour vers le café des Alpes (XII §59–60 ; sortie du cercle, XII §163), et participe à l’organisation de « nouveaux cercles ouvriers » chez Rollet (XXII §17) ; il a encore « son patronage de la Jeunesse Ouvrière Catholique » (XXVIII §4). Le Cercle Saint-Louis-de-Gonzague et ses « petits mécanos » en est vraisemblablement une forme : une œuvre de jeunesse ouvrière, non un cercle d’étudiants. Simple hypothèse, sans adresse. Les recherches de l’auditeur évoquaient un cercle homonyme à Charonne, Paris ; le contrôle ne l’a pas retrouvé et aucune source n’est citée. Le vocable, celui du saint patron de la jeunesse catholique, est très répandu dans les patronages : l’homonymie n’autorise aucune localisation. Ne pas fusionner avec l’église Notre-Dame-Saint-Louis.
 
 Repères textuels : OEBPS/Text/XXV_elle_est_a_moi.xhtml#p106.
+
+Repères complémentaires : XII §59–60, §163 ; XXII §17 ; XXVIII §4.
+
+
+<a id="immaculee_conception"></a>
+
+## Église de l’Immaculée-Conception
+
+**Statut : atteste** pour le nom ; identification très probable avec l’église paroissiale du 3e arrondissement. Régis nomme l’église : « Allons à l’Immaculée Conception » (X §161). Il s’agit de l’église de l’Immaculée-Conception, 94 avenue Maréchal-de-Saxe (3e), entre la rue Pierre-Corneille et l’avenue. Œuvre de Pierre Bossan : nef de 1856-1859, chœur et chapelles de 1889-1893 ; l’édifice existait donc en 1925. C’est la seule église de ce vocable dans Lyon ; une homonyme, à Caluire-et-Cuire, est rendue improbable par le cadre de la scène. Le Mercredi saint (X §153), Régis propose d’y aller pour qu’Anne-Marie se confesse « avant midi » ; il s’y confesse aussi, et Michel les accompagne sans s’incliner devant le tabernacle (X §159–165). L’église est dite « sans charme ni mystère, faubourienne elle aussi comme son quartier », aux murs « d’un blanc trop cru » (X §162). Le trio fréquente le café des Alpes, avenue de Saxe (X §149) : cohérent avec cette église, sans valoir preuve. L’adresse paroissiale reste à confirmer.
+
+Repères textuels : OEBPS/Text/X_christ_est_ressuscite.xhtml#p153, OEBPS/Text/X_christ_est_ressuscite.xhtml#p159, OEBPS/Text/X_christ_est_ressuscite.xhtml#p161, OEBPS/Text/X_christ_est_ressuscite.xhtml#p162, OEBPS/Text/X_christ_est_ressuscite.xhtml#p165.
+
+- https://fr.wikipedia.org/wiki/Église_de_l'Immaculée-Conception_de_Lyon (consulté le 24 octobre 2026)
+
+
+<a id="eglise_bron"></a>
+
+## Église de Bron
+
+**Statut : probable**. Le roman écrit « l’église de Bron », sans vocable (XIX §42). Le candidat naturel est l’église paroissiale Saint-Denis de Bron, au lieu-dit « la Croix ». La commune décide sa reconstruction en 1851, après la démolition vers 1848 de l’ancienne chapelle. L’église est en grande partie détruite par le bombardement du 26 mai 1944, puis entièrement restaurée après la guerre, avec un clocher refait : l’édifice actuel n’est donc pas exactement celui des années 1920. Au lendemain de son arrivée dans la maison de banlieue des parents de Régis, à Bron (XIX §37), Michel accompagne Régis « à la première messe » ; le roman juge l’église « bête comme une gendarmerie » (XIX §42). Ne pas confondre avec la chapelle Notre-Dame-de-Lourdes des Essarts (XXII §210).
+
+Repères textuels : OEBPS/Text/XIX_le_vingt_huit_septembre.xhtml#p37, OEBPS/Text/XIX_le_vingt_huit_septembre.xhtml#p42.
+
+- https://www.ville-bron.fr/bienvenue-bron/decouvrir-bron/patrimoine (consulté le 24 octobre 2026)
+- https://fr.wikipedia.org/wiki/Église_Saint-Denis_de_Bron (consulté le 24 octobre 2026)
+
+
+*Révisé le 24 octobre 2026 après contre-vérification : voir [07_Journal/2026-10-24.md](../07_Journal/2026-10-24.md).*
 
