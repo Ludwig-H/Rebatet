@@ -1,6 +1,6 @@
 # Les témoins et les modèles : ce que la vie réelle apprend sur les lieux du roman
 
-*Les Deux Étendards* est un roman à clef. Rebatet l'a dit lui-même, dans une lettre publiée après sa mort : « Régis a été fort peu "inventé" », il « est vraiment devenu un jésuite éminent », et « Michel [lui] ressemble » (lettre inédite publiée dans *Rivarol*, 17 octobre 1974, citée par Ifri 2001). Les trois protagonistes ont des modèles identifiés. Deux d'entre eux ont laissé leur propre version des faits. Ce dossier confronte les lieux du roman à ces témoignages, aux biographies et, pour la première fois, aux archives nominatives (recensements de 1921, 1926 et 1931).
+*Les Deux Étendards* est un roman à clef. Rebatet l'a dit lui-même, dans une lettre publiée après sa mort : « Régis a été fort peu "inventé" », il « est vraiment devenu un jésuite éminent », et « Michel [lui] ressemble » (lettre inédite publiée dans *Rivarol*, 17 octobre 1974, citée par Ifri 2001). Les trois protagonistes ont des modèles identifiés. Deux d'entre eux ont laissé leur propre version des faits. Ce dossier confronte les lieux du roman à ces témoignages, aux biographies et, pour la première fois, aux archives nominatives (recensements de 1906 à 1936, état civil) et aux plans parcellaires de la Ville.
 
 **Règle de lecture.** Un témoignage ne prouve pas la topographie du roman : Rebatet transpose, compose et invente, et il l'avoue pour plusieurs épisodes. Il éclaire le *modèle* d'un lieu. Chaque apport est qualifié selon l'échelle du [protocole](../00_Methode/PROTOCOLE.md) : document **primaire contemporain** (recensement, journal tenu sur le moment), **primaire tardif** (souvenirs publiés des décennies plus tard), **secondaire documenté** (biographie qui cite ses pièces), **secondaire non sourcé**.
 
@@ -13,9 +13,10 @@
 | Michel Croz | Lucien Rebatet (1903-1972) | établi | lettre publiée dans *Rivarol* (17 octobre 1974) ; *Mémoires d'un fasciste* ; Ifri 2001 |
 | Régis Lanthelme | François Varillon (1905-1978), jésuite | établi | même lettre ; Ifri 2001 ; Fouilloux 2007 (comptes rendus du *Figaro*, 20 mars 2008, et de *La Croix*, 21 novembre 2007) |
 | Anne-Marie Villars | Simone Chevallier (Grenoble, 8 décembre 1907 – Paris, 7 janvier 1980), plus tard romancière | établi | Ifri 2001 ; R. Belot, préface du *Journal d'une passion* (1994), connue de seconde main ; témoignage de Franz Weber ; recensement de 1926 |
-| M. Villars, « conseiller à la Cour », « magistrat de soixante-deux ans » (IV §66 ; XXXI §31) | Antonin Chevallier, né à Lyon en 1864, conseiller à la cour d'appel de Lyon en 1926 | probable | recensement de 1926 (voir § 2) ; Wikipédia, d'après l'acte de naissance de Simone |
-| Mme Villars | Jeanne Chevallier, née Mulatier à Oullins en 1872 | probable | recensement de 1926 |
-| Robert, le frère, « l'interne » (XXXI §75) | René Chevallier, né en 1896, « étudiant » en 1926 | probable | recensement de 1926 |
+| M. Villars, « conseiller à la Cour », « magistrat de soixante-deux ans » (IV §66 ; XXXI §31) | Antonin Chevallier, né à Lyon en 1864, conseiller à la cour d'appel de Lyon en 1926 | établi | recensements de 1926 et 1931 (voir § 2) ; Wikipédia, d'après l'acte de naissance de Simone |
+| Mme Villars | Jeanne Chevallier, née Mulatier à Oullins en 1872 | établi | recensements de 1926 et 1931 |
+| Robert, le frère, « l'interne » (XXXI §75) | René Chevallier, « étudiant » en 1926, « docteur médecin » en 1931 (né en 1896 ou en 1903 selon les registres) | probable | recensements de 1926 et 1931 |
+| M. et Mme Lanthelme, parents de Régis (cours Gambetta ; villa de Bron) | Pierre Varillon, « rentier » en 1926, et Jenny Varillon, née Desplaces, au 28 cours Gambetta ; maison de campagne à Bron, route de Grenoble | établi | recensements de 1921 et 1926 ; acte de naissance de François Varillon (Bron, 1905) ; *Beauté du monde* |
 | Guitte (Mme Dufaure), la sœur aînée mariée richement | la sœur aînée de Simone, « millionnaire », à Marseille | probable | Ifri 2001 (fragment) |
 | le P. Rollet, jésuite du cercle d'étudiants | le P. Roullet SJ, aumônier des étudiants, à la Maison des étudiants catholiques | établi | Ifri 2001 (« Roullet, avec un "u" ») ; Varillon, *Beauté du monde et souffrance des hommes* (1980) |
 | le P. Reboul | un jésuite que Rebatet « rencontra réellement en 1925 » | probable | Ifri 2001, d'après l'*Étude* |
@@ -29,22 +30,66 @@ Simone Chevallier a donné sa propre version dans un roman, *La Ville aux deux f
 
 ## 2. Le cours Gambetta : les deux domiciles
 
-**Les Villars.** Le roman donne une adresse, et c'est l'une des deux seules du livre : « au 3 bis du Cours Gambetta » (XXIX §106 ; « devant le 3 bis », §112). L'immeuble est à l'entrée du cours, à l'angle de « la première petite rue » après la brasserie de l'Étoile (XXII §175), et la chambre d'Anne-Marie donne sur cette petite rue (XII §202-203).
+Les deux domiciles du roman ont été retrouvés dans les archives. On a lu les listes nominatives des recensements (Archives départementales du Rhône et de la Métropole, série 6 M) sur l'image originale ; chaque lecture a été refaite par un second lecteur, sans connaître la première. On a confronté les numéros aux plans parcellaires de la Ville de Lyon (Archives de Lyon, série 4S, plans au 1:500 portant numéros et propriétaires).
 
-La liste nominative du recensement de 1926 (Archives départementales du Rhône et de la Métropole, 6 M 615, « Gambetta (cours) », vue 8, page de gauche) inscrit au **n° 5 du cours Gambetta** le ménage Chevallier. Le chef de ménage est né en 1864 à Lyon, « conseiller », « C[ou]r d'appel » ; viennent ensuite son épouse, Jeanne Mulatier, née en 1872 à Oullins ; leur fils René, né en 1896, étudiant ; Simone, née en 1907 à Grenoble ; une bonne. Deux lectures indépendantes de l'image concordent sur l'essentiel et divergent sur le prénom du père (Antonin ou Antoine ; Wikipédia, d'après l'acte de naissance de Simone, donne Antonin). La piste avait été signalée par le Guichet du Savoir de la Bibliothèque municipale de Lyon en 2015 (question 51150).
+### Les Villars : le n° 5, et non le « 3 bis »
 
-Ce document primaire et contemporain recoupe le roman point par point :
+Le roman donne l'adresse : « au 3 bis du Cours Gambetta » (XXIX §106 ; « devant le 3 bis », §112). Il décrit un immeuble d'angle. Il est à l'entrée du cours, « à l'angle de la première petite rue » après la brasserie de l'Étoile (XXII §175), et la chambre d'Anne-Marie donne sur cette petite rue (XII §202-203).
 
+**Recensement de 1926** (6 M 615, « Gambetta (cours) », vue 8, page de gauche). Au **n° 5 du cours Gambetta**, le ménage comprend :
+- Antonin Chevallier, né en 1864 à Lyon, « conseiller », « C[ou]r d'appel » ;
+- son épouse, Jeanne Mulatier, née en 1872 à Oullins ;
+- leur fils René, étudiant ;
+- Simone, née en 1907 à Grenoble ;
+- une bonne.
+
+Les deux lecteurs lisent « Antonin » et non « Antoine ». Ils ont comparé, à la même échelle, des « Antoine » de la même main ; le registre de 1931 écrit « Antonin » sans ambiguïté. La piste avait été signalée par le Guichet du Savoir de la Bibliothèque municipale de Lyon (question 51150, 2015).
+
+**Recensements de 1921 et 1931.** En 1921, aucun Chevallier n'habite les n° 1 à 9 du cours (6 M 574) : la famille s'est installée entre 1921 et 1926. En 1931, elle est toujours au n° 5 (6 M 661, vue 3, page de droite) : Antonin, « magistrat », Jeanne, René, devenu « doct[eur] médecin », et une domestique. Simone, mariée en 1928, n'y figure plus. L'année de naissance de René diverge d'un registre à l'autre (1896 en 1926, lecture incertaine ; 1903 en 1931, nette).
+
+**Plans parcellaires** (4S/200, tirages de 1926, 1944 et 1995). Du square Raspail (auj. place Antonin-Jutard) à la rue Mortier, le côté impair compte trois parcelles : n° 1, n° 3, puis n° 5, à l'angle de la rue Mortier. Les numéros et le découpage sont les mêmes en 1926, en 1944, en 1995 et dans le cadastre actuel (parcelle AL 78, qui est aussi le 14 rue Mortier). La surface reste celle de 1926 (environ 390 m²) et les propriétaires se suivent d'un tirage à l'autre. Aucun « 3 bis » n'apparaît en 1926, en 1944 ni en 1995. Aucun « bis » ne figure non plus dans les recensements de 1911 à 1936. Le « 3 bis » de la Base adresse nationale est un point d'adresse sur le trottoir, à la limite des n° 3 et 5 ; sa date de création est inconnue.
+
+**Conclusion.** L'appartement des Villars a pour modèle l'appartement des Chevallier au n° 5, l'immeuble d'angle de la rue Mortier. Cet immeuble répond à toutes les indications du roman : premier immeuble d'angle après l'Étoile (n° 1), double façade sur le cours et sur la « petite rue ». Le « 3 bis » n'a pas existé en 1926. Rebatet a décalé le numéro d'une porte, volontairement ou par erreur de mémoire ; c'est une interprétation, mais aucune autre n'est appuyée par une pièce.
+
+Le recensement recoupe aussi le roman sur la famille :
 - la profession et l'âge du père (« conseiller à la Cour », IV §66 ; « magistrat de soixante-deux ans », XXXI §31 : 1864 + 62 = 1926) ;
-- le frère étudiant (« Robert, le frère, l'interne », XXXI §75) ;
+- le frère étudiant en médecine (« Robert, le frère, l'interne », XXXI §75), devenu médecin en 1931 ;
 - la naissance à Grenoble (« Elle était née, par hasard, à vrai dire, à Grenoble », IV §101) ;
 - Oullins, lieu de naissance de la mère, où le roman place « l'oncle d'Oullins » et la villa Martin-Dumont (XX §74 ; XXXII §200).
 
 Un autre recoupement est probable mais non prouvé. Un décret du 26 avril 1892 nomme « M. Chevallier, juge suppléant à Lyon », juge et juge d'instruction à Albertville (*Bulletin officiel du ministère de la Justice*, n° 66). Or Mme Villars « s'était mariée là, quand M. Villars n'était encore que juge d'instruction » (XVIII §32).
 
-**Ce qui reste ouvert.** Le registre de 1926 ne connaît pas de « 3 bis » : il donne au début du côté impair la suite 1, 3, 5, 7. Le n° 3 bis et le n° 5 actuels sont contigus, à une dizaine de mètres l'un de l'autre. Le bulletin de la Société d'études d'histoire de Lyon rive gauche rappelle que la numérotation de ce tronçon a changé depuis 1853 : « le numérotage commençait au N° 7 » (*Rive Gauche*, n° 8, mars 1964, p. 19). Le roman déplace donc d'une porte, ou reprend un numéro qui a existé : la correspondance entre la numérotation de 1926 et l'actuelle reste à établir sur les plans parcellaires. En 1921, aucun Chevallier n'habite le n° 5 : la famille s'y est installée entre 1921 et 1926. Le secteur de la notice `appartement_villars` est confirmé ; son numéro littéral ne l'est pas.
+### Les Lanthelme : le n° 28, à deux lots des « Galeries Modernes »
 
-**Les Lanthelme.** Varillon a décrit l'appartement de ses parents dans ses entretiens de 1978 : « Mes parents habitaient cours Gambetta, en plein centre de La Guillotière », au premier étage au-dessus de l'entresol, avec trois fenêtres sur la rue (*Beauté du monde et souffrance des hommes*, rééd. 2005, p. 11-12 environ ; lecture par extraits). Le roman place la porte des Lanthelme sur le cours, près de l'angle de la place du Pont, sous la marquise du bazar des « Galeries Modernes » (XXXVII §150, §160), à deux cents mètres de chez les Villars (Notes §11). Le témoignage confirme la rue, pas l'immeuble. Aucun ménage Varillon n'a été trouvé sur le cours en 1926. La première lecture était rapide et la recherche exhaustive est en cours ; le résultat est consigné dans le [journal du 24 octobre](../07_Journal/2026-10-24.md).
+Le roman ne donne pas de numéro. La porte des Lanthelme est sur le cours, près de « l'angle du cours Gambetta et de la place du Pont » (XXXVII §150), « sous la mesquine marquise du bazar des "Galeries Modernes" » (XXXVII §160), à deux cents mètres des Villars (Notes §11). Varillon a décrit l'appartement de ses parents : « Mes parents habitaient cours Gambetta, en plein centre de La Guillotière », au premier étage au-dessus de l'entresol (*Beauté du monde et souffrance des hommes*, entretiens de 1978, p. 11-12 environ ; lecture par extraits).
+
+**Recensements de 1921 et de 1926.** La famille Varillon est inscrite au **n° 28 du cours Gambetta**, côté pair (auj. 7e), aux deux recensements.
+- En 1921 (6 M 583, vue 10, page de droite) : Pierre Varillon, chef ; Jenny ; un fils prénommé « Joseph », né à Bron en 1905 ; une bonne. L'acte de naissance de Bron porte « François-Joseph ».
+- En 1926 (6 M 628, vue 9, page de gauche) : Pierre, « rentier » ; Jenny ; François, « étudiant », né à Bron en 1905 ; une domestique.
+
+Les voisins sont les mêmes aux deux dates : c'est bien le même immeuble. [Contre-lecture indépendante de ces deux pages en cours le 24 octobre 2026 ; résultat au journal du jour.] L'acte de naissance de François Varillon (Bron, 1905, n° 14) donne la mère, née Desplaces, et le domicile de campagne, « route de Grenoble ».
+
+**Plans parcellaires** (4S/217, tirages de 1911, 1926, 1964 et 1993). Le côté pair à l'est de la place du Pont se lit ainsi :
+- n° 18, îlot d'angle avec la Grande-Rue ;
+- n° 20 ;
+- n° 22-24, au nom de la « Société des G[ran]des Galeries Modernes » ;
+- n° 26 ;
+- n° 28 (même propriétaire en 1911 et en 1926) ;
+- puis n° 30, 32 et suivants.
+
+Les numéros 26 et 28 restent sur les mêmes parcelles en 1964 et en 1993 (cadastre actuel AC 3 et AC 5). L'immeuble des n° 20-24, démoli à partir de 1937, a fait place au 4, place Gabriel-Péri : des numéros ont disparu, sans décaler les autres. Le seul arrêté de numérotage connu sur ce tronçon date de 1853 (*Rive Gauche*, n° 8, 1964, p. 19). Le n° 28 de 1926 est donc, très probablement, le n° 28 actuel.
+
+**Les « Galeries Modernes » ont existé.** La société anonyme « Aux Grandes Galeries Modernes » est constituée en 1908. En 1909, des demandes de permis portent sur un bâtiment et des magasins aux n° 22-24 du cours (Archives de Lyon, 314W/356 et 344W/170). Une action datée du 1er février 1925 place son siège « place du Pont, cours Gambetta, 18, 20 et Grande-Rue de la Guillotière ». Une carte postale oblitérée le 31 juillet 1934 montre l'immeuble d'angle, avec une marquise cintrée lettrée « A[ux] G[ran]des Galeries Modernes » ; partie du cours, elle fait le tour de l'angle. Le roman est exact pour l'enseigne et pour l'emplacement ; le genre du magasin (« bazar ») n'est pas documenté, mais l'édition de cartes postales et les étalages sur le trottoir le rendent vraisemblable. La porte du n° 28 n'est séparée du lot des Galeries que par le n° 26, une vingtaine de mètres de façade. Deux lectures sont possibles : la marquise débordait, ou Rebatet a rapproché la porte de la marquise. Aucune source ne permet de trancher.
+
+**Les distances du roman.** Régis dit à la place Antique : « Ma maison est à deux cents mètres, celle d'Anne-Marie à trois cents » (IX §84). La note de l'auteur place les deux domiciles « à deux cents mètres l'un de l'autre » (Notes §11). Les mesures à vol d'oiseau partent du carrefour retenu pour la place Antique (rues Gilbert-Dru, Saint-Michel et Béchevelin) et des points d'adresse actuels, qui sont interpolés (environ 10 m d'incertitude) :
+
+| Trajet | Roman | Mesure |
+|---|---|---|
+| place Antique → n° 28 (Lanthelme) | 200 m (IX §84) | 196 m |
+| place Antique → n° 5 (Villars) | 300 m (IX §84) | 296 m |
+| n° 5 → n° 28 | 200 m (Notes §11) | 237 m |
+
+Le roman a été écrit en prison, vingt ans après les faits (§ 5). La justesse de ces mesures dit pourtant que sa topographie intime n'est pas approximative : elle repose sur des adresses réelles. Elle renforce aussi l'identification de la place Antique, puisque les distances sont mesurées depuis ce carrefour.
 
 ## 3. Les lieux que les témoins confirment ou précisent
 
@@ -56,7 +101,7 @@ Un autre recoupement est probable mais non prouvé. Un décret du 26 avril 1892 
 | **Brasserie de l'Étoile** (G09) | Brasserie réelle au n° 1 du cours Gambetta, de 1897 à 2006 ; salle de réunion des radicaux et des francs-maçons, plus tard des résistants (ruesdelyon.net ; *Rive Gauche*, n° 7, 1963 ; R. Le Mer, *Francs-maçons résistants*). | secondaire | Identification confirmée ; voisine immédiate du n° 5 de 1926. |
 | **Garni de la rue Basse-Combalot** (G22) | Rebatet a lui-même habité un taudis de cette rue au printemps 1922, quand il étudiait le droit à Lyon (*Étude*, citée par Ifri 2001, p. 169). | primaire tardif | Le garni de Michel (avril 1926) reprend un souvenir réel, antidaté de quatre ans. |
 | **Le Lugdunum** (B13) | L'hôtel est réel : ouvert en 1924, devenu Palace-Hôtel en 1926 (Guichet du Savoir, questions 66835 et 58072, d'après l'Inventaire). Les épisodes vécus se passaient à l'« hôtel de Provence », puis au « Terminus » (journal de septembre 1926, cité par Ifri, p. 174). Le numéro de la chambre, 348, est celui de la cellule de Rebatet à Fresnes (*Étude*, citée par Ifri, p. 168-169). | secondaire documenté ; primaire contemporain | Le décor est un hôtel réel, les scènes sont composites. Le Terminus est sans doute le grand hôtel de Perrache (déduction). |
-| **Bron** (E01), villas des Lanthelme et de la grand-mère « juste en face » (III §49) | Le père de Varillon avait fait construire une maison de campagne à Bron, habitée « de juin jusqu'à la Toussaint » (*Beauté du monde*, p. 12-14 environ). Varillon y est né (28 juillet 1905). Simone était « sa voisine de Bron » (Ifri 2001). | primaire tardif ; secondaire documenté | Voisinage réel ; adresses non retrouvées. |
+| **Bron** (E01), villas des Lanthelme et de la grand-mère « juste en face » (III §49) | Le père de Varillon avait fait construire une maison de campagne à Bron, habitée « de juin jusqu'à la Toussaint » (*Beauté du monde*, p. 12-14 environ). Varillon y est né le 28 juillet 1905 ; l'acte de naissance donne le domicile du père, « route de Grenoble » (Bron, naissances 1905, n° 14, Archives du Rhône 4E11691). En 1906, une maison du quartier de la Mairie est désignée « Varillon » dans la liste du recensement (6 M 517) ; un gardien l'occupe en mars. Simone était « sa voisine de Bron » (Ifri 2001). Les recensements de mars 1921 et 1926 ne connaissent ni Varillon ni Chevallier à Bron : ces familles n'y vivaient que l'été. | primaire contemporain (acte, recensement) ; primaire tardif ; secondaire documenté | La villa des Lanthelme a un modèle réel sur la route de Grenoble (l'ancienne route nationale 6, auj. avenues Franklin-Roosevelt et Charles-de-Gaulle ; ville de Bron, *Poursuivez l'histoire*, 2021), à situer sur la matrice cadastrale (non numérisée). La maison de la grand-mère n'est pas retrouvée. |
 | **Brouilly** (R01) | La nuit de Brouilly de Varillon et de Simone a eu lieu le 28 septembre 1923 (journaux, d'après Ifri 2001). | secondaire documenté | Même date que le roman (III §51-53 ; IV §14). |
 | **Saint-André** (G18), **Immaculée-Conception** (B08), **Saint-Sacrement** (G24) | Varillon : Saint-André est la paroisse de la famille ; son père préfère l'Immaculée-Conception, « rue Pierre-Corneille » ; lui-même va « avec un camarade à la paroisse du Saint-Sacrement dans le quartier de La Guillotière » (*Beauté du monde*, p. 13 et 24-26 environ). | primaire tardif | Les trois églises du roman sont celles de la vie réelle de Varillon. |
 | **Cercle du P. Rollet** (G30) | Varillon : « la MEC, la Maison des Étudiants catholiques, dirigée par les jésuites, quai Claude-Bernard » ; le P. Roullet y retire *L'Action française* lors de la condamnation romaine (*Beauté du monde*, p. 20-26 environ). | primaire tardif | Confirme le modèle (la MEC). L'entrée était sur le quai ou rue Montesquieu, selon les époques. |
@@ -70,7 +115,7 @@ Un autre recoupement est probable mais non prouvé. Un décret du 26 avril 1892 
 
 - **Épisodes inventés ou amplifiés, selon Rebatet lui-même.** Il s'agit de la promenade en voiture à Charbonnières (en réalité un quart d'heure dans le hall de la Faculté), de la poursuite de la jeune fille en bleu marine (une silhouette suivie de loin quelques instants, amplifiée en poursuite à travers Lyon : *Mémoires d'un fasciste* II, p. 149 de la traduction italienne) et des scènes du parc de la Tête-d'Or et de la place Antique « le même jour » (le 6 janvier 1925 : IV §76, §116), puis de la place Antique « en mars 1925 » (IX §83-86), qui ne reflètent que « certains traits » de « la fausse Anne-Marie » (*Étude*, p. 213-214, citée par Ifri 2001, p. 163-164). Leur topographie peut décrire le Lyon réel. Elle ne prouve aucun fait vécu. L'itinéraire de la poursuite ([08_itineraires](08_itineraires.md), trajet 3) est donc une construction de romancier, aussi précise qu'elle soit.
 - **Claveisolles.** Le pays maternel de Varillon est Salles-en-Beaujolais (*Beauté du monde*). Le roman rattache Claveisolles au séjour d'Anne-Marie et de sa mère (X §245), non à Régis.
-- **Le numéro.** « 3 bis » dans le roman, « 5 » au recensement (voir § 2).
+- **Le numéro.** « 3 bis » dans le roman, « 5 » au recensement et sur les plans de 1926 ; le « 3 bis » n'existait pas (voir § 2).
 - **Le café du 6 janvier.** Voir § 3.
 
 ## 5. La géographie du roman est une reconstruction
@@ -85,7 +130,11 @@ Deux conséquences pour l'enquête :
 ## 6. Sources
 
 **Primaires contemporaines**
-- Archives départementales du Rhône et de la Métropole, listes nominatives des recensements de Lyon : 1921 (6 M 574), 1926 (6 M 615, 616, 628, 629, 631), 1931 (6 M 661), « Gambetta (cours) ». En ligne : <https://archives.rhone.fr/ark:/28729/qxtmv1620s74> (6 M 615). Lues sur l'image le 24 octobre 2026.
+- Archives départementales du Rhône et de la Métropole, listes nominatives des recensements de Lyon, « Gambetta (cours) » : 1911 (6 M 538), 1921 (6 M 574, côté impair ; 6 M 583, côté pair), 1926 (6 M 615, côté impair ; 6 M 628, côté pair), 1931 (6 M 661), 1936 (6 M 709). En ligne, par exemple : <https://archives.rhone.fr/ark:/28729/qxtmv1620s74> (6 M 615) et <https://archives.rhone.fr/ark:/28729/h3rdwt6f72l4> (6 M 628). Lues sur l'image le 24 octobre 2026 ; chaque trouvaille est relue indépendamment.
+- Mêmes archives : recensements de Bron, 1906 (6 M 517), 1921 (6 M 595), 1926 (6 M 642) ; état civil de Bron, naissances 1905 (4E11691, acte n° 14).
+- Archives de Lyon, plans parcellaires de la Ville au 1:500 : secteur 4S/200 (côté impair, tirages 1926, 1944, 1995 ; <https://recherches.archives-lyon.fr/ark:/18811/m9fcjz1ldx0s>) et secteur 4S/217 (côté pair et place du Pont, tirages 1911, 1926, 1964, 1993 ; <https://recherches.archives-lyon.fr/ark:/18811/b98fpjr57kzv>). Consultés le 24 octobre 2026.
+- Archives de Lyon, demandes de permis de construire de 1909 pour les Grandes Galeries Modernes, 22-24 cours Gambetta (314W/356 ; 344W/170), connues par l'inventaire en ligne.
+- Action de la SA « Aux Grandes Galeries Modernes », 1er février 1925, et carte postale « Lyon, place du Pont et cours Gambetta » oblitérée le 31 juillet 1934 (annonces de vente Delcampe, consultées le 24 octobre 2026).
 - *Bulletin officiel du ministère de la Justice*, n° 66, avril-juin 1892, nominations (décret du 26 avril 1892).
 - Journal intime de Rebatet (1924-1927), inédit, cité par Ifri 2001.
 
@@ -110,7 +159,7 @@ Deux conséquences pour l'enquête :
 2. La « Chronologie biographique » de Rebatet publiée par P. Vandromme (*Rebatet*, 1968, p. 109-122) : date de son installation à Lyon, logis et emplois de 1925 à 1927.
 3. *La Ville aux deux fleuves*, pour la topographie lyonnaise vue par Simone Chevallier : la « rue basse » du 6 janvier, le port Rambaud.
 4. Le *Journal d'une passion* (mars 1924 – avril 1925) et la préface de R. Belot.
-5. Fouilloux 2007 : le numéro du domicile Varillon, la maison de Bron.
-6. Les plans parcellaires et les arrêtés de numérotage du début du cours Gambetta, pour faire correspondre le n° 5 de 1926 à la numérotation actuelle (Archives municipales de Lyon).
-7. Les recensements de Bron (Archives de l'Isère) et l'acte de mariage de Simone Chevallier en 1928 (Archives municipales de Lyon, 3e arrondissement), qui donne le domicile des parents.
+5. Fouilloux 2007 : la maison de Bron et le voisinage des deux familles.
+6. L'Indicateur Henry de 1922 à 1930, rubrique des bazars, et les plans de Blein pour les Galeries Modernes (Archives de Lyon, 314W/356) : étendue du magasin et de sa marquise le long du cours.
+7. La matrice cadastrale de Bron (Archives du Rhône, 3P31, non numérisée), pour situer la maison Varillon de la route de Grenoble ; l'acte de mariage de Simone Chevallier en 1928 (Archives municipales de Lyon, 3e arrondissement), qui donne le domicile des parents.
 8. Un exemplaire de l'édition originale de 1951, pour la note de l'auteur sur les lieux fictifs.

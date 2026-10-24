@@ -31,7 +31,7 @@ itineraires:
   - {nom: place Antique, lieu: G01, lat: 45.75340, lon: 4.84270, ref: XXIII §228}
   - {nom: rue de la Vierge × Grande-Rue, via: true, lat: 45.75381, lon: 4.84411}
   - {nom: place du Pont, lieu: G13, lat: 45.75520, lon: 4.84300, ref: XXV §181}
-  - {nom: 3 bis cours Gambetta (Villars), lieu: G08, lat: 45.75593, lon: 4.84163, ref: XXIX §106}
+  - {nom: "« 3 bis » cours Gambetta (Villars) : n° 5 au recensement de 1926", lieu: G08, lat: 45.755912, lon: 4.841743, ref: XXIX §106}
 
 - id: IT2
   titre: Le dimanche 12 juillet 1925 — Saint-Jean, Vaugneray, le Six-Janvier
@@ -125,8 +125,8 @@ itineraires:
   - {nom: rue de la Barre, lat: 45.75794, lon: 4.83414, ref: XXXVII §141}
   - {nom: pont de la Guillotière, via: true, lat: 45.75662, lon: 4.83892}
   - {nom: angle du cours Gambetta et de la place du Pont, lieu: G13, lat: 45.75520, lon: 4.84300, ref: XXXVII §150}
-  - {nom: porte des Lanthelme, lieu: G10, lat: 45.75428, lon: 4.84468, ref: XXXVII §160}
+  - {nom: "porte des Lanthelme (28 cours Gambetta, famille Varillon en 1921 et 1926)", lieu: G10, lat: 45.75472, lon: 4.844265, ref: XXXVII §160}
   - {nom: tour du pâté de l'Eldorado — rue Bonnefoi, via: true, lat: 45.75448, lon: 4.84595}
   - {nom: tour du pâté de l'Eldorado — rue Paul-Bert, via: true, lat: 45.75594, lon: 4.84529}
   - {nom: tour du pâté de l'Eldorado — place du Pont, via: true, lat: 45.75530, lon: 4.84300}
-  - {nom: retour devant la porte des Lanthelme, lieu: G10, lat: 45.75428, lon: 4.84468, ref: XXXVII §160}
+  - {nom: retour devant la porte des Lanthelme, lieu: G10, lat: 45.75472, lon: 4.844265, ref: XXXVII §160}

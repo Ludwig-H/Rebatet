@@ -22,7 +22,7 @@ La géographie sentimentale du trio tient sur un axe nord-sud : la place Morand,
 | 5 | église Saint-Louis | XXII §99 | « on fit halte à l'église Saint-Louis » |
 | 6 | place Antique | XXIII §228 | on y arrive « par la petite rue Saint-Michel » |
 | 7 | place du Pont | XXV §181 | Régis guette Anne-Marie qui rentre par le cours de la Liberté |
-| 8 | 3 bis cours Gambetta | XXIX §106 | domicile des Villars |
+| 8 | « 3 bis » cours Gambetta | XXIX §106 | domicile des Villars ; le modèle, la famille Chevallier, habite le n° 5 en 1926, immeuble d'angle de la rue Mortier (voir [07_temoins_et_modeles](07_temoins_et_modeles.md)) |
 
 Longueur du tracé : environ 3,3 km, soit trois quarts d'heure de marche lente. C'est l'ordre de grandeur que suggèrent les « bonne heure » de conversation du chapitre X (X §260).
 
@@ -89,12 +89,12 @@ Après l'enterrement d'Émile. Michel, en permission, retrouve Régis à Lyon po
 | 7 | une « ruelle fétide », puis la place des Célestins et le Perroquet | XXXVII §94 ; XXXVII §101 |
 | 8 | « les réverbères de la rue de la Barre » | XXXVII §141 |
 | 9 | « l'angle du cours Gambetta et de la place du Pont » | XXXVII §150 |
-| 10 | la porte des Lanthelme, « sous la mesquine marquise du bazar des "Galeries Modernes" » | XXXVII §160 |
+| 10 | la porte des Lanthelme, « sous la mesquine marquise du bazar des "Galeries Modernes" » : le modèle est le 28 cours Gambetta, domicile des Varillon en 1921 et 1926, à deux lots des Grandes Galeries Modernes (n° 22-24) | XXXVII §160 |
 
 Le texte précise que les deux amis restent sur la rive gauche de la Saône : Saint-Jean est vu « de l'autre côté de l'eau ». Régis refuse le pèlerinage au quai Perrache (« Nous n'irons pas au quai Perrache », XXXVII §73), et le tour final, « le tour traditionnel du pâté de bâtisses, derrière l'Eldorado » (XXXVII §150), boucle la boucle des « tant de ces nuits » de 1925-1926.
 
 ## Ce que les trajets apprennent
 
-- **Les distances sont plausibles.** Les distances et durées que le roman donne sont compatibles avec le plan à quelques dizaines de mètres près, quand on peut les contrôler : la place Antique à « deux cents » et « trois cents » mètres des deux domiciles (IX §84, contrôle dans [02_toponymes_et_adresses](02_toponymes_et_adresses.md)), le pont La Fayette « à cinquante mètres » et à « trois minutes » de marche des amis (XXI §92), la rue Créqui « à trois cents mètres » de la place Morand (XXI §93). Ce soin d'arpenteur ne prouve rien pour les lieux qu'on ne peut pas vérifier directement, comme le café des Alpes, mais il interdit de traiter leurs indications comme décoratives.
+- **Les distances sont plausibles.** Les distances et durées que le roman donne sont compatibles avec le plan à quelques dizaines de mètres près, quand on peut les contrôler : la place Antique à « deux cents » et « trois cents » mètres des deux domiciles (IX §84 : 196 et 296 m à vol d'oiseau jusqu'aux adresses réelles des Varillon et des Chevallier, voir [07_temoins_et_modeles](07_temoins_et_modeles.md)), le pont La Fayette « à cinquante mètres » et à « trois minutes » de marche des amis (XXI §92), la rue Créqui « à trois cents mètres » de la place Morand (XXI §93). Ce soin d'arpenteur ne prouve rien pour les lieux qu'on ne peut pas vérifier directement, comme le café des Alpes, mais il interdit de traiter leurs indications comme décoratives.
 - **La ville est vécue à pied et en tramway.** Les tramways (avenue de Saxe, cours Gambetta, place de l'Abondance, tête de ligne de l'avenue du Parc) commandent les rendez-vous et les séparations. Une étude du réseau des TOMTL vers 1925 permettrait de dater plus finement certaines scènes.
 - **Les deux rives du Rhône.** Les trajets traversent tous le Rhône, sauf le premier. La Presqu'île (Bellecour, la République, les Célestins) est le lieu des discussions et des noctambules ; la rive gauche (Guillotière, Brotteaux), celui de l'amour et des domiciles.
