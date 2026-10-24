@@ -1,13 +1,15 @@
-"""Outils de géolocalisation communs aux scripts du dossier.
+"""Géocodage des notices : outils communs.
 
-Méthodes (champ `geo` de lieux.yaml) :
+Méthodes (dictionnaire `geo` passé à `resoudre`) :
   latlon   coordonnées relevées à la main (lat, lon)
-  ban      adresse actuelle géocodée par la Base Adresse Nationale (IGN)
+  ban      adresse actuelle géocodée par la Base Adresse Nationale (Géoplateforme IGN)
   voie     axe d'une voie du référentiel Grand Lyon (point de l'axe le plus
            proche de son centre)
   inter    carrefour de deux voies du référentiel Grand Lyon (intersection
            calculée ; à défaut, point le plus proche entre les deux axes)
-Les réponses des services sont mises en cache dans scripts/_cache/.
+`geometrie_voie(nom)` renvoie l'axe complet d'une voie (LineString des notices de rue).
+Les réponses des services sont mises en cache dans 06_Outils/_cache/ (non versionné).
+Exemple : python3 -c "import geolib; print(geolib.resoudre({'inter': ('Rue de Créqui', 'Rue Rabelais')}))"
 """
 import json
 import os

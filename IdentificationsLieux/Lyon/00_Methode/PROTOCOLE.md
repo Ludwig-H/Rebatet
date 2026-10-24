@@ -8,6 +8,12 @@ Le centre de l'enquête est Lyon et sa proche périphérie. Le Beaujolais et les
 
 « Principal » ne signifie pas seulement « fréquent ». Un lieu est principal s'il accueille une scène décisive, revient comme rendez-vous, organise les déplacements ou matérialise une opposition structurante. Les simples comparaisons, souvenirs et paysages aperçus restent distingués des lieux visités.
 
+## Deux enquêtes, un registre
+
+Le dossier réunit deux enquêtes conduites indépendamment sur le même témoin : l'une (23 octobre 2026) par dictionnaire lexical et dossiers thématiques ; l'autre par lecture intégrale, chapitre par chapitre, en dix tranches. La seconde a fourni les relevés par chapitre (`01_Corpus/releves_par_chapitre/`) et un répertoire de 110 lieux. Le 24 octobre 2026, chaque affirmation de la première enquête a été contre-vérifiée (journal du jour). Les deux répertoires ont ensuite été fusionnés dans un registre unique, `04_Donnees/lieux.json`, qui conserve les identifiants de la première enquête et donne à chaque notice un code de secteur (G Guillotière, B 3e nord et Brotteaux, P Presqu'île, D rive droite de la Saône, E environs, R région).
+
+Quand les deux enquêtes divergeaient, la notice retenue est celle que les pièces départagent ; à défaut, la plus prudente. Le désaccord est alors consigné dans la fiche.
+
 ## Trois preuves indépendantes
 
 1. **Attestation textuelle** : forme exacte, contexte, chapitre, paragraphe de l'EPUB. Les variantes typographiques sont regroupées pour la recherche, mais pas silencieusement corrigées dans les citations.
@@ -27,6 +33,20 @@ Un résultat peut être certain sur le premier axe et ouvert sur le deuxième : 
 
 Ces statuts qualifient la **localisation proposée**. Ils ne certifient ni une équivalence biographique ni la matérialité de toutes les scènes. Un rayon de précision est une convention graphique prudente, pas un intervalle statistique calculé.
 
+### Degré de certitude et statut cartographique
+
+Le registre conserve, à côté du statut cartographique, le degré de certitude de la lecture intégrale. Ce degré porte sur l'identification du lieu réel, non sur la forme de la géométrie.
+
+| Degré | Sens | Statut cartographique correspondant |
+|---|---|---|
+| A | identification certaine (nom réel explicite, lieu repérable) | `atteste` |
+| B | très probable (faisceau d'indices convergents, aucun concurrent sérieux) | `probable` |
+| C | probable (indices convergents, une pièce manque) | `probable` |
+| D | hypothèse (proposition compatible, concurrents non éliminés) | `hypothese` |
+| E | lieu inventé ou non localisable | `non_localise` (aucune coordonnée) |
+
+La correspondance n'est pas mécanique dans les deux sens : un lieu certain (A) peut n'être cartographié que par un segment, si le roman donne la rue sans le numéro.
+
 ## Critique du texte
 
 - Le corpus de travail est l'EPUB déjà fourni dans le dépôt. Il comporte des traces de conversion ; ce n'est pas un fac-similé d'une édition imprimée.
@@ -35,6 +55,10 @@ Ces statuts qualifient la **localisation proposée**. Ils ne certifient ni une �
 - Les noms affectifs sont analysés comme tels : « rue du Six-Janvier » et « Place Antique » sont des actes de nomination des personnages, non des noms de voies administratives à rechercher littéralement dans un annuaire.
 - Une enseigne romanesque peut être exacte, transformée ou composite. Le patronyme des propriétaires, l'intérieur et la clientèle peuvent eux aussi être transposés.
 - L'adjectif polémique ou impressionniste n'est pas un état des lieux architectural. Le jugement de Michel, celui d'un autre personnage et la voix narrative ne sont pas confondus.
+
+## Deux numérotations, une référence
+
+La référence est la numérotation P, définie ci-dessus : rang de l'élément `<p>` dans le fichier du chapitre, titres non comptés. La lecture intégrale avait d'abord numéroté les lignes non vides du texte extrait (numérotation L) : titre de chapitre compris, une ligne par `<p>`, par `<br/>` interne et par bloc. Ses relevés ont été convertis en P au moyen de la table `01_Corpus/concordance_numerotations.csv`, produite par `06_Outils/concordance_numerotations.py` (aucun texte du roman n'y figure). Les citations ont ensuite été recontrôlées contre le paragraphe P qui les suit. Une référence en L ne doit plus circuler.
 
 ## Critique historique
 
@@ -52,11 +76,33 @@ Les contrôles suivent cet ordre :
 
 La BmL (Guichet du Savoir, réponse du 18 mars 2026) indique que les indicateurs Henry et Fournier ne sont pas numérisés, hormis quelques exemplaires sur Google Livres ou Numelyo. Sa collection, lacunaire (1896–1972), se consulte sur place, à la banque du Silo ; d'autres exemplaires sont conservés aux Archives municipales et aux Archives départementales du Rhône. L'édition 1926 fait partie des volumes dépouillés par le Guichet pour cette réponse. Les annuaires **non consultés** demeurent des pièces à demander, et non des preuves déjà acquises. Un échec de recherche web ne démontre pas l'inexistence d'un café.
 
+## Sources extérieures et témoignages
+
+Le roman est un roman à clef : Michel Croz doit beaucoup à Lucien Rebatet, Régis Lanthelme à François Varillon, Anne-Marie Villars à Simone Chevallier. Les témoignages autobiographiques, les biographies et les archives nominatives peuvent donc éclairer les lieux. Ils ne prouvent pourtant jamais à eux seuls la topographie du roman : un romancier déplace, compose et déguise. Chaque témoignage est qualifié :
+
+- **primaire contemporain** : document de l'époque (lettre de 1925, recensement de 1926, annuaire) ;
+- **primaire tardif** : souvenir de l'intéressé publié des décennies plus tard (mémoires, entretiens) ;
+- **secondaire documenté** : biographie ou étude qui cite ses pièces ;
+- **secondaire non sourcé** : affirmation sans pièce (notice en ligne, article de presse).
+
+Une concordance entre le roman et la biographie (même rue, même établissement) renforce une identification ; elle ne transforme pas un surnom des personnages en toponyme. Une discordance n'invalide pas le roman : elle signale une transposition, à décrire comme telle. Les mentions de personnes réelles se limitent à ce que les sources publiées établissent.
+
+Les archives nominatives (listes nominatives des recensements de 1911 à 1936, Archives départementales du Rhône, série 6 M) sont lues en deux temps. Un premier lecteur parcourt les vues d'une rue, transcrit chaque ménage retenu avec sa cote, sa vue et sa page, et signale ses lectures incertaines. Un second relit ensuite les mêmes images sans connaître la conclusion attendue. Une trouvaille n'entre dans le dossier qu'avec sa cote et son image. Les homonymes écartés sont mentionnés sans autre détail que ce qui justifie l'exclusion.
+
 ## Cartes
 
 Les cartes livrées sont des **cartes d'enquête contemporaines sur des lieux du récit**. Le fond moderne sert à se repérer ; il ne reconstitue pas la voirie, les berges, les ponts et les bâtiments de 1925. La source du fond et sa date sont documentées avec les cartes.
 
 Les noms contemporains sont explicités lorsqu'ils aident à retrouver une voie ancienne. Les itinéraires supposés ne sont pas dessinés comme des trajets attestés. Une ligne indiquant un secteur de recherche ne signifie pas que les personnages ont suivi tout ce segment.
+
+### Itinéraires reconstitués
+
+Les itinéraires (`04_Donnees/itineraires.yaml`) ne retiennent comme étapes que des lieux nommés ou désignés sans ambiguïté par le texte, avec leur référence. Entre deux étapes, le tracé est le plus court chemin sur la voirie actuelle (`06_Outils/itineraires.py`). C'est une reconstitution graphique : le roman nomme rarement les rues suivies. Une étape dont la localisation est discutée est marquée « à confirmer ».
+
+
+### Fonds historiques
+
+Les cartes sur fonds historiques (`06_Outils/cartes_historiques.py`) emploient la carte IGN de 1950 et les photographies aériennes de 1950-1965 (Géoplateforme, Licence ouverte Etalab 2.0). Ces fonds sont plus proches de 1925 qu'un plan actuel, mais postérieurs d'une génération : les ponts du Rhône détruits en 1944 y apparaissent reconstruits, et plusieurs îlots de la Guillotière ont changé. Ils situent, ils ne restituent pas.
 
 ## Reproductibilité et révision
 
