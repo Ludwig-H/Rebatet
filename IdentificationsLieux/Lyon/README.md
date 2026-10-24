@@ -2,62 +2,99 @@
 
 ## Une enquête philologique et historique, avec atlas critique
 
-**État du 24 octobre 2026.** Le dépouillement du roman fourni dans ce dépôt réunit **132 entrées de travail**, dont **54 principales**, et **854 références lexicales contrôlées** (855 le 23 octobre ; « briguais », forme du verbe briguer prise pour Brignais en XVI §3, a depuis été exclu). Un registre cartographique de **51 notices** développe les identifications et les questions ouvertes ; **35** disposent d'une géométrie, les autres restent volontairement sans emplacement. Ces nombres comptent des objets de natures différentes et parfois imbriqués : ils ne signifient pas que 132 bâtiments historiques ont été retrouvés.
+**État du 24 octobre 2026.** Deux enquêtes indépendantes ont été conduites sur le même témoin. La première procède par dictionnaire lexical et dossiers thématiques ; la seconde par lecture intégrale, en dix tranches. Elles ont été contre-vérifiées l'une par l'autre, puis fusionnées dans un **registre unique de 162 lieux** ([`04_Donnees/lieux.json`](04_Donnees/README.md)), dont 146 sont cartographiés.
 
-**Pour commencer :** [carte générale](05_Cartes/lyon_ensemble.svg), [zoom Saxe–Guillotière](05_Cartes/lyon_guillotiere_saxe.svg), puis [atlas interactif](05_Cartes/atlas_lyon.html). Télécharger l'HTML et l'ouvrir dans un navigateur pour utiliser recherche, filtres et notices ; GitHub en affiche le code. Les trois cartes fonctionnent sans service de cartes externe.
+| Statut | Lieux |
+|---|---:|
+| identifiés (`atteste`) | 106 |
+| probables | 28 |
+| hypothèses | 12 |
+| non localisés (sans coordonnées) | 16 |
 
-![Lyon, une géographie intime](05_Cartes/lyon_ensemble.svg)
+Chaque lieu a :
+- un code de secteur : G Guillotière, B 3e nord et Brotteaux, P Presqu'île, D rive droite de la Saône, E environs, R région ;
+- une [fiche par lieu](03_Fiches/par_lieu/README.md) générée depuis le registre, avec ses occurrences dans le roman.
+
+L'inventaire lexical compte 132 entrées et 854 références contrôlées. Les dix [relevés par chapitre](01_Corpus/releves_par_chapitre/README.md) totalisent 4 042 références. Le contrôle automatique vérifie 947 renvois « chapitre § » au texte.
+
+Ces nombres comptent des objets de natures différentes (une rue, un café, un surnom, une zone de recherche) : ils ne signifient pas que 162 bâtiments ont été retrouvés.
+
+**Pour commencer :**
+- la [vue d'ensemble sur la carte IGN de 1950](05_Cartes/lyon_carte_ign_1950.png) ;
+- les trois planches sur les photographies aériennes de 1950-1965 : [Guillotière](05_Cartes/guillotiere_photo_1950.png), [Brotteaux](05_Cartes/brotteaux_photo_1950.png), [Presqu'île et rive droite](05_Cartes/presquile_photo_1950.png) ;
+- les [cinq itinéraires](05_Cartes/itineraires.png) ;
+- les deux atlas interactifs : l'[atlas historique](05_Cartes/atlas_historique.html), sur fonds IGN, et l'[atlas autonome](05_Cartes/atlas_lyon.html), sur fond moderne et sans réseau.
+
+Pour utiliser les atlas, télécharger l'HTML et l'ouvrir dans un navigateur ; GitHub n'en affiche que le code.
+
+![Lyon sur la carte de 1950](05_Cartes/lyon_carte_ign_1950.png)
 
 ## Les résultats qui changent la lecture
 
 | Lieu du roman | Résultat de l'enquête | Certitude et réserve |
 |---|---|---|
-| **Café des Alpes** | C'est la forme lue dans le roman (X §149), et non « Café des Deux Alpes ». Un « café populaire de l'avenue de Saxe » (X §149), à l'un de ses angles (XXII §35) : actuelle avenue Maréchal-de-Saxe (nom de 1941). La filature du chapitre XXII, partie de la place Morand, oriente vers le sud du cours Lafayette. | Avenue certaine dans le texte ; secteur probable ; **aucun numéro historique démontré**. [Dossier](03_Fiches/01_cafe_des_alpes.md) |
-| **Rue du Six-Janvier** | Surnom de la rue Créqui (IX §68 ; XIII §13). Le point du souvenir est l'angle de la rue Rabelais, expressément nommé XII §124 ; souvenir du 6 janvier 1925 (Notes §21), date confirmée par le journal de Rebatet (Ifri 2001). | Carrefour certain ; trottoir et réverbère exacts inconnus. Nom privé, pas ancienne rue administrative. [Dossier](03_Fiches/02_toponymes_et_adresses.md) |
-| **Place Antique** | Carrefour probable de la rue Saint-Michel et de l'ancienne rue de la Vierge (actuelle Gilbert-Dru, nom de 1945), d'où part aussi la rue Béchevelin. La présence d'une école achevée en 1924 recoupe l'« école neuve » d'en face (IX §85) ; son horloge d'angle sur la rue Saint-Michel recoupe XII §161. | Faisceau d'indices fort ; zone probable, sans bâtisse précisément identifiée. [Dossier](03_Fiches/02_toponymes_et_adresses.md) |
-| **Banc du « quai Perrache »** | Le paysage décrit la Saône, Fourvière, un pont ferroviaire et un tunnel ; il ne correspond pas au quai Perrache actuel sur le Rhône. | Discordance conservée. Hypothèse discutée sur la rive gauche de la Saône, de l'aval du quai Tilsitt au nord du quai Rambaud, près du viaduc de la Quarantaine ; entre les deux s'étend l'ancien quai d'Occident (actuel quai Maréchal-Joffre, nom de 1931). Dans son roman *La Ville aux deux fleuves*, Simone Chevallier, modèle d'Anne-Marie, situe une rencontre « sur le port Rambaud » (Ifri 2001). **Banc non placé**. [Dossier](03_Fiches/02_toponymes_et_adresses.md) |
-| **Lugdunum, Brazier, Grand Théâtre, Rameau, Maison Dorée, Cintra, Carlton** | Bâtiments ou établissements identifiables, avec contrôles de chronologie et de transformations. | Distinguer date du bâtiment, ouverture de l'exploitation et état actuel. [Dossiers](03_Fiches/03_etablissements.md) |
-| **Bibliothèque au pied de Saint-Jean** | Ancien palais archiépiscopal, où se trouve la bibliothèque centrale en 1912–1972. | Ne pas la déplacer à la Part-Dieu. [Analyse](03_Fiches/04_geographie_critique.md) |
-| **Cercle de Rollet** | Rapprochement avec la Maison des étudiants catholiques, tenue par les jésuites : ancien Hôtel de la Chanson, 4 rue Montesquieu, dans un ensemble qui donne sur le quai Claude-Bernard, où Varillon, modèle de Régis, la situe. Varillon y connut le P. Roullet (orthographe réelle, prénom non établi) et y faisait des parties de billard ; le cercle du roman a son billard (XIX §4). | Modèle probable, pas identité parfaite démontrée. [Dossier](03_Fiches/05_religieux_et_enseignement.md) |
-| **Morel et Royal** | Morel à l'angle de Bellecour et de l'ancienne rue de l'Hôtel-de-Ville (actuelle rue du Président-Édouard-Herriot, nom de 1957) ; Royal probablement au 50 rue de la République. | Publicités datées de 1884 et 1929 respectivement : continuité au temps de l'action à recouper. L'annonce de 1884, lue par OCR, reste à revoir sur le fac-similé. [Dossier](03_Fiches/04_cafes_morel_royal.md) |
+| **Les deux domiciles du cours Gambetta** | Le roman loge les Villars « au 3 bis du Cours Gambetta » (XXIX §106). Les recensements placent leur modèle, la famille Chevallier, au **n° 5**, immeuble d'angle de la rue Mortier, en 1926 et 1931. Les Lanthelme n'ont pas de numéro dans le roman ; leur modèle, la famille Varillon, est au **n° 28**, côté pair, en 1921 et 1926. Les plans parcellaires de 1911 à 1995 établissent la continuité des numéros. Ils montrent aussi qu'aucun « 3 bis » n'existait en 1926. | Lectures d'archives refaites indépendamment. Mesurés depuis la place Antique, les deux domiciles sont à 196 m et 296 m ; le roman dit « deux cents » et « trois cents » mètres (IX §84). [Dossier](03_Fiches/07_temoins_et_modeles.md) |
+| **Bazar des « Galeries Modernes »** | La porte des Lanthelme s'ouvre « sous la mesquine marquise » de ce bazar (XXXVII §160). L'enseigne est réelle : les Grandes Galeries Modernes (1908) occupaient l'angle de la place du Pont et du cours Gambetta (n° 22-24 en 1926). Le n° 28 des Varillon n'en est séparé que par le n° 26. | Identifié (plans de 1911 et 1926, permis de 1909, carte postale de 1934). Le débord de la marquise jusqu'au n° 28 n'est pas établi. |
+| **Café des Alpes** | C'est la forme lue dans le roman (X §149), et non « Café des Deux Alpes ». C'est un « café populaire de l'avenue de Saxe », à l'un de ses angles, « un peu après le cours La Fayette » en venant de la place Morand (XXII §34-35). | Voie et tronçon attestés par le texte ; ni l'angle, ni l'immeuble, ni l'enseigne réelle ne sont établis. Rebatet se souvient d'un « caboulot » de Pâques 1925. [Dossier](03_Fiches/01_cafe_des_alpes.md) |
+| **Rue du Six-Janvier** | Surnom de la rue Créqui (IX §68 ; XIII §13). Le point du souvenir est l'angle de la rue Rabelais, nommé en XII §124. La date du 6 janvier 1925 est confirmée par le journal de Rebatet (Ifri 2001). | Carrefour certain ; trottoir et réverbère inconnus. Simone Chevallier place la rencontre dans « un petit café ». [Dossier](03_Fiches/02_toponymes_et_adresses.md) |
+| **Place Antique** | Carrefour des rues Saint-Michel, Béchevelin et de l'ancienne rue de la Vierge (rue Gilbert-Dru depuis 1945). Le groupe scolaire achevé en 1924, avec son horloge d'angle, est l'« école neuve » d'en face (IX §85 ; XII §161). | Probable : faisceau d'indices ; les distances aux deux domiciles réels sont celles du roman. Le surnom date de 1925 (journal de Rebatet). [Dossier](03_Fiches/02_toponymes_et_adresses.md) |
+| **Les « Mulet », logeurs de Michel** | « Conducteur d'imprimerie » au *Progrès*, avenue Jean-Jaurès (XIX §133). Les recensements de 1921 et 1926 donnent un imprimeur employé au *Progrès*, au n° 294 de l'avenue (ancienne numérotation), sous un nom qui ne diffère que d'une lettre. | Rapprochement très probable ; lecture d'archives en cours de contre-lecture. Rebatet n'est pas inscrit à cette adresse au recensement de mars 1926. |
+| **Banc du « quai Perrache »** | Le paysage décrit la Saône, Fourvière, un pont ferroviaire et un tunnel. Il ne correspond pas au quai Perrache officiel, sur le Rhône. | Zone probable sur l'ancien quai d'Occident (actuel quai Maréchal-Joffre), au nord du pont ferroviaire. Le banc n'est pas placé. Simone Chevallier situe une rencontre « sur le port Rambaud ». [Dossier](03_Fiches/02_toponymes_et_adresses.md) |
+| **Lugdunum, Brazier, Grand Théâtre, Rameau, Maison Dorée, Cintra, Carlton** | Bâtiments ou établissements identifiables, avec contrôles de chronologie et de transformations. Le Lugdunum est un hôtel réel. Le numéro de la chambre, 348, est celui de la cellule de Rebatet à Fresnes. | Date du bâtiment, ouverture de l'exploitation et état actuel sont distingués. [Dossiers](03_Fiches/03_etablissements.md) |
+| **Bibliothèque au pied de Saint-Jean** | Ancien palais archiépiscopal, siège de la bibliothèque municipale de 1912 à 1972. | Ne pas la déplacer à la Part-Dieu. [Analyse](03_Fiches/04_geographie_critique.md) |
+| **Cercle du P. Rollet** | Modèle : la Maison des étudiants catholiques, tenue par les jésuites (ancien Hôtel de la Chanson, 4 rue Montesquieu, sur le quai Claude-Bernard). Varillon, modèle de Régis, y connut le P. Roullet. | Modèle probable, non identité démontrée. [Dossier](03_Fiches/05_religieux_et_enseignement.md) |
+| **Morel et Royal** | Le café Morel est à l'angle de Bellecour et de l'ancienne rue de l'Hôtel-de-Ville. Le Royal est un café à orchestre du 50 rue de la République, distinct du Royal-Hôtel. | Probables. Publicités de 1884 et 1929 ; continuité à recouper dans les indicateurs. [Dossier](03_Fiches/04_cafes_morel_royal.md) |
 
-![Saxe et Guillotière](05_Cartes/lyon_guillotiere_saxe.svg)
+![La Guillotière et le cours Gambetta](05_Cartes/guillotiere_photo_1950.png)
 
 ## Comment lire ces cartes
 
-Le fond est **moderne** et explicitement crédité. Il permet de retrouver les lieux ; il ne reconstitue pas Lyon en 1925. Les couleurs distinguent identification, probabilité et hypothèse. Les halos et segments expriment une emprise ou une marge de recherche, pas une adresse. Les cartes statiques présentent une sélection ; l'atlas contient les 51 notices du registre, y compris les lieux hors cadre ou non placés.
+**Fonds.** Les cartes statiques et l'atlas historique emploient la carte IGN de 1950 et les photographies aériennes de 1950-1965. Ces fonds sont plus proches de 1925 qu'un plan actuel, mais postérieurs d'une génération : les ponts du Rhône y sont reconstruits, plusieurs îlots ont changé. L'atlas autonome et les cartes SVG emploient un fond moderne (OpenStreetMap).
 
-Les coordonnées des édifices identifiés sont des repères de lecture. Ni la précision des décimales ni un résultat de géocodage n'établissent une parcelle historique. La forme de l'incertitude est conservée dans le [GeoJSON](04_Donnees/lieux.geojson).
+**Repères.** Ils sont étiquetés par le code de leur notice (G10, B02…), comme les fiches. La forme et la couleur de l'étiquette distinguent identification, probabilité et hypothèse. Les zones, les segments et les cercles expriment une emprise ou une marge de recherche, pas une adresse. Les 16 lieux non localisés restent hors carte, sans coordonnées fictives.
+
+Les coordonnées sont des repères de lecture. Ni la précision des décimales ni un résultat de géocodage n'établissent une parcelle historique ; la forme de l'incertitude est conservée dans le [GeoJSON](04_Donnees/lieux.geojson).
 
 ## Architecture de l'enquête
 
 | Dossier | Contenu |
 |---|---|
-| [00_Methode](00_Methode/PROTOCOLE.md) | Critères de preuve, niveaux de certitude, limites et protocole d'archives |
-| [01_Corpus](01_Corpus/NOTICE.md) | Témoin EPUB, empreinte, convention de paragraphes ; [inventaire complet](01_Corpus/INVENTAIRE.md) |
-| [02_Sources](02_Sources/BIBLIOGRAPHIE.md) | Sources institutionnelles, presse, critique, ouvrages repérés mais non consultés |
-| [03_Fiches](03_Fiches/) | Démonstrations, alternatives, objections, lecture littéraire et pièces à chercher |
-| [04_Donnees](04_Donnees/README.md) | Concordances JSON, registre, GeoJSON, tableau CSV et provenance géographique |
-| [05_Cartes](05_Cartes/README.md) | Deux cartes vectorielles et atlas HTML autonome |
-| [06_Outils](06_Outils/) | Contrôle du corpus, export des données, génération des cartes sans réseau |
-| [07_Journal](07_Journal/2026-10-23.md) | Recherches négatives, limites d'accès, priorités documentaires et contrôle technique |
+| [00_Methode](00_Methode/PROTOCOLE.md) | Protocole : preuves, statuts et degrés de certitude, deux numérotations, témoignages et archives nominatives, itinéraires, fonds historiques |
+| [01_Corpus](01_Corpus/NOTICE.md) | Témoin EPUB, empreinte, convention de paragraphes ; [inventaire](01_Corpus/INVENTAIRE.md) ; [relevés par chapitre](01_Corpus/releves_par_chapitre/README.md) ; [index des occurrences](01_Corpus/index_occurrences.md) ; table de concordance des numérotations |
+| [02_Sources](02_Sources/BIBLIOGRAPHIE.md) | Sources institutionnelles, archives, critique, témoignages, ouvrages repérés mais non consultés |
+| [03_Fiches](03_Fiches/) | Neuf dossiers thématiques (café des Alpes, toponymes et adresses, établissements, Morel et Royal, géographie critique, religieux et enseignement, toponymie de 1925, témoins et modèles, itinéraires) et les [162 fiches par lieu](03_Fiches/par_lieu/README.md) |
+| [04_Donnees](04_Donnees/README.md) | Registre unique (JSON, GeoJSON, CSV), itinéraires, fond OSM, géocodages, inventaire |
+| [05_Cartes](05_Cartes/README.md) | Vue d'ensemble, planches par secteur, environs, région, itinéraires, atlas |
+| [06_Outils](06_Outils/) | Lecture du corpus, fiches, exports, cartes, itinéraires, géocodage, contrôles |
+| [07_Journal](07_Journal/2026-10-24.md) | Journaux du [23](07_Journal/2026-10-23.md) et du 24 octobre : opérations, contre-vérification, recherches négatives, pièces à demander |
 
 ## Portée critique
 
 L'enquête distingue le **texte**, l'**histoire du lieu** et la **géographie actuelle**. Elle écarte plusieurs faux amis : la rue de Fleurus et le Marivaux des passages concernés sont parisiens ; la Chauve-Souris est une personne ; le cours Boudier est un enseignement ; un quai ferroviaire n'est pas un quai urbain.
 
-Le récit est traité comme une construction littéraire. Ses noms intimes, détours, impressions nocturnes et jugements sur les lieux ne deviennent pas automatiquement des données cadastrales. La [lecture critique de la géographie](03_Fiches/04_geographie_critique.md) montre pourquoi une école neuve ou une rue de traverse peut être un meilleur indice qu'une évocation pittoresque.
+Le roman est un roman à clef, écrit en prison entre 1946 et 1950, vingt ans après les faits. Rebatet avoue avoir amplifié ou inventé plusieurs épisodes ; il dit aussi avoir substitué des lieux fictifs à « quelques décors accessoires ». Les témoignages et les archives éclairent le *modèle* d'un lieu ; ils ne prouvent pas à eux seuls la topographie du roman. Le [dossier des témoins et des modèles](03_Fiches/07_temoins_et_modeles.md) en fait le point.
 
-Le dépouillement ne constitue pas encore une collation exhaustive avec une édition imprimée. Le roman donne lui-même deux numéros de rue : le 3 bis cours Gambetta, appartement des Villars où Michel est invité à déjeuner (XXIX §69, §75, §106, §112), et le 13 de la rue de Jarente, maison des jésuites (XI §98). Ces numéros restent à confronter à la numérotation de 1925 ; ils ne prouvent pas à eux seuls un immeuble réel. Le « 348 » du chapitre XXXIII (§272) est un numéro de chambre du Lugdunum, pas une adresse. Le texte ne donne en revanche aucun numéro pour le Café des Alpes (X §149 ; XXII §35), le Modern House (XXV §145), les autres logis privés (maison de Régis, chambres de Michel avenue Jean-Jaurès et rue de Marseille) ni plusieurs guinguettes : il n'existe pas ici de preuve suffisante pour ces numéros. Les annuaires Henry/Fournier des années concernées ne sont pas intégralement accessibles en ligne : ils sont **à consulter**, et non présentés comme déjà dépouillés. La bibliographie signale notamment l'étude de Pascal A. Ifri de 1997 consacrée au Lyon du roman, dont le texte intégral reste à obtenir. Les témoignages des protagonistes réels corroborent déjà plusieurs repères : journal intime de Rebatet (1924-1927) cité par Ifri (2001), souvenirs de François Varillon (1980), autobiographie et roman de Simone Chevallier. On y retrouve le 6 janvier 1925, le cours Gambetta, Saint-André et Saint-Sacrement, la Maison des étudiants catholiques et le « port Rambaud ». Ces sources, connues par extraits, doivent être dépouillées intégralement ; le [dossier des témoins et des modèles](03_Fiches/07_temoins_et_modeles.md) en fait le point.
+Les lieux les plus intimes sont pourtant les mieux ancrés. Le cours Gambetta, la place Antique, Saint-André, Bron et Brouilly ont des modèles réels, et les distances données par le roman se vérifient à quelques mètres près.
+
+Restent à consulter, notamment :
+- les indicateurs Henry et Fournier des années 1924-1927, non numérisés ;
+- l'*Étude sur la composition des Deux Étendards* de Rebatet (éditée en 2017) ;
+- le texte intégral d'Ifri (1997 et 2001) ;
+- la matrice cadastrale de Bron.
+
+Ces pièces sont décrites comme **à consulter**, non comme déjà dépouillées.
 
 ## Reproduire les contrôles
 
-Depuis la racine du dépôt, Python 3.10 ou ultérieur, sans dépendance à installer :
+Depuis la racine du dépôt :
 
 ```sh
-python IdentificationsLieux/Lyon/06_Outils/verifier_dossier.py
-python IdentificationsLieux/Lyon/06_Outils/exporter_donnees.py
-python IdentificationsLieux/Lyon/06_Outils/generer_cartes.py
+python IdentificationsLieux/Lyon/06_Outils/verifier_dossier.py      # contrôle du corpus, des références et des données
+python IdentificationsLieux/Lyon/06_Outils/fiches_lieux.py          # fiches par lieu et index des occurrences
+python IdentificationsLieux/Lyon/06_Outils/exporter_donnees.py      # GeoJSON et CSV dérivés du registre
+python IdentificationsLieux/Lyon/06_Outils/generer_cartes.py        # cartes SVG et atlas autonome (fond OSM local)
+python IdentificationsLieux/Lyon/06_Outils/itineraires.py           # tracés des itinéraires (networkx, pyyaml)
+python IdentificationsLieux/Lyon/06_Outils/cartes_historiques.py    # cartes sur fonds IGN (matplotlib, pillow, shapely ; tuiles en cache)
 ```
 
-Le contrôle vérifie l'empreinte du témoin, l'existence des références retenues, les correspondances lexicales, les comptes, les liens de fiches et les géométries. Il ne remplace pas le jugement philologique ni la vérification des archives. Les cartes conservent les empreintes de leurs entrées et sorties dans leur manifeste.
+Les quatre premiers scripts n'emploient que la bibliothèque standard de Python (3.10 ou ultérieur). Le contrôle vérifie l'empreinte du témoin, l'existence des références, les correspondances lexicales, les comptes, les liens de fiches et les géométries. Il ne remplace ni le jugement philologique ni la vérification des archives. Les cartes conservent les empreintes de leurs entrées et sorties dans leur manifeste.

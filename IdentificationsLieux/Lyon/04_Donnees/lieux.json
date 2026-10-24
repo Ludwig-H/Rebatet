@@ -530,8 +530,7 @@
   "fiche": "../03_Fiches/02_toponymes_et_adresses.md",
   "georeferencement": {
    "methode": "BAN 28 cours Gambetta 69007 [4,844265 ; 45,75472] (score 0,974), adresse de la famille Varillon, modèle des Lanthelme, aux recensements de 1921 et 1926 ; front sud (pair) du cours, à environ 13 m de l'axe et à une cinquantaine de mètres à l'est de la place Gabriel-Péri (environ 115 m de son nœud central) ; environ 196 m du carrefour de la place Antique, 236 m du 5 cours Gambetta et 98 m de l'Eldorado ; à 22 m du point déduit du texte par l'arbitre [4,844 ; 45,7548]. Le n° 28 est le même sur les plans parcellaires de 1911, 1926, 1964 et 1993 (4S/217) ; le point BAN est interpolé, à une dizaine de mètres près."
-  },
-  "decision": " Après la recherche sur les plans parcellaires : continuité du n° 28 très probable."
+  }
  },
  {
   "id": "bellecour",
@@ -3198,8 +3197,7 @@
   ],
   "georeferencement": {
    "methode": "BAN 5 cours Gambetta 69003 [4,841743 ; 45,755912], à environ 9 m du 3 bis BAN [4,84163 ; 45,755928] ; immeuble d'angle à l'ouest du débouché de la rue Mortier (4,84182 ; 45,755725, voirie Grand Lyon)."
-  },
-  "decision": " Après la recherche sur les plans parcellaires : continuité du n° 5 établie, absence de « 3 bis » en 1926 confirmée."
+  }
  },
  {
   "id": "galeries_modernes",
@@ -3245,8 +3243,7 @@
   ],
   "georeferencement": {
    "methode": "Milieu de la façade des anciens n° 22-24 du cours Gambetta, entre les points d'adresse BAN des n° 18 [4,8434 ; 45,755019] et 26 [4,844049 ; 45,754794] (interpolés) ; emprise de l'actuel 4, place Gabriel-Péri (parcelle AC 2), à 30 m près."
-  },
-  "decision": "Enseigne retrouvée par la recherche sur les plans parcellaires (24 octobre 2026) : statut porté de « hypothese » (D) à « atteste » (A) ; le point quitte le n° 28 pour l'emprise des anciens n° 22-24."
+  }
  },
  {
   "id": "place_du_pont",
