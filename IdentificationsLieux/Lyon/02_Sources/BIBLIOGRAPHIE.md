@@ -16,8 +16,8 @@ Lucien Rebatet, *Les Deux Étendards*, témoin EPUB déjà fourni dans le dépô
 
 | Producteur | Ressource | Fonction dans l'enquête |
 |---|---|---|
-| Archives municipales de Lyon | [Plans parcellaires 1861–1995](https://www.archives-lyon.fr/documents-remarquables/rechercher-dans-les-plans-parcellaires-1861-1995) ; [cartes et plans](https://recherches.archives-lyon.fr/page/cartes-et-plans) | Instruments de recherche : parcelles, alignements, états de la voirie ; les plans non ouverts ne sont pas déclarés dépouillés |
-| Archives municipales de Lyon | [Eldorado](https://www.archives-lyon.fr/guides/eldorado-l) ; [Scala](https://www.archives-lyon.fr/guides/scala-la) | Histoires et adresses des salles ; Scala reste une attribution probable du cinéma anonyme |
+| Archives de Lyon (anciennes Archives municipales) | [Plans parcellaires 1861–1995](https://www.archives-lyon.fr/documents-remarquables/rechercher-dans-les-plans-parcellaires-1861-1995) ; [cartes et plans](https://recherches.archives-lyon.fr/page/cartes-et-plans) | Instruments de recherche : parcelles, alignements, états de la voirie ; les plans non ouverts ne sont pas déclarés dépouillés |
+| Archives de Lyon | [Eldorado](https://www.archives-lyon.fr/guides/eldorado-l) ; [Scala](https://www.archives-lyon.fr/guides/scala-la) | Histoires et adresses des salles ; Scala reste une attribution probable du cinéma anonyme |
 | Inventaire général Auvergne-Rhône-Alpes | [École Gilbert-Dru, IA69005203](https://patrimoine.auvergnerhonealpes.fr/dossier/IA69005203) ; [rue de la Vierge, IA69007545](https://patrimoine.auvergnerhonealpes.fr/dossier/IA69007545) | Concordance topographique et chronologique pour la Place Antique |
 | Inventaire général Auvergne-Rhône-Alpes | [Hôtel Lugdunum, IA69002103](https://patrimoine.auvergnerhonealpes.fr/dossier/IA69002103) ; [Rameau, IA69003088](https://patrimoine.auvergnerhonealpes.fr/dossier/IA69003088) | Contrôle de l'existence des bâtiments et de leur chronologie |
 | Inventaire général Auvergne-Rhône-Alpes | [Maison des étudiants, IA69007091](https://patrimoine.auvergnerhonealpes.fr/dossier/IA69007091) | Modèle probable du cercle de Rollet |
@@ -46,7 +46,7 @@ Les notices de l'Inventaire sont des synthèses historiques fondées sur des arc
 
 - Pascal A. Ifri, [« Les Deux étendards de Rebatet à l'aune de Proust »](https://proustonomics.com/les-deux-etendards-de-rebatet-a-laune-de-proust/), 24 octobre 2025. Article consulté ; intéressant pour la perception esthétique et la construction romanesque. La pagination qu'il cite appartient à son édition de référence, pas à l'EPUB ici indexé.
 - Marie-Odile Sauvajon, [« Les Deux Etendards, Lucien Rebatet »](https://www.lesheuresperdues.fr/deux-etendards-lucien-rebatet/), 9 juin 2016. Compte rendu de lecture ; confirme plusieurs noms mais n'établit pas leurs adresses.
-- Daniel Fattore, [« Mille trois cent douze pages pour deux étendards »](https://fattorius.over-blog.com/article-mille-trois-cent-douze-pages-pour-deux-etendards-37960960.html), blog, 21 octobre 2009. Compte rendu sans valeur topographique : il écrit « Villard » (le roman : Villars, XIII §82) et range la place Antique, surnom donné par les personnages (IX §84-85), parmi les lieux reconnaissables. Ses commentaires (2011) signalent une piste à consulter : le *Guide bleu* de la vallée du Rhône, éd. 1925.
+- Daniel Fattore, [« Mille trois cent douze pages pour deux étendards »](https://fattorius.over-blog.com/article-mille-trois-cent-douze-pages-pour-deux-etendards-37960960.html), blog, 21 octobre 2009. Compte rendu sans valeur topographique : il écrit « Villard » (le roman : Villars, XIII §82) et range la place Antique, surnom donné par les personnages (IX §84-85), parmi les lieux reconnaissables. Les commentaires du billet (2011) signalent une piste à consulter : le *Guide bleu* de la vallée du Rhône, éd. 1925.
 
 ### Référence savante repérée, texte intégral non consulté
 
@@ -54,7 +54,7 @@ Pascal A. Ifri (Washington University), **« La Ville de Lyon dans Les Deux éte
 
 ## 4 bis. Sources biographiques et testimoniales
 
-Références reprises du dossier [07_temoins_et_modeles.md](../03_Fiches/07_temoins_et_modeles.md) (§ 6), établi d'après les collectes du 24 octobre 2026, avec le mode d'accès qu'il signale et le même classement : primaires contemporaines, primaires tardives, secondaires.
+Références reprises du dossier [07_temoins_et_modeles.md](../03_Fiches/07_temoins_et_modeles.md) (§ 6), établi d'après les collectes du 24 octobre 2026, dans le même classement : primaires contemporaines, primaires tardives, secondaires. Leurs descriptions ont été complétées au catalogue de la BnF et leur mode d'accès précisé.
 
 **Primaires contemporaines**
 - Archives départementales du Rhône et de la Métropole, listes nominatives des recensements de Lyon (série 6 M) : 1921 (6 M 574), 1926 (6 M 615, 616, 628, 629, 631), 1931 (6 M 661), « Gambetta (cours) ». En ligne : <https://archives.rhone.fr/ark:/28729/qxtmv1620s74> (6 M 615). Lues sur l'image le 24 octobre 2026.
@@ -63,7 +63,8 @@ Références reprises du dossier [07_temoins_et_modeles.md](../03_Fiches/07_temo
 
 **Primaires tardives**
 - Lucien Rebatet, *Les Décombres*, Paris, Denoël, 1942 (lu en entier dans une numérisation d'Internet Archive).
-- Lucien Rebatet, *Mémoires d'un fasciste*, II (1941-1947), Paris, Pauvert, 1976 (lu dans la traduction italienne de M. Marchi, *Memorie di un fascista 1941-1947*, Rome, Settimo Sigillo, 1993). L'édition Pauvert compte deux volumes (I : *Les Décombres*, 1938-1940 ; II : 1941-1947) : les années lyonnaises n'y paraissent qu'en souvenirs incidents. Radioscopie (Jacques Chancel, France Inter, 1969).
+- Lucien Rebatet, *Les Mémoires d'un fasciste*, II (1941-1947), Paris, Pauvert, 1976 (lu dans la traduction italienne de M. Marchi, *Memorie di un fascista 1941-1947*, Rome, Settimo Sigillo, 1993). L'édition Pauvert compte deux volumes (I : *Les Décombres*, 1938-1940 ; II : 1941-1947) : les années lyonnaises n'y paraissent qu'en souvenirs incidents.
+- *Radioscopie*, émission de Jacques Chancel avec Lucien Rebatet, France Inter, 1969.
 - Lucien Rebatet, *Étude sur la composition des Deux Étendards* (tapuscrit daté du 4 août 1951 ; éd. P. Ifri, Versailles, Via Romana, 2017, 315 p.), non consultée ; citée d'après Ifri 2001 et Belot 2015. À dépouiller en priorité.
 - François Varillon, *Beauté du monde et souffrance des hommes. Entretiens avec Charles Ehlinger*, Paris, Le Centurion, 1980 ; rééd. Bayard, 2005 (lu par extraits).
 - François Varillon, *Journal d'une passion*, éd. Robert Belot, postf. C. Ehlinger, Paris, Le Centurion, 1994 (non consulté ; connu par Ifri et par les comptes rendus ; Belot 2015, ch. V, en cite des entrées de 1924-1925).
