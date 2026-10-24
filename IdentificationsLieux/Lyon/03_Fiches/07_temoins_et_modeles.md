@@ -67,7 +67,7 @@ Le roman ne donne pas de numéro. La porte des Lanthelme est sur le cours, près
 - En 1921 (6 M 583, vue 10, page de droite) : Pierre Varillon, chef ; Jenny ; un fils prénommé « Joseph », né à Bron en 1905 ; une bonne. L'acte de naissance de Bron porte « François-Joseph ».
 - En 1926 (6 M 628, vue 9, page de gauche) : Pierre, « rentier » ; Jenny ; François, « étudiant », né à Bron en 1905 ; une domestique.
 
-Les voisins sont les mêmes aux deux dates : c'est bien le même immeuble. [Contre-lecture indépendante de ces deux pages en cours le 24 octobre 2026 ; résultat au journal du jour.] L'acte de naissance de François Varillon (Bron, 1905, n° 14) donne la mère, née Desplaces, et le domicile de campagne, « route de Grenoble ».
+Les voisins sont les mêmes aux deux dates : c'est bien le même immeuble. Une contre-lecture indépendante des deux pages confirme le nom, les prénoms, l'année et le lieu de naissance du fils et le numéro de maison. Seule l'année de naissance du père varie d'une page et d'un lecteur à l'autre : 1867, 1857 ou 1877. L'acte de 1905, qui lui donne 48 ans, s'accorde avec 1857. L'acte de naissance de François Varillon (Bron, 1905, n° 14) donne la mère, née Desplaces, et le domicile de campagne, « route de Grenoble ».
 
 **Plans parcellaires** (4S/217, tirages de 1911, 1926, 1964 et 1993). Le côté pair à l'est de la place du Pont se lit ainsi :
 - n° 18, îlot d'angle avec la Grande-Rue ;
