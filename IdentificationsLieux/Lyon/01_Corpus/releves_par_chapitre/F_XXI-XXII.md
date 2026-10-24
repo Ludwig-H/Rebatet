@@ -446,7 +446,7 @@ Conclusion probable : c’est une petite place de la Guillotière (7e ?), entre 
 
 **E10. Bron.**
 
-- En 1925, Bron faisait partie de l’Isère (Dauphiné). Rebatet écrit « l’infâme Bron » et « vent des Alpes ».
+- Rebatet écrit « l’infâme Bron » et « vent des Alpes ». [Correction du 24 octobre 2026 : le relevé ajoutait qu’en 1925 Bron faisait partie de l’Isère. C’est faux : la commune est rattachée au Rhône depuis 1852 (canton de Villeurbanne dans l’acte de naissance de François Varillon, 1905, et dans les recensements). Elle n’a dépendu du diocèse de Grenoble que jusqu’au milieu des années 1950.]
 - Le « clos des Lanthelme » est le lieu des « vacances familiales » et de la « première idylle » vers l’été 1923 (§87, §94, §309).
 - « Chez Carreau » est une auberge-guinguette, sans doute fictive ou déguisée, qui reviendra en XXVI-XXXIII.
 - La « chapelle des Essarts » (§210) est très probablement réelle : il y a eu aux Essarts, à Bron, une chapelle de 1908 à 1973, installée dans une grange pour les malades d’une clinique voisine. C’était un lieu de rendez-vous commode, près du clos Lanthelme, au printemps 1924 **[HYP]**.
