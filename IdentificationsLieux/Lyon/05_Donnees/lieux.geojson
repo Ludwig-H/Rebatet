@@ -1,0 +1,3754 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8427,
+     45.7534
+    ]
+   },
+   "properties": {
+    "id": "G01",
+    "nom": "place Antique",
+    "secteur": "G",
+    "categorie": "lieu-surnomme",
+    "statut_nom": "surnom",
+    "certitude": "B",
+    "identification": "Carrefour de ruelles de la vieille Guillotière où se croisent l'ancienne rue de la Vierge (auj. rue Gilbert-Dru), la rue Béchevelin et la rue Saint-Michel, devant l'angle à horloge du groupe scolaire du quartier Béchevelin (auj. école Gilbert-Dru), achevé vers 1924 ; la placette voisine d'Aguesseau (auj. place Commandant-Claude-Bulard) en fait sans doute partie.",
+    "nom_1925": "carrefour rue de la Vierge / rue Béchevelin / rue Saint-Michel",
+    "nom_actuel": "angle rue Gilbert-Dru / rue Saint-Michel (Lyon 7e)",
+    "rayon": 60,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 66,
+    "chapitres": [
+     "VI",
+     "IX",
+     "X",
+     "XI",
+     "XII",
+     "XV",
+     "XIX",
+     "XXI",
+     "XXII",
+     "XXIII",
+     "XXIV",
+     "XXV",
+     "XXVI",
+     "XXVII",
+     "XXVIII",
+     "XXIX",
+     "XXX",
+     "XXXI",
+     "XXXII",
+     "Intermèdes",
+     "XXXIV",
+     "Récit de Guitte",
+     "XXXVII"
+    ],
+    "cle": "« nous sommes à cinquante mètres de la rue de Marseille […] Ma maison est à deux cents mètres, celle d'Anne-Marie à trois cents » (IX, § 86)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G01_place_Antique.md",
+    "enquete": "04_Enquetes/01_place_Antique.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.84318,
+     45.75348
+    ]
+   },
+   "properties": {
+    "id": "G02",
+    "nom": "l'école neuve (horloge) de la place Antique",
+    "secteur": "G",
+    "categorie": "enseignement",
+    "statut_nom": "implicite",
+    "certitude": "B",
+    "identification": "Groupe scolaire du quartier Béchevelin (arch. Alexis Santu), auj. école Gilbert-Dru ; achevé en 1924.",
+    "nom_1925": "groupe scolaire Béchevelin, rue de la Vierge",
+    "nom_actuel": "école Gilbert-Dru, 1 rue Saint-Michel / 28 Grande-Rue de la Guillotière",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 2,
+    "chapitres": [
+     "IX",
+     "XII"
+    ],
+    "cle": "« en face, s'allongeait une stupide école neuve, du style le plus platement républicain » (IX, § 87)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G02_l_ecole_neuve_horloge_de_la_place_Antique.md",
+    "enquete": "04_Enquetes/01_place_Antique.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.843384,
+     45.75362
+    ]
+   },
+   "properties": {
+    "id": "G03",
+    "nom": "rue de la Vierge",
+    "secteur": "G",
+    "categorie": "voie",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Une des plus anciennes rues du bourg de la Guillotière ; renommée rue Gilbert-Dru en 1945.",
+    "nom_1925": "rue de la Vierge",
+    "nom_actuel": "rue Gilbert-Dru (7e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Rue Gilbert Dru",
+    "occurrences": 1,
+    "chapitres": [
+     "XXVI"
+    ],
+    "cle": "« une des petites bicoques basses de la rue de la Vierge » (XXVI, § 219)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G03_rue_de_la_Vierge.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.845322,
+     45.75182
+    ]
+   },
+   "properties": {
+    "id": "G04",
+    "nom": "rue Saint-Michel (« la petite rue Saint-Michel »)",
+    "secteur": "G",
+    "categorie": "voie",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Rue de la Guillotière (anc. rue Neuve-Saint-Michel) reliant la place Antique à l'avenue Jean-Jaurès et à la rue de la Madeleine (église Saint-Louis).",
+    "nom_1925": "rue Saint-Michel",
+    "nom_actuel": "rue Saint-Michel (7e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Rue Saint Michel",
+    "occurrences": 1,
+    "chapitres": [
+     "XXIII"
+    ],
+    "cle": "« par la petite rue Saint-Michel » (XXIII, § 230)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G04_rue_Saint_Michel_la_petite_rue_Saint_Michel.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8479,
+     45.75045
+    ]
+   },
+   "properties": {
+    "id": "G05",
+    "nom": "café de la Voûte (« la Voûte »)",
+    "secteur": "G",
+    "categorie": "cafe",
+    "statut_nom": "surnom",
+    "certitude": "C",
+    "identification": "« Minuscule cafeton » tenu par une Ardéchoise « sous la voûte Saint-Michel » ; la rue Saint-Michel débouche, à son extrémité est, sous une grande voûte percée dans l'immeuble de la rue de la Madeleine, près de l'église Saint-Louis.",
+    "nom_1925": "rue Saint-Michel, sous la voûte (côté rue de la Madeleine)",
+    "nom_actuel": "débouché de la rue Saint-Michel sur la rue de la Madeleine (7e)",
+    "rayon": 40,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 11,
+    "chapitres": [
+     "VI",
+     "XXIV",
+     "XXV",
+     "XXVI",
+     "XXVIII",
+     "XXX"
+    ],
+    "cle": "« un minuscule cafeton, qui contenait à peine quatre ou cinq tables, sous la voûte Saint-Michel » (XXIV, § 7)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G05_cafe_de_la_Voute_la_Voute.md",
+    "enquete": "04_Enquetes/06_cafes_et_garnis_de_la_Guille.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.845556,
+     45.751681
+    ]
+   },
+   "properties": {
+    "id": "G06",
+    "nom": "café des femmes (« chez les femmes »)",
+    "secteur": "G",
+    "categorie": "cafe",
+    "statut_nom": "surnom",
+    "certitude": "D",
+    "identification": "Petit bouchon à devanture jaune d'ocre, « un peu en retrait sur l'avenue Jean-Jaurès », tenu par deux commères ; donne sur la « ruelle aux filles ».",
+    "nom_1925": "avenue Jean-Jaurès (partie nord)",
+    "nom_actuel": "avenue Jean-Jaurès (7e), vers la rue Saint-Michel",
+    "rayon": 150,
+    "methode_geo": "carrefour calculé : Avenue Jean Jaurès × Rue Saint Michel",
+    "occurrences": 10,
+    "chapitres": [
+     "XXV",
+     "XXVIII",
+     "XXIX",
+     "XXXII"
+    ],
+    "cle": "« un petit bouchon à devanture jaune d'ocre, un peu en retrait sur l'avenue Jean-Jaurès » (XXV, § 3)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G06_cafe_des_femmes_chez_les_femmes.md",
+    "enquete": "04_Enquetes/06_cafes_et_garnis_de_la_Guille.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.845556,
+     45.751681
+    ]
+   },
+   "properties": {
+    "id": "G07",
+    "nom": "chambre de Michel chez les Mulet, avenue Jean-Jaurès",
+    "secteur": "G",
+    "categorie": "domicile",
+    "statut_nom": "implicite",
+    "certitude": "C",
+    "identification": "Chambre au 4e étage chez la « mère Mulet », femme d'un conducteur d'imprimerie du *Progrès*, avenue Jean-Jaurès (ex-avenue de Saxe prolongée, renommée en 1914), « à deux cents pas » de la place Antique (oct. 1925 – avril 1926).",
+    "nom_1925": "avenue Jean-Jaurès",
+    "nom_actuel": "avenue Jean-Jaurès (7e)",
+    "rayon": 120,
+    "methode_geo": "carrefour calculé : Avenue Jean Jaurès × Rue Saint Michel",
+    "occurrences": 19,
+    "chapitres": [
+     "XIX",
+     "XXI",
+     "XXII",
+     "XXIV",
+     "XXV",
+     "XXVI",
+     "XXVII",
+     "XXVIII"
+    ],
+    "cle": "« avenue Jean-Jaurès [1], en pleine Guillotière, à deux cents pas de la « place Antique » » (XIX, § 135)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G07_chambre_de_Michel_chez_les_Mulet_avenue_Jean_Jaure.md",
+    "enquete": "04_Enquetes/06_cafes_et_garnis_de_la_Guille.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.84163,
+     45.755928
+    ]
+   },
+   "properties": {
+    "id": "G08",
+    "nom": "appartement des Villars, « 3 bis du Cours Gambetta »",
+    "secteur": "G",
+    "categorie": "domicile",
+    "statut_nom": "implicite",
+    "certitude": "B",
+    "identification": "Domicile d'Anne-Marie (famille du conseiller Villars) : immeuble d'angle du début du cours Gambetta (côté nord, 3e) et d'une « petite rue » — la rue Mortier — avec balcon de salle à manger, escalier de service, brasserie à violons voisine.",
+    "nom_1925": "3 bis cours Gambetta, angle rue Mortier",
+    "nom_actuel": "3 bis cours Gambetta (Lyon 3e)",
+    "rayon": 0,
+    "methode_geo": "adresse BAN : 3 bis cours Gambetta 69003 Lyon",
+    "occurrences": 5,
+    "chapitres": [
+     "XX",
+     "XXVI",
+     "XXVII",
+     "XXIX",
+     "XXXI"
+    ],
+    "cle": "« j'aurais juré que c'était toi qui entrais un peu avant midi, au 3 bis du Cours Gambetta » (XXIX, § 108)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G08_appartement_des_Villars_3_bis_du_Cours_Gambetta.md",
+    "enquete": "04_Enquetes/05_domiciles_Villars_et_Lanthelme.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.841276,
+     45.756072
+    ]
+   },
+   "properties": {
+    "id": "G09",
+    "nom": "brasserie de l'Étoile",
+    "secteur": "G",
+    "categorie": "cafe",
+    "statut_nom": "reel",
+    "certitude": "C",
+    "identification": "Brasserie « à prétentions bourgeoises, à l'entrée du cours Gambetta », à quelques pas de chez Anne-Marie ; probablement la brasserie à orchestre (violons) voisine du balcon des Villars.",
+    "nom_1925": "entrée du cours Gambetta (débouché du pont de la Guillotière)",
+    "nom_actuel": "1 cours Gambetta (3e), place Antonin-Jutard",
+    "rayon": 40,
+    "methode_geo": "adresse BAN : 1 cours Gambetta 69003 Lyon",
+    "occurrences": 2,
+    "chapitres": [
+     "X",
+     "XXII"
+    ],
+    "cle": "« une banquette de l'Étoile, une brasserie à prétentions bourgeoises, à l'entrée du cours Gambetta » (XXII, § 177)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G09_brasserie_de_l_Etoile.md",
+    "enquete": "04_Enquetes/05_domiciles_Villars_et_Lanthelme.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.84468,
+     45.75428
+    ]
+   },
+   "properties": {
+    "id": "G10",
+    "nom": "appartement des Lanthelme",
+    "secteur": "G",
+    "categorie": "domicile",
+    "statut_nom": "implicite",
+    "certitude": "C",
+    "identification": "Domicile de Régis : cours Gambetta, porte d'allée sous « la mesquine marquise du bazar des « Galeries Modernes » », près de l'angle de la place du Pont, en face du pâté de l'Eldorado.",
+    "nom_1925": "cours Gambetta, côté sud (7e), entre la place du Pont et la rue des Passants",
+    "nom_actuel": "cours Gambetta (7e), n° pairs vers 20-30",
+    "rayon": 70,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 3,
+    "chapitres": [
+     "XXIII",
+     "XXXVII"
+    ],
+    "cle": "« Ils avaient déjà passé deux fois devant la porte des Lanthelme, traversé l'avenue déserte, ils faisaient le tour traditionnel du pâté de bâtisses, derrière l'Eldorado » (XXXVII, § 151)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G10_appartement_des_Lanthelme.md",
+    "enquete": "04_Enquetes/05_domiciles_Villars_et_Lanthelme.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.84468,
+     45.75428
+    ]
+   },
+   "properties": {
+    "id": "G11",
+    "nom": "bazar des « Galeries Modernes »",
+    "secteur": "G",
+    "categorie": "commerce",
+    "statut_nom": "reel",
+    "certitude": "D",
+    "identification": "Bazar dont la marquise abrite la porte des Lanthelme ; enseigne à vérifier (une carte postale v. 1910 « Place du Pont et cours Gambetta » est éditée par un « Grand Bazar »).",
+    "nom_1925": "cours Gambetta, près de la place du Pont",
+    "nom_actuel": "—",
+    "rayon": 70,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 1,
+    "chapitres": [
+     "XXXVII"
+    ],
+    "cle": "« sous la mesquine marquise du bazar des « Galeries Modernes » » (XXXVII, § 161)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G11_bazar_des_Galeries_Modernes.md",
+    "enquete": "04_Enquetes/05_domiciles_Villars_et_Lanthelme.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8455,
+     45.754544
+    ]
+   },
+   "properties": {
+    "id": "G12",
+    "nom": "l'Eldorado",
+    "secteur": "G",
+    "categorie": "spectacle",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Théâtre de l'Eldorado (arch. Claudius Porte, ouvert en 1894 ; « Nouveau Théâtre »), 33 cours Gambetta ; cinéma à partir de 1929 ; protégé MH en 1982, démoli en 1993.",
+    "nom_1925": "Eldorado, 33 cours Gambetta",
+    "nom_actuel": "immeuble de bureaux, 33 cours Gambetta (3e)",
+    "rayon": 0,
+    "methode_geo": "adresse BAN : 33 cours Gambetta 69003 Lyon",
+    "occurrences": 13,
+    "chapitres": [
+     "VII",
+     "XII",
+     "XIII",
+     "XVII",
+     "XIX",
+     "XXII",
+     "XXXVII"
+    ],
+    "cle": "« ce calamiteux théâtre de faubourg » (XII, § 139)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G12_l_Eldorado.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.842525,
+     45.755138
+    ]
+   },
+   "properties": {
+    "id": "G13",
+    "nom": "place du Pont",
+    "secteur": "G",
+    "categorie": "place",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "« Le carrefour central de la Guillotière » (note de l'auteur, XXII [1]), au débouché du pont de la Guillotière ; renommée place Gabriel-Péri en 1944.",
+    "nom_1925": "place du Pont",
+    "nom_actuel": "place Gabriel-Péri (3e/7e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Place Gabriel Péri",
+    "occurrences": 13,
+    "chapitres": [
+     "XII",
+     "XXI",
+     "XXII",
+     "XXIII",
+     "XXV",
+     "XXVI",
+     "XXVIII",
+     "XXIX",
+     "XXXVII"
+    ],
+    "cle": "« courut à lui sur la place du Pont [1] » (XXII, § 65)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G13_place_du_Pont.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.838923,
+     45.756623
+    ]
+   },
+   "properties": {
+    "id": "G14",
+    "nom": "pont de la Guillotière (« le pont de la Guille »)",
+    "secteur": "G",
+    "categorie": "pont-quai",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Ancien pont de pierre de la Guillotière, remplacé par l'ouvrage actuel dans les années 1950.",
+    "nom_1925": "pont de la Guillotière",
+    "nom_actuel": "pont de la Guillotière (reconstruit)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Pont de la Guillotière",
+    "occurrences": 10,
+    "chapitres": [
+     "VIII",
+     "X",
+     "XII",
+     "XX",
+     "XXI",
+     "XXII",
+     "XXIV",
+     "XXVIII",
+     "XXIX"
+    ],
+    "cle": "« derrière le pont de la Guillotière, sur le parapet du Rhône » (X, § 149)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G14_pont_de_la_Guillotiere_le_pont_de_la_Guille.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.841025,
+     45.759847
+    ]
+   },
+   "properties": {
+    "id": "G15",
+    "nom": "quai de la Guillotière",
+    "secteur": "G",
+    "categorie": "pont-quai",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Quai de la rive gauche au nord du pont ; renommé quai Victor-Augagneur en 1932.",
+    "nom_1925": "quai de la Guillotière",
+    "nom_actuel": "quai Victor-Augagneur (3e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Quai Victor Augagneur",
+    "occurrences": 1,
+    "chapitres": [
+     "XII"
+    ],
+    "cle": "« remonter le quai de la Guillotière » (XIII)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G15_quai_de_la_Guillotiere.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8409,
+     45.7568
+    ]
+   },
+   "properties": {
+    "id": "G16",
+    "nom": "les petites rues à escalier perpendiculaires au quai",
+    "secteur": "G",
+    "categorie": "voie",
+    "statut_nom": "implicite",
+    "certitude": "C",
+    "identification": "Venelles de l'ancien port au bois, entre le cours Gambetta et la rue Collomb, qui rejoignent par quelques marches le quai surélevé ; « la petite rue des putains » de XXXIII.",
+    "nom_1925": "rues Mortier, Montebello, Collomb et voisines",
+    "nom_actuel": "idem (3e)",
+    "rayon": 90,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 4,
+    "chapitres": [
+     "XVIII",
+     "XXII",
+     "XXV",
+     "XXXIII"
+    ],
+    "cle": "« une des petites rues à escalier, mal pavées, perpendiculaires au quai » (XXII, § 228)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G16_les_petites_rues_a_escalier_perpendiculaires_au_qu.md",
+    "enquete": "04_Enquetes/05_domiciles_Villars_et_Lanthelme.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8408,
+     45.7561
+    ]
+   },
+   "properties": {
+    "id": "G17",
+    "nom": "le square au bord du quai (place des Squares)",
+    "secteur": "G",
+    "categorie": "parc",
+    "statut_nom": "implicite",
+    "certitude": "C",
+    "identification": "Squares de part et d'autre du débouché du pont (« place des Squares », auj. places Antonin-Jutard et Raspail).",
+    "nom_1925": "place des Squares",
+    "nom_actuel": "place Antonin-Jutard (3e) / place Raspail (7e)",
+    "rayon": 60,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 2,
+    "chapitres": [
+     "XXIX",
+     "XXXIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Guillotiere/G17_le_square_au_bord_du_quai_place_des_Squares.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.84149,
+     45.75274
+    ]
+   },
+   "properties": {
+    "id": "G18",
+    "nom": "église Saint-André",
+    "secteur": "G",
+    "categorie": "eglise",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Église paroissiale des Villars (grand-messe de 11 h, publication des bans), rue de Marseille / rue Félissent.",
+    "nom_1925": "église Saint-André, rue de Marseille",
+    "nom_actuel": "église Saint-André (7e)",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 8,
+    "chapitres": [
+     "IX",
+     "XI",
+     "XV",
+     "XVIII",
+     "XXI",
+     "XXII",
+     "XXIII",
+     "XXVII"
+    ],
+    "cle": "« la paroisse Saint-André » (XXVII, § 8)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G18_eglise_Saint_Andre.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.84836,
+     45.75065
+    ]
+   },
+   "properties": {
+    "id": "G19",
+    "nom": "église Saint-Louis",
+    "secteur": "G",
+    "categorie": "eglise",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Église Saint-Louis de la Guillotière (auj. Notre-Dame-Saint-Louis), Grande-Rue de la Guillotière, au bout de la rue Créqui.",
+    "nom_1925": "église Saint-Louis",
+    "nom_actuel": "église Notre-Dame-Saint-Louis (7e)",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 1,
+    "chapitres": [
+     "XXII"
+    ],
+    "cle": "« On descendit place de l'Abondance, et on fit halte à l'église Saint-Louis » (XXII, § 101)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G19_eglise_Saint_Louis.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.849625,
+     45.753326
+    ]
+   },
+   "properties": {
+    "id": "G20",
+    "nom": "place de l'Abondance",
+    "secteur": "G",
+    "categorie": "place",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Place sur le cours Gambetta, entre les rues Créqui et Duguesclin (arrêt du tramway de Bron) ; renommée place Aristide-Briand en 1934.",
+    "nom_1925": "place de l'Abondance",
+    "nom_actuel": "place Aristide-Briand (3e/7e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Place Aristide Briand",
+    "occurrences": 2,
+    "chapitres": [
+     "XXII"
+    ],
+    "cle": "« On descendit place de l'Abondance » (XXII, § 101)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G20_place_de_l_Abondance.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.839063,
+     45.750088
+    ]
+   },
+   "properties": {
+    "id": "G21",
+    "nom": "rue de Marseille",
+    "secteur": "G",
+    "categorie": "voie",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Grande rue de la Guillotière partant de la place du Pont vers le sud-ouest.",
+    "nom_1925": "rue de Marseille",
+    "nom_actuel": "rue de Marseille (7e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Rue de Marseille",
+    "occurrences": 8,
+    "chapitres": [
+     "IX",
+     "XXI",
+     "XXII",
+     "XXIII",
+     "XXIX",
+     "XXXI"
+    ],
+    "cle": "« Elle arrivait donc de la place Antique » (XXIII, § 209)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G21_rue_de_Marseille.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.841539,
+     45.755351
+    ]
+   },
+   "properties": {
+    "id": "G22",
+    "nom": "garni de la rue Basse-Combalot",
+    "secteur": "G",
+    "categorie": "domicile",
+    "statut_nom": "implicite",
+    "certitude": "B",
+    "identification": "Mansarde dans un garni-maison de passe (« le zinc du bas ») où Michel loge en avril 1926, sur recommandation de la « gaupe » de la place Antique.",
+    "nom_1925": "rue Basse-Combalot",
+    "nom_actuel": "rue Basse-Combalot (7e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Rue Basse Combalot",
+    "occurrences": 3,
+    "chapitres": [
+     "XXVIII",
+     "XXIX"
+    ],
+    "cle": "rue Basse-Combalot (XXVIII, § 3-4)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G22_garni_de_la_rue_Basse_Combalot.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.84,
+     45.7515
+    ]
+   },
+   "properties": {
+    "id": "G23",
+    "nom": "garni « voisin de la rue de Marseille »",
+    "secteur": "G",
+    "categorie": "domicile",
+    "statut_nom": "implicite",
+    "certitude": "D",
+    "identification": "Petit garni sans électricité, avec cour-puits, où Michel loge d'avril à début juin 1926.",
+    "nom_1925": "abords de la rue de Marseille",
+    "nom_actuel": "—",
+    "rayon": 150,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 1,
+    "chapitres": [
+     "XXIX"
+    ],
+    "cle": "« un petit garni voisin de la rue de Marseille » (XXXI, § 21)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G23_garni_voisin_de_la_rue_de_Marseille.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.85161,
+     45.75779
+    ]
+   },
+   "properties": {
+    "id": "G24",
+    "nom": "église du Saint-Sacrement",
+    "secteur": "G",
+    "categorie": "eglise",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Église du Saint-Sacrement (3e, rue Étienne-Dolet), alors édifice neuf et nu (« grange », « écurie ») ; messe quotidienne de 7 h des amoureux.",
+    "nom_1925": "église du Saint-Sacrement",
+    "nom_actuel": "église du Saint-Sacrement (3e)",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 4,
+    "chapitres": [
+     "XVI",
+     "XX",
+     "XXI"
+    ],
+    "cle": "« L'église des deux amoureux était l'odieux Saint-Sacrement » (XX, § 147)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G24_eglise_du_Saint_Sacrement.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.83758,
+     45.752444
+    ]
+   },
+   "properties": {
+    "id": "G25",
+    "nom": "la Faculté (« la Fac »)",
+    "secteur": "G",
+    "categorie": "enseignement",
+    "statut_nom": "implicite",
+    "certitude": "B",
+    "identification": "Palais de l'Université, quai Claude-Bernard (facultés de lettres et de droit), où étudient Régis et Anne-Marie.",
+    "nom_1925": "Palais universitaire, quai Claude-Bernard",
+    "nom_actuel": "Université Lumière Lyon 2 / Lyon 3, quai Claude-Bernard (7e)",
+    "rayon": 0,
+    "methode_geo": "adresse BAN : 15 quai Claude Bernard 69007 Lyon",
+    "occurrences": 13,
+    "chapitres": [
+     "I",
+     "XVIII",
+     "XXII",
+     "XXV",
+     "XXVIII",
+     "XXXII",
+     "XXXIII"
+    ],
+    "cle": "« un saignement de nez à la Fac » (XXII)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G25_la_Faculte_la_Fac.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8485,
+     45.756
+    ]
+   },
+   "properties": {
+    "id": "G26",
+    "nom": "maison Rouchouze (négoce de vins)",
+    "secteur": "G",
+    "categorie": "commerce",
+    "statut_nom": "fictif",
+    "certitude": "E",
+    "identification": "Siège et entrepôt du « premier négociant en vins de la place », employeur de Michel, dans « une ruelle ouvrière » « toute proche de la rue Créqui ».",
+    "nom_1925": "rive gauche, près de la rue Créqui",
+    "nom_actuel": "—",
+    "rayon": 250,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 18,
+    "chapitres": [
+     "XX",
+     "XXI",
+     "XXX"
+    ],
+    "cle": "« La maison Rouchouze n'offrait qu'un seul avantage : elle était toute proche de la rue Créqui » (XX)",
+    "fiche": "03_Fiches_lieux/Guillotiere/G26_maison_Rouchouze_negoce_de_vins.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.849712,
+     45.752971
+    ]
+   },
+   "properties": {
+    "id": "G27",
+    "nom": "cours Gambetta (« le Cours », « le boulevard »)",
+    "secteur": "G",
+    "categorie": "voie",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "« Artère de bonne bourgeoisie peu fortunée » (note XIX [1]) où habitent Anne-Marie et Régis ; limite des 3e et 7e arrondissements.",
+    "nom_1925": "cours Gambetta",
+    "nom_actuel": "cours Gambetta",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Cours Gambetta",
+    "occurrences": 34,
+    "chapitres": [
+     "I",
+     "IX",
+     "XI",
+     "XII",
+     "XIX",
+     "XXI",
+     "XXII",
+     "XXIII",
+     "XXIV",
+     "XXVII",
+     "XXVIII",
+     "XXIX",
+     "XXX",
+     "XXXI",
+     "XXXII",
+     "XXXIII",
+     "Récit de Guitte",
+     "XXXVII",
+     "Notes"
+    ],
+    "cle": "« le Cours Gambetta, où Anne-Marie et Régis habitent, à deux cents mètres l'un de l'autre » (note XIX [1])",
+    "fiche": "03_Fiches_lieux/Guillotiere/G27_cours_Gambetta_le_Cours_le_boulevard.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.843,
+     45.753
+    ]
+   },
+   "properties": {
+    "id": "G28",
+    "nom": "la Guillotière (« la Guille »)",
+    "secteur": "G",
+    "categorie": "quartier",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Ancien faubourg de la rive gauche ; le roman emploie le mot au sens large (ancienne commune, jusqu'aux abords de l'avenue de Saxe) et au sens étroit (vieux bourg autour de la place du Pont).",
+    "nom_1925": "la Guillotière",
+    "nom_actuel": "Lyon 7e / 3e",
+    "rayon": 400,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 37,
+    "chapitres": [
+     "III",
+     "IV",
+     "VIII",
+     "X",
+     "XI",
+     "XII",
+     "XV",
+     "XIX",
+     "XX",
+     "XXI",
+     "XXII",
+     "XXIV",
+     "XXV",
+     "XXVII",
+     "XXVIII",
+     "XXIX",
+     "XXXI",
+     "Intermèdes",
+     "XXXVI",
+     "Notes"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Guillotiere/G28_la_Guillotiere_la_Guille.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.850707,
+     45.75019
+    ]
+   },
+   "properties": {
+    "id": "G29",
+    "nom": "Grande-Rue de la Guillotière",
+    "secteur": "G",
+    "categorie": "voie",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Axe ancien du bourg, de la place du Pont vers l'est (église Saint-Louis).",
+    "nom_1925": "Grande-Rue de la Guillotière",
+    "nom_actuel": "idem (7e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Grande Rue de la Guillotière",
+    "occurrences": 0,
+    "chapitres": [],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Guillotiere/G29_Grande_Rue_de_la_Guillotiere.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.847199,
+     45.762869
+    ]
+   },
+   "properties": {
+    "id": "B01",
+    "nom": "rue du Six-Janvier (rue Créqui)",
+    "secteur": "B",
+    "categorie": "lieu-surnomme",
+    "statut_nom": "surnom",
+    "certitude": "A",
+    "identification": "Surnom donné par le trio à la rue Créqui, et d'abord à l'angle de la rue Créqui et de la rue Rabelais (3e), où Michel vit Anne-Marie pour la première fois le 6 janvier 1925, sur le trajet quotidien entre le cours Boudier et le cours Gambetta.",
+    "nom_1925": "angle rue Créqui / rue Rabelais",
+    "nom_actuel": "angle rue de Créqui / rue Rabelais (3e)",
+    "rayon": 0,
+    "methode_geo": "carrefour calculé : Rue de Créqui × Rue Rabelais",
+    "occurrences": 33,
+    "chapitres": [
+     "IV",
+     "IX",
+     "X",
+     "XI",
+     "XII",
+     "XIII",
+     "XIV",
+     "XV",
+     "XVII",
+     "XX",
+     "XXI",
+     "XXII",
+     "XXIII",
+     "XXVI",
+     "XXVIII",
+     "XXIX",
+     "XXXII",
+     "XXXIII"
+    ],
+    "cle": "« Ils s'étaient arrêtés sur le trottoir du Six-Janvier, but du pèlerinage, à l'angle de la rue Créqui et de la rue Rabelais » (XI)",
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B01_rue_du_Six_Janvier_rue_Crequi.md",
+    "enquete": "04_Enquetes/02_rue_du_Six-Janvier.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.845151,
+     45.762684
+    ]
+   },
+   "properties": {
+    "id": "B02",
+    "nom": "café des Alpes (« les Alpes »)",
+    "secteur": "B",
+    "categorie": "cafe",
+    "statut_nom": "reel",
+    "certitude": "C",
+    "identification": "Café populaire de l'avenue de Saxe tenu par un ménage de Savoyards, avec une « salle de sociétés » ouverte au couchant ; à un angle de l'avenue « un peu après le cours La Fayette » en venant de la place Morand — vraisemblablement l'angle de la rue Rabelais (à 200 m de l'angle du Six-Janvier), à défaut celui des rues Le Royer ou de Bonnel.",
+    "nom_1925": "avenue de Saxe (3e), entre le cours La Fayette et la rue de Bonnel",
+    "nom_actuel": "avenue Maréchal-de-Saxe (3e)",
+    "rayon": 120,
+    "methode_geo": "carrefour calculé : Avenue Maréchal de Saxe × Rue Rabelais",
+    "occurrences": 19,
+    "chapitres": [
+     "X",
+     "XI",
+     "XII",
+     "XV",
+     "XX",
+     "XXII",
+     "XXIV",
+     "XXXIII"
+    ],
+    "cle": "« Un peu après le cours La Fayette, le couple sembla hésiter […], il obliqua vers la droite, il s'arrêta à l'angle de l'avenue de Saxe, au café des Alpes » (XXII, § 37)",
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B02_cafe_des_Alpes_les_Alpes.md",
+    "enquete": "04_Enquetes/03_cafe_des_Alpes.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.845969,
+     45.758748
+    ]
+   },
+   "properties": {
+    "id": "B03",
+    "nom": "avenue de Saxe",
+    "secteur": "B",
+    "categorie": "voie",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Grand axe nord-sud de la rive gauche, de la place Morand au cours Gambetta ; renommée avenue Maréchal-de-Saxe en 1941.",
+    "nom_1925": "avenue de Saxe",
+    "nom_actuel": "avenue Maréchal-de-Saxe (3e/6e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Avenue Maréchal de Saxe",
+    "occurrences": 10,
+    "chapitres": [
+     "X",
+     "XIV",
+     "XV",
+     "XXI",
+     "XXII",
+     "XXV",
+     "XXXII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B03_avenue_de_Saxe.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8433,
+     45.7687
+    ]
+   },
+   "properties": {
+    "id": "B04",
+    "nom": "cours Boudier",
+    "secteur": "B",
+    "categorie": "enseignement",
+    "statut_nom": "deguise",
+    "certitude": "C",
+    "identification": "Cours privé de jeunes filles (baccalauréat, grec, philosophie, aumônier dominicain) fréquenté par Anne-Marie et Yvonne Ageron : « à l'angle de la place Morand », fenêtres sur la place, « grande porte » visible de l'angle de l'avenue de Saxe. Nom déguisé ; modèle réel à identifier.",
+    "nom_1925": "place Morand, angle de l'avenue de Saxe",
+    "nom_actuel": "place Maréchal-Lyautey (6e)",
+    "rayon": 90,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 16,
+    "chapitres": [
+     "VIII",
+     "IX",
+     "XI",
+     "XII",
+     "XIV",
+     "XVI",
+     "XIX",
+     "XXII",
+     "XXIV",
+     "XXV",
+     "XXVI",
+     "XXVII",
+     "XXXII"
+    ],
+    "cle": "« Anne-Marie qui surgissait vivement par la grande porte du cours Boudier » (XXII, § 36)",
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B04_cours_Boudier.md",
+    "enquete": "04_Enquetes/04_cours_Boudier.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.842104,
+     45.767749
+    ]
+   },
+   "properties": {
+    "id": "B05",
+    "nom": "place Morand",
+    "secteur": "B",
+    "categorie": "place",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Place des Brotteaux au débouché du pont Morand ; renommée place Maréchal-Lyautey en 1944.",
+    "nom_1925": "place Morand",
+    "nom_actuel": "place Maréchal-Lyautey (6e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Place Maréchal Lyautey",
+    "occurrences": 5,
+    "chapitres": [
+     "IX",
+     "XXI",
+     "XXII",
+     "XXIV"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B05_place_Morand.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.840426,
+     45.768636
+    ]
+   },
+   "properties": {
+    "id": "B06",
+    "nom": "pont Morand",
+    "secteur": "B",
+    "categorie": "pont-quai",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Pont du Rhône (ouvrage métallique de 1890, détruit en 1944, remplacé en 1975).",
+    "nom_1925": "pont Morand",
+    "nom_actuel": "pont Morand",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Pont Morand",
+    "occurrences": 2,
+    "chapitres": [
+     "XIX",
+     "XXI"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B06_pont_Morand.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.840626,
+     45.763568
+    ]
+   },
+   "properties": {
+    "id": "B07",
+    "nom": "pont La Fayette",
+    "secteur": "B",
+    "categorie": "pont-quai",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Pont du Rhône entre les Cordeliers et le cours La Fayette.",
+    "nom_1925": "pont La Fayette",
+    "nom_actuel": "pont Lafayette",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Pont Lafayette",
+    "occurrences": 3,
+    "chapitres": [
+     "XXI",
+     "XXIII",
+     "XXXVII"
+    ],
+    "cle": "« Le pont La Fayette, qui me conduit en trois minutes vers mes amis » (XXI, § 95)",
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B07_pont_La_Fayette.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.84519,
+     45.75979
+    ]
+   },
+   "properties": {
+    "id": "B08",
+    "nom": "église de l'Immaculée-Conception",
+    "secteur": "B",
+    "categorie": "eglise",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Église de l'avenue de Saxe (Bossan, 1856), « faubourienne elle aussi comme son quartier » ; confessions de Pâques 1925.",
+    "nom_1925": "Immaculée-Conception, avenue de Saxe",
+    "nom_actuel": "idem (3e)",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 4,
+    "chapitres": [
+     "X",
+     "XV",
+     "XX",
+     "XXIV"
+    ],
+    "cle": "« Allons à l'Immaculée Conception » (X, § 163)",
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B08_eglise_de_l_Immaculee_Conception.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.844446,
+     45.766013
+    ]
+   },
+   "properties": {
+    "id": "B09",
+    "nom": "domicile d'Yvonne Ageron",
+    "secteur": "B",
+    "categorie": "domicile",
+    "statut_nom": "implicite",
+    "certitude": "D",
+    "identification": "Rez-de-chaussée bourgeois de l'avenue de Saxe (petit salon capitonné), à cinq minutes du café des Alpes, rejoint par « le trottoir de la place Puvis-de-Chavannes ».",
+    "nom_1925": "avenue de Saxe, partie nord (6e)",
+    "nom_actuel": "avenue Maréchal-de-Saxe (6e), vers la rue Bugeaud",
+    "rayon": 200,
+    "methode_geo": "carrefour calculé : Avenue Maréchal de Saxe × Rue Bugeaud",
+    "occurrences": 17,
+    "chapitres": [
+     "X",
+     "XI",
+     "XII",
+     "XIII",
+     "XIV",
+     "XVI",
+     "XXI"
+    ],
+    "cle": "« Yvonne prit le trottoir de la place Puvis-de-Chavannes » (XV, § 599)",
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B09_domicile_d_Yvonne_Ageron.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.844397,
+     45.771821
+    ]
+   },
+   "properties": {
+    "id": "B10",
+    "nom": "place Puvis-de-Chavannes",
+    "secteur": "B",
+    "categorie": "place",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Place des Brotteaux (église de la Rédemption), entre les rues Vendôme et Créqui.",
+    "nom_1925": "place Puvis-de-Chavannes",
+    "nom_actuel": "idem (6e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Place Puvis de Chavannes",
+    "occurrences": 1,
+    "chapitres": [
+     "XV"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B10_place_Puvis_de_Chavannes.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.851701,
+     45.773189
+    ]
+   },
+   "properties": {
+    "id": "B11",
+    "nom": "domicile de Guitte (Mme Dufaure), boulevard des Belges",
+    "secteur": "B",
+    "categorie": "domicile",
+    "statut_nom": "implicite",
+    "certitude": "D",
+    "identification": "Hôtel particulier de la sœur aînée d'Anne-Marie, avec chauffeur et téléphone.",
+    "nom_1925": "boulevard des Belges",
+    "nom_actuel": "idem (6e)",
+    "rayon": 400,
+    "methode_geo": "axe de voie : Boulevard des Belges",
+    "occurrences": 6,
+    "chapitres": [
+     "XXI",
+     "XXX",
+     "XXXIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B11_domicile_de_Guitte_Mme_Dufaure_boulevard_des_Belge.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.850056,
+     45.773803
+    ]
+   },
+   "properties": {
+    "id": "B12",
+    "nom": "hôtel des « V… D… »",
+    "secteur": "B",
+    "categorie": "domicile",
+    "statut_nom": "deguise",
+    "certitude": "D",
+    "identification": "Hôtel particulier à grille, jardin de gravier et perron, boulevard des Belges, près du « quarante » ; famille de la jeune fille suivie par Michel (XXI-XXII).",
+    "nom_1925": "boulevard des Belges, vers le n° 40",
+    "nom_actuel": "—",
+    "rayon": 80,
+    "methode_geo": "adresse BAN : 40 boulevard des Belges 69006 Lyon",
+    "occurrences": 5,
+    "chapitres": [
+     "XXI"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B12_hotel_des_V_D.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.85,
+     45.7723
+    ]
+   },
+   "properties": {
+    "id": "B13",
+    "nom": "le Lugdunum",
+    "secteur": "B",
+    "categorie": "hotel",
+    "statut_nom": "fictif",
+    "certitude": "E",
+    "identification": "« Le grand hôtel des Brotteaux tout nouvellement inauguré » (juin 1926), « mon palace », chambre 348 ; près d'une porte latérale du parc de la Tête-d'Or. Enseigne vraisemblablement inventée (cf. l'aveu de méthode de la note XIV [1]).",
+    "nom_1925": "Brotteaux, abords du parc",
+    "nom_actuel": "—",
+    "rayon": 300,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 14,
+    "chapitres": [
+     "XXXI",
+     "XXXIII",
+     "Intermèdes",
+     "XXXIV",
+     "XXXV",
+     "Récit de Guitte"
+    ],
+    "cle": "« Michel avait établi son quartier au Lugdunum, le grand hôtel des Brotteaux tout nouvellement inauguré » (XXXI, § 17)",
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B13_le_Lugdunum.md",
+    "enquete": "04_Enquetes/08_hotels_Lugdunum_Modern-House.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8542,
+     45.777
+    ]
+   },
+   "properties": {
+    "id": "B14",
+    "nom": "parc de la Tête-d'Or (« le Parc »)",
+    "secteur": "B",
+    "categorie": "parc",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Grand parc municipal (lac, presqu'île, allées, « salle de verdure », portes latérales).",
+    "nom_1925": "parc de la Tête-d'Or",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 7,
+    "chapitres": [
+     "I",
+     "IV",
+     "XXI",
+     "XXVI",
+     "XXX",
+     "XXXIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B14_parc_de_la_Tete_d_Or_le_Parc.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.843228,
+     45.771769
+    ]
+   },
+   "properties": {
+    "id": "B15",
+    "nom": "avenue de Noailles",
+    "secteur": "B",
+    "categorie": "voie",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Avenue des Brotteaux, renommée avenue Maréchal-Foch en 1929.",
+    "nom_1925": "avenue de Noailles",
+    "nom_actuel": "avenue Maréchal-Foch (6e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Avenue Maréchal Foch",
+    "occurrences": 1,
+    "chapitres": [
+     "XXI"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B15_avenue_de_Noailles.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.842924,
+     45.775302
+    ]
+   },
+   "properties": {
+    "id": "B16",
+    "nom": "avenue du Parc",
+    "secteur": "B",
+    "categorie": "voie",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Avenue longeant le parc, tête de ligne de tramway ; renommée avenue de Grande-Bretagne en 1989.",
+    "nom_1925": "avenue du Parc",
+    "nom_actuel": "avenue de Grande-Bretagne (6e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Avenue de Grande Bretagne",
+    "occurrences": 1,
+    "chapitres": [
+     "XXI"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B16_avenue_du_Parc.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.852,
+     45.768
+    ]
+   },
+   "properties": {
+    "id": "B17",
+    "nom": "les Brotteaux",
+    "secteur": "B",
+    "categorie": "quartier",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Quartier bourgeois de la rive gauche (6e).",
+    "nom_1925": "les Brotteaux",
+    "nom_actuel": "Lyon 6e",
+    "rayon": 500,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 11,
+    "chapitres": [
+     "X",
+     "XII",
+     "XIV",
+     "XXI",
+     "XXII",
+     "XXVI",
+     "XXIX",
+     "XXX",
+     "XXXI"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B17_les_Brotteaux.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.855877,
+     45.763644
+    ]
+   },
+   "properties": {
+    "id": "B18",
+    "nom": "cours La Fayette",
+    "secteur": "B",
+    "categorie": "voie",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Cours séparant le 3e du 6e ; le café des Alpes est « un peu après » en venant de la place Morand.",
+    "nom_1925": "cours La Fayette",
+    "nom_actuel": "cours Lafayette",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Cours Lafayette",
+    "occurrences": 2,
+    "chapitres": [
+     "XXII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B18_cours_La_Fayette.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.849327,
+     45.758184
+    ]
+   },
+   "properties": {
+    "id": "B19",
+    "nom": "bistrot de l'angle de la rue Du Guesclin",
+    "secteur": "B",
+    "categorie": "cafe",
+    "statut_nom": "implicite",
+    "certitude": "D",
+    "identification": "Autre café « consacré » par le trio, rue Du Guesclin.",
+    "nom_1925": "rue Du Guesclin",
+    "nom_actuel": "rue Duguesclin (3e)",
+    "rayon": 400,
+    "methode_geo": "axe de voie : Rue Duguesclin",
+    "occurrences": 2,
+    "chapitres": [
+     "XXII",
+     "XXIV"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B19_bistrot_de_l_angle_de_la_rue_Du_Guesclin.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.847968,
+     45.759747
+    ]
+   },
+   "properties": {
+    "id": "B20",
+    "nom": "rue Moncey",
+    "secteur": "B",
+    "categorie": "voie",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Rue de la rive gauche (3e) desservie par le tramway de Bron/Vinatier.",
+    "nom_1925": "rue Moncey",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Rue Moncey",
+    "occurrences": 2,
+    "chapitres": [
+     "XXVI",
+     "XXX"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Brotteaux_et_3e_nord/B20_rue_Moncey.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.832,
+     45.7578
+    ]
+   },
+   "properties": {
+    "id": "P01",
+    "nom": "place Bellecour",
+    "secteur": "P",
+    "categorie": "place",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Grande place centrale ; « les théologiens de Bellecour » (chap. XXIII) y tournent la nuit du 6 janvier 1926 ; marronniers, kiosque, Maison Dorée.",
+    "nom_1925": "place Bellecour",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 24,
+    "chapitres": [
+     "I",
+     "II",
+     "IX",
+     "X",
+     "XI",
+     "XII",
+     "XV",
+     "XXIII",
+     "XXV",
+     "XXVII",
+     "XXVIII",
+     "XXXI"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P01_place_Bellecour.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.833,
+     45.7572
+    ]
+   },
+   "properties": {
+    "id": "P02",
+    "nom": "la Maison Dorée",
+    "secteur": "P",
+    "categorie": "cafe",
+    "statut_nom": "reel",
+    "certitude": "D",
+    "identification": "« Agréable café, dont on installait l'été les guéridons sous les marronniers de Bellecour » ; enseigne non vérifiée.",
+    "nom_1925": "place Bellecour",
+    "nom_actuel": "—",
+    "rayon": 150,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 5,
+    "chapitres": [
+     "I",
+     "XV",
+     "XXIII",
+     "XXXI"
+    ],
+    "cle": "« De tout Lyon, cet agréable café, dont on installait l'été les guéridons sous les marronniers de Bellecour » (I)",
+    "fiche": "03_Fiches_lieux/Presqu_ile/P02_la_Maison_Doree.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.834,
+     45.7585
+    ]
+   },
+   "properties": {
+    "id": "P03",
+    "nom": "café Morel",
+    "secteur": "P",
+    "categorie": "cafe",
+    "statut_nom": "reel",
+    "certitude": "D",
+    "identification": "Café « à l'angle de Bellecour » ; non attesté par les sources consultées.",
+    "nom_1925": "place Bellecour",
+    "nom_actuel": "—",
+    "rayon": 150,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 1,
+    "chapitres": [
+     "XI"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P03_cafe_Morel.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.833062,
+     45.756429
+    ]
+   },
+   "properties": {
+    "id": "P04",
+    "nom": "le Royal",
+    "secteur": "P",
+    "categorie": "cafe",
+    "statut_nom": "reel",
+    "certitude": "C",
+    "identification": "Café-bar chic avec orchestre, d'où l'on gagne la Saône ; probablement le bar de l'Hôtel Royal, 20 place Bellecour.",
+    "nom_1925": "place Bellecour",
+    "nom_actuel": "Hôtel Royal, 20 place Bellecour (2e)",
+    "rayon": 0,
+    "methode_geo": "adresse BAN : 20 place Bellecour 69002 Lyon",
+    "occurrences": 3,
+    "chapitres": [
+     "XXI",
+     "XXXVII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P04_le_Royal.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.833,
+     45.758
+    ]
+   },
+   "properties": {
+    "id": "P05",
+    "nom": "librairie Flammarion",
+    "secteur": "P",
+    "categorie": "commerce",
+    "statut_nom": "reel",
+    "certitude": "C",
+    "identification": "Librairie Flammarion « à Bellecour ».",
+    "nom_1925": "place Bellecour",
+    "nom_actuel": "—",
+    "rayon": 120,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 4,
+    "chapitres": [
+     "I",
+     "XI",
+     "XXII",
+     "XXVII"
+    ],
+    "cle": "« en sortant de chez Flammarion, à Bellecour » (I)",
+    "fiche": "03_Fiches_lieux/Presqu_ile/P05_librairie_Flammarion.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8338,
+     45.7559
+    ]
+   },
+   "properties": {
+    "id": "P06",
+    "nom": "la Charité",
+    "secteur": "P",
+    "categorie": "eglise",
+    "statut_nom": "reel",
+    "certitude": "B",
+    "identification": "Chapelle de l'hospice de la Charité (« la messe chic »), près de Bellecour ; hospice démoli en 1934, clocher conservé (place Antonin-Poncet, ex-place de la Charité, renommée en 1913).",
+    "nom_1925": "église de la Charité",
+    "nom_actuel": "clocher de la Charité, place Antonin-Poncet (2e)",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 4,
+    "chapitres": [
+     "IX",
+     "XI",
+     "XII",
+     "XV"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P06_la_Charite.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.834302,
+     45.7581
+    ]
+   },
+   "properties": {
+    "id": "P07",
+    "nom": "place Le Viste et rue Gasparin",
+    "secteur": "P",
+    "categorie": "place",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Abords nord de Bellecour (« les lumières rechignées de la place Leviste et de la rue de la République »).",
+    "nom_1925": "place Le Viste",
+    "nom_actuel": "idem (2e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Place Le Viste",
+    "occurrences": 1,
+    "chapitres": [
+     "XXIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P07_place_Le_Viste_et_rue_Gasparin.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.835701,
+     45.761542
+    ]
+   },
+   "properties": {
+    "id": "P08",
+    "nom": "rue de la République (« la Ré »)",
+    "secteur": "P",
+    "categorie": "voie",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Rue élégante de la Presqu'île ; rite du « trottoir ouest ».",
+    "nom_1925": "rue de la République",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Rue de la République",
+    "occurrences": 9,
+    "chapitres": [
+     "I",
+     "II",
+     "VIII",
+     "XV",
+     "XX",
+     "XXI",
+     "XXIII",
+     "XXX"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P08_rue_de_la_Republique_la_Re.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.83707,
+     45.763552
+    ]
+   },
+   "properties": {
+    "id": "P09",
+    "nom": "place des Cordeliers",
+    "secteur": "P",
+    "categorie": "place",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Place de la Presqu'île (station de taxis), à la tête du pont La Fayette.",
+    "nom_1925": "place des Cordeliers",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Place des Cordeliers",
+    "occurrences": 2,
+    "chapitres": [
+     "XX",
+     "XXX"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P09_place_des_Cordeliers.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.836932,
+     45.764366
+    ]
+   },
+   "properties": {
+    "id": "P10",
+    "nom": "le Cintra",
+    "secteur": "P",
+    "categorie": "cafe",
+    "statut_nom": "reel",
+    "certitude": "B",
+    "identification": "Bar-restaurant de la rue de la Bourse, installé en 1921.",
+    "nom_1925": "Cintra, 43 rue de la Bourse",
+    "nom_actuel": "Le Cintra, 43 rue de la Bourse (2e)",
+    "rayon": 0,
+    "methode_geo": "adresse BAN : 43 rue de la Bourse 69002 Lyon",
+    "occurrences": 5,
+    "chapitres": [
+     "XX",
+     "XXVII",
+     "XXXI",
+     "XXXVII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P10_le_Cintra.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.833594,
+     45.759445
+    ]
+   },
+   "properties": {
+    "id": "P11",
+    "nom": "brasserie des Archers",
+    "secteur": "P",
+    "categorie": "cafe",
+    "statut_nom": "reel",
+    "certitude": "C",
+    "identification": "Brasserie de la rue des Archers (entre Bellecour et les Célestins) ; enseigne non vérifiée.",
+    "nom_1925": "rue des Archers",
+    "nom_actuel": "rue des Archers (2e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Rue des Archers",
+    "occurrences": 2,
+    "chapitres": [
+     "XXXIII",
+     "XXXVII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P11_brasserie_des_Archers.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.832134,
+     45.759605
+    ]
+   },
+   "properties": {
+    "id": "P12",
+    "nom": "place des Célestins (Porc-Épic, Perroquet)",
+    "secteur": "P",
+    "categorie": "spectacle",
+    "statut_nom": "reel",
+    "certitude": "C",
+    "identification": "« Coin des Célestins », « le seul îlot de noctambulisme avoué » de Lyon ; boîtes du Porc-Épic et du Perroquet (enseignes non vérifiées, peut-être composites).",
+    "nom_1925": "place des Célestins",
+    "nom_actuel": "idem (2e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Place des Célestins",
+    "occurrences": 8,
+    "chapitres": [
+     "XXX",
+     "XXXVII"
+    ],
+    "cle": "« le bar du Porc-Épic, la boîte la plus bruyante et la plus chère du coin des Célestins » (XXX, § 68)",
+    "fiche": "03_Fiches_lieux/Presqu_ile/P12_place_des_Celestins_Porc_Epic_Perroquet.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.835757,
+     45.767808
+    ]
+   },
+   "properties": {
+    "id": "P13",
+    "nom": "Grand Théâtre",
+    "secteur": "P",
+    "categorie": "spectacle",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Opéra de Lyon (place de la Comédie) : Tristan (printemps 1925), saison wagnérienne.",
+    "nom_1925": "Grand-Théâtre",
+    "nom_actuel": "Opéra de Lyon",
+    "rayon": 0,
+    "methode_geo": "adresse BAN : 1 place de la Comédie 69001 Lyon",
+    "occurrences": 8,
+    "chapitres": [
+     "I",
+     "IV",
+     "X",
+     "XXII",
+     "XXV"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P13_Grand_Theatre.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.83074,
+     45.76842
+    ]
+   },
+   "properties": {
+    "id": "P14",
+    "nom": "salle Rameau",
+    "secteur": "P",
+    "categorie": "spectacle",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "« Salle de concerts et de spectacles, la « Salle Pleyel » de Lyon » (note I [2]) : récital Cortot, concerts du dimanche.",
+    "nom_1925": "salle Rameau, rue de la Martinière",
+    "nom_actuel": "salle Rameau (1er)",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 4,
+    "chapitres": [
+     "I",
+     "XXIII",
+     "XXV",
+     "XXXIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P14_salle_Rameau.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.833506,
+     45.767736
+    ]
+   },
+   "properties": {
+    "id": "P15",
+    "nom": "place des Terreaux",
+    "secteur": "P",
+    "categorie": "place",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Place de l'Hôtel de Ville.",
+    "nom_1925": "place des Terreaux",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Place des Terreaux",
+    "occurrences": 7,
+    "chapitres": [
+     "IX",
+     "X",
+     "XXI",
+     "XXII",
+     "XXV",
+     "XXVIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P15_place_des_Terreaux.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.834099,
+     45.761563
+    ]
+   },
+   "properties": {
+    "id": "P16",
+    "nom": "rue de l'Hôtel-de-Ville",
+    "secteur": "P",
+    "categorie": "voie",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Rue de la Presqu'île (auj. rue Président-Édouard-Herriot).",
+    "nom_1925": "rue de l'Hôtel-de-Ville",
+    "nom_actuel": "rue Président-Édouard-Herriot (1er/2e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Rue Président Édouard Herriot",
+    "occurrences": 1,
+    "chapitres": [
+     "XXVIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P16_rue_de_l_Hotel_de_Ville.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.829911,
+     45.754216
+    ]
+   },
+   "properties": {
+    "id": "P17",
+    "nom": "rue Victor-Hugo (hôtel de Michel)",
+    "secteur": "P",
+    "categorie": "hotel",
+    "statut_nom": "implicite",
+    "certitude": "C",
+    "identification": "Hôtel non nommé de la rue Victor-Hugo où descend Michel lors de ses séjours de 1925.",
+    "nom_1925": "rue Victor-Hugo",
+    "nom_actuel": "idem (2e)",
+    "rayon": 250,
+    "methode_geo": "axe de voie : Rue Victor Hugo",
+    "occurrences": 4,
+    "chapitres": [
+     "XII",
+     "XV",
+     "XXIII",
+     "XXVIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P17_rue_Victor_Hugo_hotel_de_Michel.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.836,
+     45.7565
+    ]
+   },
+   "properties": {
+    "id": "P18",
+    "nom": "Modern House",
+    "secteur": "P",
+    "categorie": "hotel",
+    "statut_nom": "fictif",
+    "certitude": "E",
+    "identification": "Pension « proche de Bellecour et du Rhône », dans une « rue mal famée » ; enseigne non attestée.",
+    "nom_1925": "abords de Bellecour, côté Rhône",
+    "nom_actuel": "—",
+    "rayon": 200,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 7,
+    "chapitres": [
+     "XXV",
+     "XXXIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P18_Modern_House.md",
+    "enquete": "04_Enquetes/08_hotels_Lugdunum_Modern-House.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.834725,
+     45.757145
+    ]
+   },
+   "properties": {
+    "id": "P19",
+    "nom": "rue des Marronniers (restaurant)",
+    "secteur": "P",
+    "categorie": "cafe",
+    "statut_nom": "reel",
+    "certitude": "B",
+    "identification": "Petite rue de restaurants au nord-est de Bellecour.",
+    "nom_1925": "rue des Marronniers",
+    "nom_actuel": "idem (2e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Rue des Marronniers",
+    "occurrences": 1,
+    "chapitres": [
+     "XV"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P19_rue_des_Marronniers_restaurant.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8262,
+     45.7486
+    ]
+   },
+   "properties": {
+    "id": "P20",
+    "nom": "gare de Perrache (buffet, souterrain, terre-plein)",
+    "secteur": "P",
+    "categorie": "gare-transport",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Gare PLM des Paris-Lyon nocturnes de Michel ; buffet à décor de locomotive ; terre-plein et place Carnot au nord.",
+    "nom_1925": "gare de Perrache",
+    "nom_actuel": "idem (2e)",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 17,
+    "chapitres": [
+     "III",
+     "V",
+     "VIII",
+     "IX",
+     "X",
+     "XI",
+     "XII",
+     "XV",
+     "XVI",
+     "XVII",
+     "XX",
+     "XXII",
+     "XXVIII",
+     "XXXVI",
+     "Notes"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P20_gare_de_Perrache_buffet_souterrain_terre_plein.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.828028,
+     45.751692
+    ]
+   },
+   "properties": {
+    "id": "P21",
+    "nom": "place Carnot",
+    "secteur": "P",
+    "categorie": "place",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Place devant la sortie nord de Perrache (« café de la place » des ruraux en attente d'omnibus).",
+    "nom_1925": "place Carnot",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Place Carnot",
+    "occurrences": 1,
+    "chapitres": [
+     "IX"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P21_place_Carnot.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8256,
+     45.7476
+    ]
+   },
+   "properties": {
+    "id": "P22",
+    "nom": "voûte de Perrache et cours Charlemagne (garage)",
+    "secteur": "P",
+    "categorie": "gare-transport",
+    "statut_nom": "reel",
+    "certitude": "B",
+    "identification": "Passage sous les voies de Perrache (cours du Midi, renommé cours de Verdun en 1916) ; garage où Michel lave des voitures, « non loin du cours Charlemagne ».",
+    "nom_1925": "voûte de Perrache, cours Charlemagne",
+    "nom_actuel": "cours de Verdun / cours Charlemagne (2e)",
+    "rayon": 120,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 1,
+    "chapitres": [
+     "XXVIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P22_voute_de_Perrache_et_cours_Charlemagne_garage.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8228,
+     45.7498
+    ]
+   },
+   "properties": {
+    "id": "P23",
+    "nom": "quai Perrache (« notre banc »)",
+    "secteur": "P",
+    "categorie": "pont-quai",
+    "statut_nom": "reel",
+    "certitude": "C",
+    "identification": "Banc de la rive gauche de la Saône, à la pointe nord-ouest de Perrache, en face de Fourvière, près du pont du chemin de fer (ligne de Saint-Irénée) et de deux bateaux-lavoirs : lieu de la « vocation » de Régis (30 sept. 1923).",
+    "nom_1925": "quai de la Saône à Perrache (officiellement quai Rambaud)",
+    "nom_actuel": "quai Rambaud, abords du pont Kitchener-Marchand (2e)",
+    "rayon": 120,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 26,
+    "chapitres": [
+     "IV",
+     "XII",
+     "XIII",
+     "XVII",
+     "XIX",
+     "XX",
+     "XXI",
+     "XXII",
+     "XXIII",
+     "XXVI",
+     "XXXVII"
+    ],
+    "cle": "« En face, sur la colline, les jardins et les couvents de Fourvière s'estompaient peu à peu. Des péniches reposaient […] sur la Saône sombre » (XII, § 171)",
+    "fiche": "03_Fiches_lieux/Presqu_ile/P23_quai_Perrache_notre_banc.md",
+    "enquete": "04_Enquetes/07_quai_Perrache_le_banc.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.831271,
+     45.748566
+    ]
+   },
+   "properties": {
+    "id": "P24",
+    "nom": "pont du Midi",
+    "secteur": "P",
+    "categorie": "pont-quai",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Pont du Rhône entre Perrache et la Guillotière ; remplacé en 1965 par le pont Galliéni.",
+    "nom_1925": "pont du Midi",
+    "nom_actuel": "pont Galliéni",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Pont Gallieni",
+    "occurrences": 2,
+    "chapitres": [
+     "XV",
+     "XXX"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P24_pont_du_Midi.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.834645,
+     45.752831
+    ]
+   },
+   "properties": {
+    "id": "P25",
+    "nom": "pont de l'Université",
+    "secteur": "P",
+    "categorie": "pont-quai",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Pont du Rhône (1903) reliant la Presqu'île au palais universitaire.",
+    "nom_1925": "pont de l'Université",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Pont de l'Université",
+    "occurrences": 2,
+    "chapitres": [
+     "XV",
+     "XXIX"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P25_pont_de_l_Universite.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.82913,
+     45.759344
+    ]
+   },
+   "properties": {
+    "id": "P26",
+    "nom": "pont Tilsitt et quai Tilsitt",
+    "secteur": "P",
+    "categorie": "pont-quai",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Pont de la Saône entre Bellecour et Saint-Jean (auj. pont Bonaparte, nom attribué en 1964) ; quai de la rive gauche.",
+    "nom_1925": "pont Tilsitt, quai Tilsitt",
+    "nom_actuel": "pont Bonaparte, quai Tilsitt (2e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Pont Bonaparte",
+    "occurrences": 5,
+    "chapitres": [
+     "XV",
+     "XXIII",
+     "XXVIII",
+     "XXXI",
+     "Récit de Guitte"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P26_pont_Tilsitt_et_quai_Tilsitt.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.828892,
+     45.755068
+    ]
+   },
+   "properties": {
+    "id": "P27",
+    "nom": "Ainay ; rue Sainte-Hélène (Jésuites)",
+    "secteur": "P",
+    "categorie": "enseignement",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Quartier d'Ainay ; rue Sainte-Hélène = externat Saint-Joseph des Jésuites (actuel lycée Saint-Marc).",
+    "nom_1925": "rue Sainte-Hélène",
+    "nom_actuel": "idem (2e)",
+    "rayon": 0,
+    "methode_geo": "adresse BAN : 10 rue Sainte-Hélène 69002 Lyon",
+    "occurrences": 7,
+    "chapitres": [
+     "XI",
+     "XVII",
+     "XX",
+     "XXIV"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P27_Ainay_rue_Sainte_Helene_Jesuites.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.828218,
+     45.754231
+    ]
+   },
+   "properties": {
+    "id": "P28",
+    "nom": "13, rue de Jarente (maison du P. Joud)",
+    "secteur": "P",
+    "categorie": "eglise",
+    "statut_nom": "deguise",
+    "certitude": "C",
+    "identification": "Maison des Jésuites où Michel se confesse le 30 septembre 1925 (chapelle au corridor, « troisième porte ») ; les Jésuites ont possédé le n° 9 jusqu'en 1908 : numéro déplacé ou inventé.",
+    "nom_1925": "rue de Jarente",
+    "nom_actuel": "rue Jarente (2e)",
+    "rayon": 0,
+    "methode_geo": "adresse BAN : 13 rue Jarente 69002 Lyon",
+    "occurrences": 6,
+    "chapitres": [
+     "XI",
+     "XIX"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P28_13_rue_de_Jarente_maison_du_P_Joud.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.828494,
+     45.756855
+    ]
+   },
+   "properties": {
+    "id": "P29",
+    "nom": "Facultés catholiques (« la Catho »)",
+    "secteur": "P",
+    "categorie": "enseignement",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Facultés catholiques de Lyon, rue du Plat (le « Père Chaleyssin, philosophe de la Catho » est fictif).",
+    "nom_1925": "Facultés catholiques, 25 rue du Plat",
+    "nom_actuel": "UCLy, rue du Plat (2e)",
+    "rayon": 0,
+    "methode_geo": "adresse BAN : 25 rue du Plat 69002 Lyon",
+    "occurrences": 3,
+    "chapitres": [
+     "II",
+     "XVII",
+     "XXI"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P29_Facultes_catholiques_la_Catho.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8365,
+     45.7589
+    ]
+   },
+   "properties": {
+    "id": "P30",
+    "nom": "Hôtel-Dieu",
+    "secteur": "P",
+    "categorie": "spectacle",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Hôpital et dôme de Soufflot, vu depuis les quais de la rive gauche.",
+    "nom_1925": "Hôtel-Dieu",
+    "nom_actuel": "Grand Hôtel-Dieu (2e)",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 1,
+    "chapitres": [
+     "XXX"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P30_Hotel_Dieu.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.838048,
+     45.770861
+    ]
+   },
+   "properties": {
+    "id": "P31",
+    "nom": "quai Saint-Clair (appartement des cousins soyeux)",
+    "secteur": "P",
+    "categorie": "domicile",
+    "statut_nom": "implicite",
+    "certitude": "C",
+    "identification": "Appartement des cousins « soyeux »/« passementiers » où se tient le deuil de novembre 1927 (XXXVII) ; quai renommé quai André-Lassagne en 1954.",
+    "nom_1925": "quai Saint-Clair",
+    "nom_actuel": "quai André-Lassagne (1er)",
+    "rayon": 200,
+    "methode_geo": "axe de voie : Quai André Lassagne",
+    "occurrences": 4,
+    "chapitres": [
+     "XXV",
+     "XXVIII",
+     "XXXVII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P31_quai_Saint_Clair_appartement_des_cousins_soyeux.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.835913,
+     45.769171
+    ]
+   },
+   "properties": {
+    "id": "P32",
+    "nom": "le Griffon (maison de soie)",
+    "secteur": "P",
+    "categorie": "commerce",
+    "statut_nom": "deguise",
+    "certitude": "C",
+    "identification": "Bureaux de soieries et passementerie « au pied de la Croix-Rousse » (Neyratier, cousins), désignés par le nom du quartier réel (rue et place du Griffon).",
+    "nom_1925": "place / rue du Griffon",
+    "nom_actuel": "idem (1er)",
+    "rayon": 120,
+    "methode_geo": "axe de voie : Place du Griffon",
+    "occurrences": 6,
+    "chapitres": [
+     "I",
+     "III",
+     "XIX",
+     "XX",
+     "XXXI",
+     "XXXVII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P32_le_Griffon_maison_de_soie.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.839934,
+     45.776618
+    ]
+   },
+   "properties": {
+    "id": "P33",
+    "nom": "cours d'Herbouville",
+    "secteur": "P",
+    "categorie": "voie",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Quai haut de la Croix-Rousse, « d'où l'on plonge sur la courbe du Rhône et le panorama du Parc ».",
+    "nom_1925": "cours d'Herbouville",
+    "nom_actuel": "idem (4e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Cours d'Herbouville",
+    "occurrences": 1,
+    "chapitres": [
+     "XXX"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P33_cours_d_Herbouville.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.836664,
+     45.761035
+    ]
+   },
+   "properties": {
+    "id": "P34",
+    "nom": "hôtel Carlton",
+    "secteur": "P",
+    "categorie": "hotel",
+    "statut_nom": "reel",
+    "certitude": "B",
+    "identification": "Hôtel de la rue Jussieu (immeuble de 1894) où descend Mlle Rouquayrol.",
+    "nom_1925": "Carlton, rue Jussieu",
+    "nom_actuel": "Hôtel Carlton, 4 rue Jussieu (2e)",
+    "rayon": 0,
+    "methode_geo": "adresse BAN : 4 rue Jussieu 69002 Lyon",
+    "occurrences": 6,
+    "chapitres": [
+     "XXX",
+     "XXXI"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P34_hotel_Carlton.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.83723,
+     45.771395
+    ]
+   },
+   "properties": {
+    "id": "P35",
+    "nom": "la mère Brazier",
+    "secteur": "P",
+    "categorie": "cafe",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Restaurant d'Eugénie Brazier, 12 rue Royale (ouvert en 1921).",
+    "nom_1925": "rue Royale",
+    "nom_actuel": "La Mère Brazier, 12 rue Royale (1er)",
+    "rayon": 0,
+    "methode_geo": "adresse BAN : 12 rue Royale 69001 Lyon",
+    "occurrences": 3,
+    "chapitres": [
+     "XX",
+     "XXXIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P35_la_mere_Brazier.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.837966,
+     45.767238
+    ]
+   },
+   "properties": {
+    "id": "P36",
+    "nom": "quai de Retz",
+    "secteur": "P",
+    "categorie": "pont-quai",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Quai de la rive droite du Rhône entre le pont La Fayette et le pont Morand (auj. quai Jean-Moulin).",
+    "nom_1925": "quai de Retz",
+    "nom_actuel": "quai Jean-Moulin (1er/2e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Quai Jean Moulin",
+    "occurrences": 1,
+    "chapitres": [
+     "XXI"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P36_quai_de_Retz.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.835107,
+     45.761718
+    ]
+   },
+   "properties": {
+    "id": "P37",
+    "nom": "rue Thomassin (cinéma)",
+    "secteur": "P",
+    "categorie": "spectacle",
+    "statut_nom": "reel",
+    "certitude": "C",
+    "identification": "Cinéma de la rue Thomassin.",
+    "nom_1925": "rue Thomassin",
+    "nom_actuel": "idem (2e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Rue Thomassin",
+    "occurrences": 1,
+    "chapitres": [
+     "XXIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Presqu_ile/P37_rue_Thomassin_cinema.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.82256,
+     45.76223
+    ]
+   },
+   "properties": {
+    "id": "D01",
+    "nom": "Fourvière (basilique, terre-plein)",
+    "secteur": "D",
+    "categorie": "eglise",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Basilique Notre-Dame de Fourvière et son esplanade (« la cathédrale des boutiquiers parvenus »).",
+    "nom_1925": "Fourvière",
+    "nom_actuel": "idem (5e)",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 15,
+    "chapitres": [
+     "III",
+     "X",
+     "XI",
+     "XII",
+     "XV",
+     "XXII",
+     "XXVII",
+     "XXVIII",
+     "XXIX",
+     "XXX",
+     "Récit de Guitte"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Rive_droite/D01_Fourviere_basilique_terre_plein.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8236,
+     45.7632
+    ]
+   },
+   "properties": {
+    "id": "D02",
+    "nom": "la « jésuitière » (« caserne de Fourvière »)",
+    "secteur": "D",
+    "categorie": "eglise",
+    "statut_nom": "surnom",
+    "certitude": "C",
+    "identification": "Grand bâtiment blanc des Jésuites sur la colline de Fourvière (maison de retraites depuis 1841 ; scolasticat rapatrié en juillet 1926).",
+    "nom_1925": "maison des Jésuites de Fourvière",
+    "nom_actuel": "—",
+    "rayon": 150,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 7,
+    "chapitres": [
+     "X",
+     "XI",
+     "XX",
+     "XXII",
+     "XXXI",
+     "XXXVII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Rive_droite/D02_la_jesuitiere_caserne_de_Fourviere.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.82738,
+     45.76071
+    ]
+   },
+   "properties": {
+    "id": "D03",
+    "nom": "cathédrale Saint-Jean et quartier Saint-Jean",
+    "secteur": "D",
+    "categorie": "eglise",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Primatiale Saint-Jean (« barbouillée de chaux crue ») et vieux quartier.",
+    "nom_1925": "Saint-Jean",
+    "nom_actuel": "idem (5e)",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 15,
+    "chapitres": [
+     "I",
+     "IV",
+     "IX",
+     "XII",
+     "XV",
+     "XIX",
+     "XX",
+     "XXI",
+     "XXVII",
+     "XXVIII",
+     "XXXI",
+     "XXXVII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Rive_droite/D03_cathedrale_Saint_Jean_et_quartier_Saint_Jean.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.827326,
+     45.760037
+    ]
+   },
+   "properties": {
+    "id": "D04",
+    "nom": "la bibliothèque de la ville (palais Saint-Jean)",
+    "secteur": "D",
+    "categorie": "enseignement",
+    "statut_nom": "implicite",
+    "certitude": "B",
+    "identification": "Bibliothèque municipale installée en 1911-1912 au palais Saint-Jean (avenue de la Bibliothèque, auj. avenue Adolphe-Max) ; rendez-vous du soir de Michel et Régis.",
+    "nom_1925": "bibliothèque de la Ville, palais Saint-Jean",
+    "nom_actuel": "bibliothèque du 5e Saint-Jean, 4 avenue Adolphe-Max",
+    "rayon": 0,
+    "methode_geo": "adresse BAN : 4 avenue Adolphe Max 69005 Lyon",
+    "occurrences": 20,
+    "chapitres": [
+     "I",
+     "XIX",
+     "XX",
+     "XXI",
+     "XXII",
+     "XXIII",
+     "XXIV",
+     "XXVII",
+     "XXIX",
+     "XXXVII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Rive_droite/D04_la_bibliotheque_de_la_ville_palais_Saint_Jean.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.815571,
+     45.75729
+    ]
+   },
+   "properties": {
+    "id": "D05",
+    "nom": "gare de Saint-Just et la « ficelle »",
+    "secteur": "D",
+    "categorie": "gare-transport",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Gare haute du funiculaire Saint-Jean–Saint-Just et départ du « train de Vaugneray » ; l'actuelle place Père-François-Varillon (nommée en 1989 d'après le modèle de Régis).",
+    "nom_1925": "gare de Saint-Just",
+    "nom_actuel": "place Père-François-Varillon (5e)",
+    "rayon": 0,
+    "methode_geo": "axe de voie : Place Père François Varillon",
+    "occurrences": 2,
+    "chapitres": [
+     "XV",
+     "XXVIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Rive_droite/D05_gare_de_Saint_Just_et_la_ficelle.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.826835,
+     45.765597
+    ]
+   },
+   "properties": {
+    "id": "D06",
+    "nom": "collège des Lazaristes",
+    "secteur": "D",
+    "categorie": "enseignement",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Collège catholique sur les pentes de Fourvière (montée Saint-Barthélemy).",
+    "nom_1925": "collège des Lazaristes",
+    "nom_actuel": "Lazaristes (5e)",
+    "rayon": 0,
+    "methode_geo": "adresse BAN : 1 montée Saint-Barthélemy 69005 Lyon",
+    "occurrences": 5,
+    "chapitres": [
+     "XV",
+     "XVI",
+     "XIX"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Rive_droite/D06_college_des_Lazaristes.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.889688,
+     45.733343
+    ]
+   },
+   "properties": {
+    "id": "E01",
+    "nom": "Bron (villas Lanthelme et Marlieux)",
+    "secteur": "E",
+    "categorie": "localite",
+    "statut_nom": "reel",
+    "certitude": "C",
+    "identification": "Commune de banlieue (alors dans l'Isère) où les villas des Lanthelme et de la grand-mère Marlieux se font face ; « avenue Président-Wilson » signalée par une planche (lotissement neuf ; cf. rue Wilson actuelle).",
+    "nom_1925": "Bron (Isère)",
+    "nom_actuel": "Bron (Métropole de Lyon)",
+    "rayon": 400,
+    "methode_geo": "axe de voie : Rue Wilson",
+    "occurrences": 19,
+    "chapitres": [
+     "III",
+     "IX",
+     "X",
+     "XI",
+     "XII",
+     "XVI",
+     "XIX",
+     "XX",
+     "XXII",
+     "XXV",
+     "XXVI"
+    ],
+    "cle": "« voici l'avenue Président-Wilson qu'indique un morceau de planche au bout d'un bâton » (IX)",
+    "fiche": "03_Fiches_lieux/Environs/E01_Bron_villas_Lanthelme_et_Marlieux.md",
+    "enquete": "04_Enquetes/09_Bron_Vinatier.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.886,
+     45.7425
+    ]
+   },
+   "properties": {
+    "id": "E02",
+    "nom": "Vinatier, « chez Carreau »",
+    "secteur": "E",
+    "categorie": "cafe",
+    "statut_nom": "deguise",
+    "certitude": "D",
+    "identification": "Guinguette à étage et chambres à l'entrée de Vinatier (asile de Bron), terminus de tramway.",
+    "nom_1925": "Vinatier (Bron)",
+    "nom_actuel": "—",
+    "rayon": 300,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 17,
+    "chapitres": [
+     "XXII",
+     "XXVI",
+     "XXVII",
+     "XXVIII",
+     "XXIX",
+     "XXXIII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Environs/E02_Vinatier_chez_Carreau.md",
+    "enquete": "04_Enquetes/09_Bron_Vinatier.md"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.912,
+     45.733
+    ]
+   },
+   "properties": {
+    "id": "E03",
+    "nom": "chapelle des Essarts (Bron)",
+    "secteur": "E",
+    "categorie": "eglise",
+    "statut_nom": "reel",
+    "certitude": "C",
+    "identification": "Chapelle des Essarts à Bron (1908-1973), installée dans une grange.",
+    "nom_1925": "Les Essarts (Bron)",
+    "nom_actuel": "—",
+    "rayon": 400,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 1,
+    "chapitres": [
+     "XXII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Environs/E03_chapelle_des_Essarts_Bron.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.795,
+     45.712
+    ]
+   },
+   "properties": {
+    "id": "E04",
+    "nom": "Oullins (villa Martin-Dumont)",
+    "secteur": "E",
+    "categorie": "domicile",
+    "statut_nom": "fictif",
+    "certitude": "D",
+    "identification": "Grosse villa de l'oncle d'Anne-Marie « au bout du pays, sur la route de Beaunand » (Beaunant) ; cible d'un projet de cambriolage.",
+    "nom_1925": "Oullins, route de Beaunant",
+    "nom_actuel": "Oullins-Pierre-Bénite",
+    "rayon": 500,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 20,
+    "chapitres": [
+     "XX",
+     "XXI",
+     "XXII",
+     "XXV",
+     "XXVII",
+     "XXIX",
+     "XXX",
+     "XXXII",
+     "XXXIII",
+     "XXXV"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Environs/E04_Oullins_villa_Martin_Dumont.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.803,
+     45.884
+    ]
+   },
+   "properties": {
+    "id": "E05",
+    "nom": "Saint-Germain-au-Mont-d'Or (villa des cousins)",
+    "secteur": "E",
+    "categorie": "localite",
+    "statut_nom": "reel",
+    "certitude": "B",
+    "identification": "Villa des cousins de Michel au bord de la Saône ; nuit où Régis « révéla Brouilly » à Michel (septembre 1924).",
+    "nom_1925": "Saint-Germain-au-Mont-d'Or",
+    "nom_actuel": "idem",
+    "rayon": 600,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 6,
+    "chapitres": [
+     "III",
+     "V",
+     "XV",
+     "XXX",
+     "Notes"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Environs/E05_Saint_Germain_au_Mont_d_Or_villa_des_cousins.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.745,
+     45.777
+    ]
+   },
+   "properties": {
+    "id": "E06",
+    "nom": "Charbonnières (casino, concours hippique, bar)",
+    "secteur": "E",
+    "categorie": "localite",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Station thermale et casino de Charbonnières-les-Bains, hippodrome ; « à 13 km à pied ».",
+    "nom_1925": "Charbonnières-les-Bains",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 8,
+    "chapitres": [
+     "XII",
+     "XIX",
+     "XXIX",
+     "XXX",
+     "XXXII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Environs/E06_Charbonnieres_casino_concours_hippique_bar.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.754,
+     45.674
+    ]
+   },
+   "properties": {
+    "id": "E07",
+    "nom": "Brignais (« la grange »)",
+    "secteur": "E",
+    "categorie": "localite",
+    "statut_nom": "reel",
+    "certitude": "B",
+    "identification": "Une des villas de la grand-mère d'Anne-Marie ; tramway de Brignais.",
+    "nom_1925": "Brignais",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 10,
+    "chapitres": [
+     "III",
+     "IV",
+     "X",
+     "XII",
+     "XV",
+     "XVI",
+     "XXV"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Environs/E07_Brignais_la_grange.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.656,
+     45.738
+    ]
+   },
+   "properties": {
+    "id": "E08",
+    "nom": "Vaugneray",
+    "secteur": "E",
+    "categorie": "localite",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Excursion du 12 juillet 1925 par le petit train de Vaugneray depuis Saint-Just.",
+    "nom_1925": "Vaugneray",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 14,
+    "chapitres": [
+     "XV",
+     "XVIII",
+     "XXII",
+     "XXVIII",
+     "XXX",
+     "XXXII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Environs/E08_Vaugneray.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.742,
+     45.71
+    ]
+   },
+   "properties": {
+    "id": "E09",
+    "nom": "Chaponost (aqueducs)",
+    "secteur": "E",
+    "categorie": "localite",
+    "statut_nom": "implicite",
+    "certitude": "C",
+    "identification": "Bourg « où passait le tramway », « derrière les aqueducs » (aqueduc du Gier) ; ligne OTL 14 Pont d'Oullins–Chaponost.",
+    "nom_1925": "Chaponost",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 3,
+    "chapitres": [
+     "XV",
+     "XX"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Environs/E09_Chaponost_aqueducs.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.835,
+     45.736
+    ]
+   },
+   "properties": {
+    "id": "E10",
+    "nom": "« À la ville d'Oran »",
+    "secteur": "E",
+    "categorie": "cafe",
+    "statut_nom": "deguise",
+    "certitude": "E",
+    "identification": "Bouge maghrébin d'un faubourg industriel, au-delà d'un pont de chemin de fer, au terminus d'un tramway traversant la Guillotière ; Gerland / la Mouche probable.",
+    "nom_1925": "Gerland ou la Mouche (7e) ?",
+    "nom_actuel": "—",
+    "rayon": 600,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 2,
+    "chapitres": [
+     "XXI"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Environs/E10_A_la_ville_d_Oran.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.6789,
+     46.1356
+    ]
+   },
+   "properties": {
+    "id": "R01",
+    "nom": "Brouilly",
+    "secteur": "R",
+    "categorie": "localite",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Mont Brouilly (Beaujolais) et sa chapelle Notre-Dame-aux-Raisins ; nuit du 28 septembre 1923, lieu « mythique » du roman, vu du train à hauteur de Belleville.",
+    "nom_1925": "Brouilly",
+    "nom_actuel": "mont Brouilly (Odenas / Saint-Lager)",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 130,
+    "chapitres": [
+     "III",
+     "IV",
+     "VI",
+     "VII",
+     "VIII",
+     "IX",
+     "X",
+     "XI",
+     "XII",
+     "XIII",
+     "XIV",
+     "XV",
+     "XVII",
+     "XVIII",
+     "XIX",
+     "XX",
+     "XXI",
+     "XXII",
+     "XXIII",
+     "XXIV",
+     "XXV",
+     "XXVI",
+     "XXVII",
+     "XXVIII",
+     "XXXII",
+     "XXXIV",
+     "XXXV",
+     "Récit de Guitte",
+     "XXXVII",
+     "Notes"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Region/R01_Brouilly.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.744,
+     46.1095
+    ]
+   },
+   "properties": {
+    "id": "R02",
+    "nom": "Belleville (gare)",
+    "secteur": "R",
+    "categorie": "gare-transport",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Gare PLM de Belleville-sur-Saône, face à Brouilly.",
+    "nom_1925": "Belleville",
+    "nom_actuel": "Belleville-en-Beaujolais",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 3,
+    "chapitres": [
+     "IX",
+     "XIX"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Region/R02_Belleville_gare.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.71,
+     45.995
+    ]
+   },
+   "properties": {
+    "id": "R03",
+    "nom": "Villefranche et Mongré",
+    "secteur": "R",
+    "categorie": "enseignement",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Villefranche-sur-Saône ; collège jésuite Notre-Dame de Mongré.",
+    "nom_1925": "Villefranche-sur-Saône",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 8,
+    "chapitres": [
+     "III",
+     "VIII",
+     "XI",
+     "XIX",
+     "Intermèdes"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Region/R03_Villefranche_et_Mongre.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.772,
+     45.941
+    ]
+   },
+   "properties": {
+    "id": "R04",
+    "nom": "Trévoux (château des de Berlhe)",
+    "secteur": "R",
+    "categorie": "localite",
+    "statut_nom": "reel",
+    "certitude": "C",
+    "identification": "Château « presque célèbre » de la famille d'Édith de Berlhe, « à côté de Trévoux » (alibi d'Anne-Marie).",
+    "nom_1925": "Trévoux (Ain)",
+    "nom_actuel": "idem",
+    "rayon": 2000,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 1,
+    "chapitres": [
+     "XIX"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Region/R04_Trevoux_chateau_des_de_Berlhe.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.507,
+     46.102
+    ]
+   },
+   "properties": {
+    "id": "R05",
+    "nom": "Claveisolles",
+    "secteur": "R",
+    "categorie": "localite",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Village du haut Beaujolais, pays maternel de Régis.",
+    "nom_1925": "Claveisolles",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 15,
+    "chapitres": [
+     "X",
+     "XI",
+     "XII",
+     "XV",
+     "XVIII",
+     "XXV",
+     "XXXII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Region/R05_Claveisolles.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8745,
+     45.5255
+    ]
+   },
+   "properties": {
+    "id": "R06",
+    "nom": "Vienne",
+    "secteur": "R",
+    "categorie": "localite",
+    "statut_nom": "reel",
+    "certitude": "A",
+    "identification": "Ville du Rhône en aval de Lyon.",
+    "nom_1925": "Vienne (Isère)",
+    "nom_actuel": "idem",
+    "rayon": 0,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 1,
+    "chapitres": [
+     "I"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Region/R06_Vienne.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.995,
+     45.294
+    ]
+   },
+   "properties": {
+    "id": "R07",
+    "nom": "l'Épervière (village de Michel)",
+    "secteur": "R",
+    "categorie": "localite",
+    "statut_nom": "deguise",
+    "certitude": "D",
+    "identification": "Bourg dauphinois proche du Rhône, maison du notaire Croz ; transposition probable de Moras-en-Valloire (Drôme), village natal de Rebatet.",
+    "nom_1925": "Moras-en-Valloire ?",
+    "nom_actuel": "Moras-en-Valloire (Drôme)",
+    "rayon": 1500,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 32,
+    "chapitres": [
+     "I",
+     "II",
+     "III",
+     "IV",
+     "IX",
+     "X",
+     "XI",
+     "XII",
+     "XVI",
+     "XVII",
+     "XVIII",
+     "XIX",
+     "XX",
+     "XXI",
+     "XXII",
+     "XXXVII"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Region/R07_l_Eperviere_village_de_Michel.md",
+    "enquete": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.514,
+     45.476
+    ]
+   },
+   "properties": {
+    "id": "R08",
+    "nom": "collège de Saint-Chély",
+    "secteur": "R",
+    "categorie": "enseignement",
+    "statut_nom": "deguise",
+    "certitude": "D",
+    "identification": "« Gros établissement religieux du Massif Central » ; transposition probable du collège Sainte-Marie de Saint-Chamond (Loire), où Rebatet fut élève.",
+    "nom_1925": "Saint-Chamond ?",
+    "nom_actuel": "Saint-Chamond (Loire)",
+    "rayon": 1500,
+    "methode_geo": "coordonnées relevées",
+    "occurrences": 32,
+    "chapitres": [
+     "I",
+     "II",
+     "III",
+     "VI",
+     "X",
+     "XVI",
+     "XVII",
+     "XX",
+     "XXI",
+     "XXIV",
+     "XXXI"
+    ],
+    "cle": null,
+    "fiche": "03_Fiches_lieux/Region/R08_college_de_Saint_Chely.md",
+    "enquete": null
+   }
+  }
+ ]
+}
