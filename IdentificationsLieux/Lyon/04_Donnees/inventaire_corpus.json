@@ -1320,7 +1320,7 @@
     ],
     "count": 34,
     "paragraph_count": 33,
-    "note": "Adresse au niveau de la voie de la famille Villars; aucun numéro à déduire des occurrences seules.",
+    "note": "Domicile des Villars : « au 3 bis du Cours Gambetta » (XXIX §106, 112), numérotation de 1925 à contrôler. Domicile Lanthelme sur le même cours (Notes §11; XXXVII §160-161), sans numéro.",
     "count_scope": "Occurrences littérales retenues après exclusions de contexte, texte narratif hors notes; non un nombre de visites.",
     "context_refs": [],
     "paratext_refs": [
@@ -3243,7 +3243,7 @@
   },
   {
     "id": "jesuites_jarente",
-    "label": "Jésuites rue de Jarente",
+    "label": "Jésuites, 13 rue de Jarente",
     "regex": "\\brue de Jarente\\b",
     "regex_flags": [
       "IGNORECASE"
@@ -3291,7 +3291,7 @@
     ],
     "count": 6,
     "paragraph_count": 6,
-    "note": "Visites/confessions; maison et adresse précise à documenter.",
+    "note": "Visites/confessions; numéro donné par le texte : « Au 13 de la rue de Jarente » (XI §98), où reçoit le P. Joud; immeuble de 1925 à documenter. L'entrée rue_jarente reprend le même motif et les mêmes références.",
     "count_scope": "Occurrences littérales retenues après exclusions de contexte, texte narratif hors notes; non un nombre de visites.",
     "context_refs": [],
     "paratext_refs": []
@@ -3471,9 +3471,45 @@
     ],
     "count": 3,
     "paragraph_count": 3,
-    "note": "IV §76 et XXVI §3. Les reprises absolues « le Parc » XXXIII §195-197 demandent lecture contextualisée.",
+    "note": "IV §76 et XXVI §3. Les reprises « le parc », « le Parc » (IV §89-91, V §32, XXVI §12, XXX §109, XXXIII §181, 195-197, 217) sont en context_refs, non comptées; elles demandent une lecture contextualisée.",
     "count_scope": "Occurrences littérales retenues après exclusions de contexte, texte narratif hors notes; non un nombre de visites.",
     "context_refs": [
+      {
+        "file": "OEBPS/Text/IV_la_rue_crequi.xhtml",
+        "p": 89,
+        "chapter": "IV",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/IV_la_rue_crequi.xhtml",
+        "p": 91,
+        "chapter": "IV",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/V_l_amour_au_corps.xhtml",
+        "p": 32,
+        "chapter": "V",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/XXVI_les_chauves_souris.xhtml",
+        "p": 12,
+        "chapter": "XXVI",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/XXX_les_figurants.xhtml",
+        "p": 109,
+        "chapter": "XXX",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/XXXIII_no_348.xhtml",
+        "p": 181,
+        "chapter": "XXXIII",
+        "role": "contexte_utile_non_compte"
+      },
       {
         "file": "OEBPS/Text/XXXIII_no_348.xhtml",
         "p": 195,
@@ -3489,6 +3525,12 @@
       {
         "file": "OEBPS/Text/XXXIII_no_348.xhtml",
         "p": 197,
+        "chapter": "XXXIII",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/XXXIII_no_348.xhtml",
+        "p": 217,
         "chapter": "XXXIII",
         "role": "contexte_utile_non_compte"
       }
@@ -4051,9 +4093,70 @@
     ],
     "count": 3,
     "paragraph_count": 3,
-    "note": "X §1 arrivée; compléter par mentions absolues Perrache, ambiguës entre gare/quartier/quai.",
+    "note": "X §1 arrivée. Les mentions absolues « Perrache » qui désignent la gare (quai, buffet, escaliers, départs) sont en context_refs, non comptées; les autres restent ambiguës entre gare, quartier et quai.",
     "count_scope": "Occurrences littérales retenues après exclusions de contexte, texte narratif hors notes; non un nombre de visites.",
-    "context_refs": [],
+    "context_refs": [
+      {
+        "file": "OEBPS/Text/IV_la_rue_crequi.xhtml",
+        "p": 7,
+        "chapter": "IV",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/V_l_amour_au_corps.xhtml",
+        "p": 4,
+        "chapter": "V",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/VIII_la_nuit_de_cherubin.xhtml",
+        "p": 265,
+        "chapter": "VIII",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/XI_les_marronniers_en_fleurs.xhtml",
+        "p": 198,
+        "chapter": "XI",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/XII_les_langues_de_feu.xhtml",
+        "p": 162,
+        "chapter": "XII",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/XV_l_equation_mystique_suite.xhtml",
+        "p": 24,
+        "chapter": "XV",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/XVI_une_retraite_notes_de_michel_croz.xhtml",
+        "p": 23,
+        "chapter": "XVI",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/XX_l_ouvrier_de_la_onzieme_heure.xhtml",
+        "p": 176,
+        "chapter": "XX",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/XXII_rege_quod_est_devium.xhtml",
+        "p": 368,
+        "chapter": "XXII",
+        "role": "contexte_utile_non_compte"
+      },
+      {
+        "file": "OEBPS/Text/XXVIII_ou_il_est_question_de_philatelie.xhtml",
+        "p": 3,
+        "chapter": "XXVIII",
+        "role": "contexte_utile_non_compte"
+      }
+    ],
     "paratext_refs": []
   },
   {
@@ -4188,7 +4291,7 @@
   },
   {
     "id": "place_leviste",
-    "label": "Place Leviste",
+    "label": "Place Le Viste (graphie du roman : « Leviste »)",
     "regex": "\\bplace Leviste\\b",
     "regex_flags": [
       "IGNORECASE"
@@ -5023,7 +5126,7 @@
     ],
     "count": 2,
     "paragraph_count": 2,
-    "note": "XXII §35,356; corridor d'accès café Alpes; brasserie anonyme Noël.",
+    "note": "XXII §35,356; corridor d'accès café Alpes; brasserie anonyme du 24 décembre (veille de Noël).",
     "count_scope": "Occurrences littérales retenues après exclusions de contexte, texte narratif hors notes; non un nombre de visites.",
     "context_refs": [],
     "paratext_refs": []
@@ -5160,7 +5263,7 @@
   },
   {
     "id": "quai_tilsit",
-    "label": "Quai Tilsit",
+    "label": "Quai Tilsitt (graphie du roman : « Tilsit »)",
     "regex": "\\bquai Tilsit\\b",
     "regex_flags": [
       "IGNORECASE"
@@ -5826,7 +5929,7 @@
   {
     "id": "brignais",
     "label": "Brignais / Briguais",
-    "regex": "\\bBr(?:ign|igu)ais\\b",
+    "regex": "\\b(?-i:Br(?:ign|igu)ais)\\b",
     "regex_flags": [
       "IGNORECASE"
     ],
@@ -5883,21 +5986,15 @@
         "matches": 1
       },
       {
-        "file": "OEBPS/Text/XVI_une_retraite_notes_de_michel_croz.xhtml",
-        "p": 3,
-        "chapter": "XVI",
-        "matches": 1
-      },
-      {
         "file": "OEBPS/Text/XXV_elle_est_a_moi.xhtml",
         "p": 196,
         "chapter": "XXV",
         "matches": 1
       }
     ],
-    "count": 10,
-    "paragraph_count": 10,
-    "note": "Graphie Briguais deux fois dans corpus (XV §265,271) autour Brignais. À traiter comme variante de transcription, pas autre commune.",
+    "count": 9,
+    "paragraph_count": 9,
+    "note": "Graphie Briguais deux fois dans corpus (XV §265,271) autour Brignais. À traiter comme variante de transcription, pas autre commune. XVI §3 « des emplois que je briguais » (verbe briguer) exclu : motif rendu sensible à la casse.",
     "count_scope": "Occurrences littérales retenues après exclusions de contexte, texte narratif hors notes; non un nombre de visites.",
     "context_refs": [],
     "paratext_refs": []
