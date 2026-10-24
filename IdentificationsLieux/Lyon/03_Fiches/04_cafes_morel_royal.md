@@ -12,7 +12,7 @@
 
 ### Attestation historique
 
-Une annonce de **L’Aigle, première année, no 32, dimanche 28 septembre 1884**, indique : « ANCIEN CAFÉ MOREL / Place Bellecour / Angle de la rue de l’Hôtel-de-Ville ». Elle mentionne les exploitants Doche et Vallin et la bière de la brasserie Winckler. C’est une source primaire commerciale, numérisée par la Bibliothèque municipale de Lyon. L’OCR et les extraits indexés ont été consultés ; la page exacte de l’annonce reste à relever sur le fac-similé, dont l’accès est intermittent. Le 24 octobre 2026, l’annonce n’a pas pu être revérifiée : le serveur de la BmL renvoyait une erreur 502. L’identifiant PER00313711 et la page restent donc à confirmer. Deux contrôles indirects sont cohérents : le 28 septembre 1884 était bien un dimanche, et la voie portait le nom de rue de l’Hôtel-de-Ville depuis 1870.
+Une annonce de **L’Aigle, première année, no 32, dimanche 28 septembre 1884**, indique : « ANCIEN CAFÉ MOREL / Place Bellecour / Angle de la rue de l’Hôtel-de-Ville ». Elle mentionne les exploitants Doche et Vallin et la bière de la brasserie Winckler. C’est une source primaire commerciale, numérisée par la Bibliothèque municipale de Lyon. L’OCR et les extraits indexés ont été consultés ; la page exacte de l’annonce reste à relever sur le fac-similé, dont l’accès est intermittent. Le 24 octobre 2026, l’annonce n’a pas pu être revérifiée : le serveur de la BmL renvoyait une erreur 502. L’identifiant PER00313711 reste donc lui aussi à confirmer. Deux contrôles indirects sont cohérents : le 28 septembre 1884 était bien un dimanche, et la voie portait le nom de rue de l’Hôtel-de-Ville depuis 1870.
 
 [Fac-similé BmL, identifiant PER00313711](https://collections.bm-lyon.fr/PER00313711/ISSUE_PDF).
 
@@ -51,11 +51,11 @@ Le chapitre XXXVII situe cette dernière visite en novembre **1927** (§1 et §5
 
 ### Attestation historique
 
-La **Revue de l’Université de Lyon, III, juin 1929**, contient dans ses pages publicitaires une annonce du Café Royal et, dans l’index *Nos annonciers*, l’entrée suivante : « CAFE ROYAL, 50, rue de la République, Lyon. Tél. F. 01-73. » La couverture donne explicitement juin 1929. L’extrait publicitaire présente l’établissement comme un lieu de rendez-vous étudiant.
+La **Revue de l’Université de Lyon, III, juin 1929**, contient dans ses pages publicitaires une annonce du Café Royal et, dans l’index *Nos annonciers*, l’entrée suivante : « CAFE ROYAL, 50, rue de la République, Lyon. Tél. F. 01-73. » L’extrait publicitaire présente l’établissement comme un lieu de rendez-vous étudiant.
 
 [Numérisation de la Maison de l’Orient et de la Méditerranée, fonds Salomon Reinach](https://tpsalomonreinach.mom.fr/files/original/97fedea9aa6169a031945f9faeed14bf687697dd.pdf).
 
-Le document avait d’abord été repéré par ses extraits indexés. Le fac-similé numérique complet (PDF de 121 pages, 12,9 Mo) a été téléchargé et consulté le 24 octobre 2026. La couverture porte « III … Juin 1929 ». L’annonce « Rendez-vous des Étudiants au Café Royal, Lyon, 50, rue de la République » occupe le verso (p. 38 du PDF) d’un feuillet publicitaire non paginé, inséré entre les p. 226 et 227 de l’article de J. Cosimi. Le recto (p. 37 du PDF) porte notamment l’annonce du tailleur Félix, 74, rue de l’Hôtel-de-Ville. L’index « Nos annonciers » se trouve à la p. 77 du PDF, non paginée, juste avant « Lyon en février-juin 1871 » de P. Boegner. Il donne « CAFE ROYAL, 50, rue de la République, Lyon. Tél. F. 01-73 » et, séparément, « ROYAL-HOTEL, place Bellecour ». Il s’agit d’une consultation de la numérisation, et non de l’exemplaire papier.
+Le document avait d’abord été repéré par ses extraits indexés. Le fac-similé numérique complet (PDF de 121 pages, 12,9 Mo) a été téléchargé et consulté le 24 octobre 2026. La couverture porte « III … Juin 1929 ». L’annonce « Rendez-vous des Étudiants au Café Royal, Lyon, 50, rue de la République » occupe le verso (p. 38 du PDF) d’un feuillet publicitaire non paginé, inséré entre les p. 226 et 227 de l’article de J. Cosimi. Le recto (p. 37 du PDF) porte notamment l’annonce du tailleur Félix, 74, rue de l’Hôtel-de-Ville. L’index « Nos annonciers » se trouve à la p. 77 du PDF, non paginée, juste avant « Lyon en février-juin 1871 » de P. Boegner. Outre l’entrée du Café Royal citée plus haut, il porte, sur une ligne distincte et avec un autre numéro, « ROYAL-HOTEL, place Bellecour. Lyon. Tél. F. 57-31. » Il s’agit d’une consultation de la numérisation, et non de l’exemplaire papier.
 
 ### Conclusion et limites
 
@@ -63,7 +63,7 @@ Le document avait d’abord été repéré par ses extraits indexés. Le fac-sim
 
 L’annonce de juin 1929 est postérieure d’environ 19 mois à la dernière scène (novembre 1927), mais d’environ 3 ans et 7 mois à la première (29 octobre 1925 : « avant-hier » dans l’entrée datée du 31 octobre, XXI §1-2). Il faut donc établir la présence du Café Royal au 50 rue de la République dès 1925, d’après les annuaires 1925-1927 (Indicateur Henry), pour exclure un déplacement, un changement d’enseigne ou une homonymie.
 
-L’index publicitaire de la même revue distingue expressément ce café du **Royal-Hôtel, place Bellecour**. Cette coexistence est un argument contre leur confusion. Le nom « Royal » tout seul et l’allure bourgeoise de la scène ne suffiraient pas à choisir l’hôtel.
+L’index publicitaire de la même revue distingue expressément ce café du **Royal-Hôtel, place Bellecour**. Cette coexistence est un argument contre leur confusion. L’hôtel a sa propre annonce (p. 57 du PDF : « 120 chambres », « 60 salles de bains »), qui ne mentionne ni bar ni musique. Le nom « Royal » tout seul et l’allure bourgeoise de la scène ne suffiraient pas à choisir l’hôtel.
 
 Pour la carte : un point **probable**, libellé « Café Royal — 50 rue de la République, attesté en 1929 », avec mention de l’écart chronologique. La précision d’un numéro de rue historique ne dispense pas de contrôler la numérotation et l’emprise du local sur un plan de la période.
 
