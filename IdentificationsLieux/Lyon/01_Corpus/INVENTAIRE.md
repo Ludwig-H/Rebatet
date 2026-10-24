@@ -19,12 +19,12 @@ Le champ `narrative_mode` indique l’usage dominant de l’entrée : il ne clas
 
 ## Conclusions textuelles solides
 
-1. **Café des Alpes**, non « café des Deux Alpes », au chapitre X §149 : avenue de Saxe, tenue par un couple savoyard, salle de sociétés. Le chapitre XXII §34-35 apporte une contrainte d’itinéraire ; il ne livre pas de numéro.
+1. **Café des Alpes**, non « café des Deux Alpes », au chapitre X §149 : avenue de Saxe, tenue par un couple savoyard, salle de sociétés. Au chapitre XXII §34-35, le couple part de la grande porte du cours Boudier, près de la place Morand, passe le cours La Fayette, oblique à droite et « s’arrêta à l’angle de l’avenue de Saxe, au café des Alpes ». Le café occupe donc un angle de l’avenue de Saxe, un peu au-delà du cours La Fayette en venant de la place Morand. Aucun numéro n’est donné.
 2. **Rue du Six-Janvier** est une désignation affective. Le chapitre XII §124 situe le lieu de pèlerinage à l’angle des rues Créqui et Rabelais. Conserver la distinction entre surnom intime et dénomination administrative.
-3. **Place Antique** est un nom textuel extrêmement récurrent ; l’inventaire atteste le nom, pas son existence administrative. Sa correspondance réelle doit être démontrée par les trajets et archives.
+3. **Place Antique** est un nom textuel extrêmement récurrent et, comme « rue du Six-Janvier », un surnom privé : il vient de l’épithète de Michel, « cette antique place » (VI §8), adoptée par le couple (IX §84). Aucune dénomination administrative n’est donc à chercher. La place apparaît sans nom dès IV §116-118, « à moins de deux cents pas des artères bourgeoises de la Guillotière ». Elle se situe par IX §84 (cinquante mètres de la rue de Marseille, deux cents de chez Régis, trois cents de chez Anne-Marie), IX §85 (école neuve, lanterne), XXIII §228 (« la petite rue Saint-Michel ») et XIX §133 (chambre de Michel « à deux cents pas »). Sa correspondance réelle doit être démontrée par ces trajets et par les archives.
 4. **Café des femmes** est expressément un surnom donné par Michel et Anne-Marie (XXV §2) ; la devanture jaune est un peu en retrait avenue Jean-Jaurès (XXV §1). Le numéro « 257 » du même paragraphe qualifie une concierge parmi plusieurs silhouettes du quartier : il n’est pas présenté comme l’adresse du café.
 5. **Cours Boudier** désigne un enseignement privé et son établissement ; ce n’est pas automatiquement une voie. Le même mot « cours » a ailleurs le sens d’artère (Gambetta, Lafayette, etc.).
-6. **Rue Créqui** désigne le lieu de rencontre ; aucune adresse de domicile ne découle de ce seul toponyme. La porte des **Lanthelme** est évoquée au voisinage du cours Gambetta, de la place du Pont et du pâté derrière l’Eldorado (XXXVII §150).
+6. **Rue Créqui** désigne le lieu de rencontre ; aucune adresse de domicile ne découle de ce seul toponyme. La porte des **Lanthelme** donne sur le cours Gambetta lui-même, où Anne-Marie et Régis habitent « à deux cents mètres l’un de l’autre » (Notes §11, note appelée en XIX §133 ; « mon cours Gambetta », XI §24). On passe devant elle « sous la mesquine marquise du bazar des « Galeries Modernes » », et Régis y dit « nous sommes en bas de ma chambre » (XXXVII §160-161). Le circuit de XXXVII §150 (la porte, « l’avenue » traversée, le tour du pâté « derrière l’Eldorado », l’angle de la place du Pont) la place sur le trottoir opposé à ce pâté : c’est une inférence. Aucun numéro n’est donné.
 7. **Vinatier** est un secteur d’excursion et de guinguette (XXII §86 ; XXVI §140). « Chez Carreau » n’est pas situé dans l’hôpital par le texte.
 8. **Brouilly, Claveisolles et Mongré** sont essentiels à l’action et aux souvenirs, mais appellent une carte régionale distincte du Lyon central.
 
@@ -41,35 +41,39 @@ Le champ `narrative_mode` indique l’usage dominant de l’entrée : il ne clas
 - **Charité** : seuls les quatre emplois du nom de l’édifice avec majuscule sont retenus ; la vertu théologale et les ventes de charité sont exclues.
 - **Saint-Sacrement** : l’exposition liturgique XVI §50 est exclue de la fiche d’église.
 - **Eldorado** : la métaphore VII §71 est exclue de la fiche du théâtre.
-- **Briguais / Brignais** : deux occurrences `Briguais` XV §265,271 entourent des occurrences `Brignais`. Conserver la variante et vérifier sur édition imprimée ; ne pas créer deux communes.
-- Les **marronniers** de l’air des Noces, les noms de compositeurs, le numéro d’une loge et les comparaisons architecturales ne constituent pas des adresses lyonnaises.
+- **Briguais / Brignais** : deux occurrences `Briguais` XV §265,271 entourent des occurrences `Brignais`. Conserver la variante et vérifier sur édition imprimée ; ne pas créer deux communes. Le motif est sensible à la casse : XVI §3 (« des emplois que je briguais », verbe briguer) est exclu ; restent 9 occurrences.
+- Les **marronniers** de l’air des Noces (VIII §213-214), les noms de compositeurs, le « 257 » de la concierge (XXV §1), la chambre d’hôtel « 348 » (ch. XXXIII, §272) et les comparaisons architecturales ne constituent pas des adresses lyonnaises. Le roman ne donne que deux adresses numérotées : 13 rue de Jarente (XI §98) et 3 bis cours Gambetta (XXIX §106).
 
 ## Dossiers supplémentaires de lieux anonymes ou privés
 
 | Lieu | Références de départ | Ce que le texte autorise |
 |---|---|---|
 | Chapelle des Essarts | XXII §210 | Rendez-vous relaté, identification historique à établir. |
-| Domicile Villars | Cours Gambetta ; XXXII §67,81 | Voie et balcon ; pas numéro ici. |
-| Domicile Lanthelme | XXXVII §150 | Relation au cours Gambetta, place du Pont et Eldorado ; numéro non établi. |
-| Logement chez Mme Mulet | XIX §157 ; XXI §87 ; XXV §177 | Chambrette avenue Jean-Jaurès ; ne pas géocoder la logeuse comme personne réelle. |
+| Domicile Villars | XXIX §69, 75, 106, 112 ; XII §202-203 ; XXII §175 ; XXXI §50 ; XXXII §67, 81 ; Notes §11 | Adresse donnée par le texte : « au 3 bis du Cours Gambetta » (XXIX §106 ; « devant le 3 bis », §112). Michel y entre pour déjeuner, invité par Mme Villars (XXIX §69, 75). Immeuble d’angle probable : la chambre et le salon d’Anne-Marie donnent sur une « petite rue » (XII §202 ; XXXI §50), « la première petite rue » après la brasserie de l’Étoile, « à l’entrée du cours Gambetta » (XXII §175). Balcon de la salle à manger et brasserie à violons voisine (XXXII §81). Numérotation de 1925 à contrôler (annuaire Henry ; recensement de 1926). Au recensement de 1926, Simone Chevallier, modèle d’Anne-Marie, réside cours Gambetta ; la réponse publiée ne donne pas de numéro ([Guichet du Savoir BmL, q. 51150](https://www.guichetdusavoir.org/question/voir/51150), consulté le 24 octobre 2026). |
+| Domicile Lanthelme | Notes §11 ; I §95, 127 ; XI §24 ; XXI §54 ; XXVII §20-21 ; XXXVII §150, 160-161 | Appartement familial sur le cours Gambetta, à « deux cents mètres » des Villars (Notes §11) ; salle à manger à balcon sur le cours (I §95). Porte sous la marquise du bazar des « Galeries Modernes », « en bas de ma chambre » (XXXVII §160-161). Trottoir opposé au pâté de l’Eldorado, vers la place du Pont : inférence tirée de §150. Aucun numéro ; enseigne du bazar à chercher dans l’annuaire Henry. Concordance extérieure : les parents de Varillon, modèle de Régis, « habitaient cours Gambetta » (Varillon, *Beauté du monde et souffrance des hommes*, 1980 ; [Ifri 2001](https://archive.org/details/lesdeuxetendards0000ifri), extraits plein texte consultés le 24 octobre 2026). |
+| Logement chez Mme Mulet | XIX §133, 157 ; XXI §87 ; XXV §147, 177 ; Notes §11 | « Petite chambre » (XIX §133), puis « chambrette » (XXV §177), avenue Jean-Jaurès, « en pleine Guillotière, à deux cents pas de la « place Antique » », chez un conducteur d’imprimerie du Progrès de Lyon (XIX §133). La note de l’auteur appelée sur « avenue Jean-Jaurès » dit : « Avenue populaire, relativement décente » (Notes §11). Logeuse nommée en XIX §157 ; Michel quitte l’avenue en XXV (§147, 177). Aucun numéro. Ne pas géocoder la logeuse comme personne réelle. |
 | Garni rue Basse-Combalot | XXVIII §2,5 | Voie ; quatre francs par jour ; numéro absent. |
-| Garni voisin rue de Marseille | XXIX §4 | Voisinage seulement, pas nécessairement sur cette rue. |
+| Garni voisin rue de Marseille | XXIX §4, 144, 240 ; XXXI §19 | « Petit garni voisin de la rue de Marseille » (XXIX §4), mais Michel le désigne ensuite par la rue même : « J’ai quitté la rue de Marseille pour le Lugdunum » (XXXI §19) ; la logeuse est sans doute « la sorcière de la rue de Marseille » (XXIX §144, 240). Garni sur la rue ou à son débouché immédiat, sur cour, sans électricité ; aucun numéro. |
 | Mercière-papetière Mme Mitanchet | XXI §87 | Sur la même avenue que Mulet, à environ deux cents pas ; aucun numéro. |
-| Maison de soie où Michel enseigne | XIX §132 | Pied de la Croix-Rousse ; bâtiment inconnu. |
-| Maison Rouchouze | XX §102,128 | Lieu de travail ; le quartier du Griffon concerne un autre trajet/emploi et ne doit pas lui être automatiquement transféré. |
-| Villa Lanthelme et maison Marlieux à Bron | III §49 | Deux propriétés en face l’une de l’autre ; adresse réelle non fournie. |
-| Villa Martin-Dumont | XXXIII §2 | Au bout d’Oullins, route de Beaunand ; parc et intérieur décrits. |
+| Maison de soie Neyratier (leçons de Michel) | XIX §132, 148 ; XX §128 ; XXVII §29 | « Au pied de la Croix-Rousse, une cambuse cariée et charbonneuse » (XIX §132) ; la leçon se donne « dans le magasin de M. Neyratier » (XXVII §29). Secteur du Griffon : après la leçon, Michel « dévalait ensuite du Griffon » vers la maison Rouchouze (XX §128, indice décisif). « Le bureau noir du Griffon » (XIX §148) n’est qu’un indice d’appoint, peut-être une métonymie du métier. Bâtiment non identifié. Ne pas confondre avec la maison des cousins passementiers, « la troisième maison du Griffon » (I §65 ; III §13). |
+| Maison Rouchouze (négoce de vins) | XX §102, 103, 107, 128 ; XXI §1 | Maison du « premier négociant en vins de la place », où Michel est commis-auxiliaire (XX §102) jusqu’à son renvoi (XXI §1, 31 octobre 1925). Siège social et entrepôt dans « une ruelle ouvrière », derrière « un portail de bois chocolat » sous une enseigne en fer à cheval (XX §103), « toute proche de la rue Créqui » (XX §107). Le Griffon de XX §128 est le point de départ du trajet, après la leçon chez Neyratier ; ce n’est pas le site de la maison. |
+| Villa Lanthelme et maison Marlieux à Bron | III §49 ; IX §142 ; XXVI §154, 167 | Deux propriétés « juste en face » (III §49) ou « presque en face » (IX §142) l’une de l’autre. Le fond du parc de la grand-mère (mur blanc, sapins, petite porte) se voit depuis un chemin entre Bron et Vinatier (XXVI §154, 167). Adresse réelle non fournie. Le voisinage réel des modèles à Bron est attesté par Ifri (2001) : « maison de campagne » de Varillon, Simone « sa voisine de Bron ». |
+| Villa Martin-Dumont | XXXIII §2, 52 | Au bout d’Oullins, route de Beaunand (graphie du roman ; graphie actuelle Beaunant, hameau entre Oullins et Sainte-Foy-lès-Lyon) ; parc et intérieur décrits ; villa non identifiée. |
 | Villa des cousins | III §2,13 | Saint-Germain-au-Mont-d’Or, près de la Saône ; propriété non identifiée. |
 | Café près des Terreaux | XXII §139 | Seulement « tout près » des Terreaux. |
-| Brasserie du cours Lafayette | XXII §356 | Jour de Noël, voie nommée, pas enseigne. |
+| Brasserie du cours La Fayette | XXII §356-357 | Le 24 décembre, veille de Noël : Michel rentre ensuite « pour réveillonner » (§357). Brasserie sans enseigne nommée, « envahie » ce soir-là par une foule populaire ; voie seule. |
 | Bistrot à angle rue Du Guesclin | XXII §388 ; XXIV §4 | Angle nommé sans croisement explicitement établi dans la citation isolée. |
 | Restaurant rue des Marronniers | XV §217 | Voie, pas enseigne. |
 | Cinéma rue Thomassin | XXIII §180 | Voie et programme décrit ; identification exige presse de spectacles datée. |
 | Café-hôtel À la ville d’Oran | XXI §91-104 | Itinéraire depuis centre/Brotteaux vers banlieue au-delà pont ferroviaire ; aucun point précis démontré. |
 
+Ce tableau n’est pas exhaustif. Y manquent notamment le domicile d’Yvonne, rez-de-chaussée de l’avenue de Saxe (XIV §132 ; XV §572), celui de Guitte (Mme Dufaure), sœur d’Anne-Marie, boulevard des Belges (XXX §164 ; XXXIII §184), l’hôtel des « V… D… » sur le même boulevard (XXI §94-95, 137) et la maison des cousines Marlieux à Belleville (XIX §225). Ces lieux relèvent du [registre des lieux](../04_Donnees/lieux.json), refondu séparément.
+
 ## Tableau de repérage
 
-Les comptes peuvent se recouper entre entrées ; ne pas les additionner pour mesurer des lieux uniques. Le JSON est la source de toutes les références.
+Les comptes peuvent se recouper entre entrées ; ne pas les additionner pour mesurer des lieux uniques. Le JSON est la source de toutes les références. Ainsi « Rue de Jarente » reprend le motif et les six références de « Jésuites, 13 rue de Jarente » : c’est un doublon lexical, et le numéro est donné en XI §98.
+
+Les comptes de « Gare Perrache » (3) et de « Parc de la Tête d’Or » (3) ne valent que pour la forme nommée. Une dizaine de mentions absolues « Perrache » désignent la gare (IV §7 ; V §4 ; XI §198 ; XII §162 ; XV §24 ; XVI §23 ; XXII §368 ; XXVIII §3…), et le parc revient souvent comme « le parc » (IV §89-91 ; V §32 ; XXVI §12 ; XXXIII §195-197…). Ces passages figurent en `context_refs`, hors compte. Loyasse, Les Culattes, Craponne, Montessuy (XX §137) et Vénissieux (IX §154 ; XX §137) sont des mentions onomastiques, sans scène ni visite. Chaponost reste un repère d’itinéraire (XV §277) ; sa mention en XX §137 est onomastique.
 
 | Entrée | Classe | Forme recherchée : occurrences | Premiers repères |
 |---|---|---:|---|
@@ -113,7 +117,7 @@ Les comptes peuvent se recouper entre entrées ; ne pas les additionner pour mes
 | Faculté / Institut catholique | principal | 5 | XIX §109 ; XIX §215 ; XX §102 |
 | Collège des Lazaristes | secondaire | 5 | XV §597 ; XVI §4 ; XIX §3 |
 | Jésuites rue Sainte-Hélène | secondaire | 2 | XI §93 ; XX §102 |
-| Jésuites rue de Jarente | principal | 6 | XI §91 ; XI §92 ; XI §93 |
+| Jésuites, 13 rue de Jarente | principal | 6 | XI §91 ; XI §92 ; XI §93 |
 | Église Saint-Louis | secondaire | 1 | XXII §99 |
 | Église Saint-Bonaventure | secondaire | 1 | XXVII §89 |
 | Saint-Nizier | secondaire | 1 | XXI §207 |
@@ -131,7 +135,7 @@ Les comptes peuvent se recouper entre entrées ; ne pas les additionner pour mes
 | Place Morand | principal | 6 | IX §42 ; XXI §93 ; XXII §20 |
 | Place de l'Abondance | secondaire | 2 | XXII §99 ; XXII §195 |
 | Place Puvis-de-Chavannes | secondaire | 1 | XV §595 |
-| Place Leviste | secondaire | 1 | XXIII §61 |
+| Place Le Viste (graphie du roman : « Leviste ») | secondaire | 1 | XXIII §61 |
 | Place des Célestins | secondaire | 1 | XXXVII §94 |
 | Théâtre / secteur des Célestins | secondaire | 4 | XXX §66 ; XXX §81 ; XXXVII §35 |
 | Rue Victor-Hugo / hôtel anonyme | secondaire | 5 | X §1 ; XII §8 ; XV §49 |
@@ -161,7 +165,7 @@ Les comptes peuvent se recouper entre entrées ; ne pas les additionner pour mes
 | Cours de la Liberté | principal | 3 | XXI §68 ; XXV §181 ; XXV §206 |
 | Cours Charlemagne / voûte Perrache | secondaire | 1 | XXVIII §4 |
 | Quai Saint-Clair / cousins | principal | 5 | XXV §203 ; XXVIII §12 ; XXVIII §40 |
-| Quai Tilsit | secondaire | 2 | XXXI §38 ; recit §3 |
+| Quai Tilsitt (graphie du roman : « Tilsit ») | secondaire | 2 | XXXI §38 ; recit §3 |
 | Quai de Retz | secondaire | 1 | XXI §92 |
 | Quai de la Guillotière | secondaire | 1 | XII §112 |
 | Quai du Rhône | secondaire | 2 | XI §191 ; XXVII §112 |
@@ -178,7 +182,7 @@ Les comptes peuvent se recouper entre entrées ; ne pas les additionner pour mes
 | Bron | principal | 20 | III §49 ; III §53 ; IX §140 |
 | Église de Bron | secondaire | 1 | XIX §42 |
 | Vinatier | principal | 3 | XXII §86 ; XXVI §140 ; XXVI §154 |
-| Brignais / Briguais | principal | 10 | III §47 ; IV §14 ; X §199 |
+| Brignais / Briguais | principal | 9 | III §47 ; IV §14 ; X §199 |
 | Vaugneray | principal | 16 | XV §77 ; XV §80 ; XV §114 |
 | Gare de Saint-Just / ficelle | secondaire | 1 | XV §75 |
 | Chaponost | secondaire | 3 | XV §277 ; XX §137 |
@@ -205,3 +209,5 @@ Les comptes peuvent se recouper entre entrées ; ne pas les additionner pour mes
 | Sacré-cœur (établissement pour filles) | secondaire | 1 | XX §102 |
 | Belleville (Beaujolais) | exterieur | 6 | IX §34 ; XIX §225 ; XIX §280 |
 | Petite-Chaumière (Paris, exclusion) | exclu | 2 | XIV §68 ; XIV §73 |
+
+*Révisé le 24 octobre 2026 après contre-vérification : voir [07_Journal/2026-10-24.md](../07_Journal/2026-10-24.md).*

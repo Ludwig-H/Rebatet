@@ -2,7 +2,7 @@
 
 ## Une enquête philologique et historique, avec atlas critique
 
-**État du 23 octobre 2026.** Le dépouillement du roman fourni dans ce dépôt réunit **132 entrées de travail**, dont **54 principales**, et **855 références lexicales contrôlées**. Un registre cartographique de **51 notices** développe les identifications et les questions ouvertes ; **35** disposent d'une géométrie, les autres restent volontairement sans emplacement. Ces nombres comptent des objets de natures différentes et parfois imbriqués : ils ne signifient pas que 132 bâtiments historiques ont été retrouvés.
+**État du 24 octobre 2026.** Le dépouillement du roman fourni dans ce dépôt réunit **132 entrées de travail**, dont **54 principales**, et **854 références lexicales contrôlées** (855 le 23 octobre ; « briguais », forme du verbe briguer prise pour Brignais en XVI §3, a depuis été exclu). Un registre cartographique de **51 notices** développe les identifications et les questions ouvertes ; **35** disposent d'une géométrie, les autres restent volontairement sans emplacement. Ces nombres comptent des objets de natures différentes et parfois imbriqués : ils ne signifient pas que 132 bâtiments historiques ont été retrouvés.
 
 **Pour commencer :** [carte générale](05_Cartes/lyon_ensemble.svg), [zoom Saxe–Guillotière](05_Cartes/lyon_guillotiere_saxe.svg), puis [atlas interactif](05_Cartes/atlas_lyon.html). Télécharger l'HTML et l'ouvrir dans un navigateur pour utiliser recherche, filtres et notices ; GitHub en affiche le code. Les trois cartes fonctionnent sans service de cartes externe.
 

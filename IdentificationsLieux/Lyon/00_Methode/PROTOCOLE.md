@@ -38,7 +38,7 @@ Ces statuts qualifient la **localisation proposée**. Ils ne certifient ni une �
 
 ## Critique historique
 
-Le récit contient des repères internes explicites : Pâques 1920 (I §3), automne 1923 (II §1), 6 janvier 1925 (Notes §21), avril 1925 (X §227), 31 octobre 1925 (XXI §1), 1926 (XXIV §194) et 1927 dans le dernier chapitre (XXXVII §5). La chronologie relative place la nuit de Brouilly et la scène fondatrice du quai Perrache à la fin de septembre 1923 (III §51 ; XII §172 : « le 30 septembre »). Le noyau lyonnais va de l'automne 1924 (III) à l'été 1926 (XXXII–XXXIII, juillet), avec un épilogue lyonnais en novembre 1927 (XXXVII §§1–6). Les vérifications d'établissements doivent donc couvrir 1923–1927, en priorité 1925–1926, et non un vague « Lyon ancien ».
+Le récit contient des repères internes explicites : Pâques 1920 (I §3), automne 1923 (II §1), 6 janvier 1925 (Notes §21), avril 1925 (X §227), 31 octobre 1925 (XXI §1), 1926 (XXIV §194) et 1927 dans le dernier chapitre (XXXVII §5). La chronologie relative place la nuit de Brouilly et la scène fondatrice du quai Perrache à la fin de septembre 1923 (III §51 ; XII §172 : « le 30 septembre »). Le noyau lyonnais va de l'automne 1924 (III) à l'été 1926 (XXXII–XXXIII, juillet). Le *Récit de Guitte* rapporte ensuite un retour du couple à Lyon, du 20 décembre 1926 à la rupture du début de 1927 (Récit de Guitte §§15–33), avant l'épilogue lyonnais de novembre 1927 (XXXVII §§1–6). Les vérifications d'établissements doivent donc couvrir 1923–1927, en priorité 1925–1926, et non un vague « Lyon ancien ».
 
 Ces repères concordent avec la [biographie publiée par les *Études rebatiennes*](https://etudesrebatiennes.over-blog.com/pages/BIOGRAPHIE-1027913.html) (consultée le 24 octobre 2026) : nuit de Brouilly le 28 septembre 1923, première rencontre de Rebatet et de Simone Chevallier le 6 janvier 1925, noviciat de Varillon en novembre 1927. Cette concordance ne vaut pas preuve topographique.
 
@@ -66,8 +66,7 @@ Les données séparent inventaire des mentions et sélection cartographiée. Les
 
 - [Archives de Lyon : plans parcellaires, 1861–1995](https://www.archives-lyon.fr/documents-remarquables/rechercher-dans-les-plans-parcellaires-1861-1995).
 - [Archives de Lyon : cartes et plans](https://recherches.archives-lyon.fr/page/cartes-et-plans).
-- [BmL, Guichet du Savoir, 18 mars 2026 : indicateurs Henry et Fournier](https://www.guichetdusavoir.org/question/voir/140159).
-- Indicateurs Henry/Fournier : BmL (banque du Silo), Archives de Lyon, Archives départementales du Rhône ; consultation sur place.
+- [BmL, Guichet du Savoir, 18 mars 2026 : indicateurs Henry et Fournier](https://www.guichetdusavoir.org/question/voir/140159) ; consultation sur place à la BmL (banque du Silo), aux Archives de Lyon et aux Archives départementales du Rhône.
 - [Archives de Lyon : anciens noms de voies](https://www.archives-lyon.fr/sites/aml/files/2021-03/voies_anciennes.pdf) : dénominations anciennes et dates de changement (par exemple rue de la Vierge, devenue rue Gilbert-Dru en 1945).
 - Archives départementales du Rhône : recensements de population, notamment celui de 1926, interrogeable par adresse. Exemple d'usage : [BmL, Guichet du Savoir, 1er septembre 2015 : Simone Chevallier](https://www.guichetdusavoir.org/question/voir/51150) (cours Gambetta, p. 8 du recensement de 1926).
 
