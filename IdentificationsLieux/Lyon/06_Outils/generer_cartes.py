@@ -20,7 +20,7 @@ def normalise(rows):
   if r.get('type')=='Feature':r={**r.get('properties',{}),'geometry':r.get('geometry')}
   r=dict(r);r['nom']=r.get('nom',r.get('name',r.get('label',r.get('id',str(i)))))
   r['statut']=r.get('statut','non_localise');r['description']=r.get('description',r.get('note',''))
-  r['num']=i+1;r.setdefault('id',str(i+1));r.setdefault('refs',[]);r.setdefault('sources',[])
+  r['rang']=i+1;r['num']=r.get('code') or str(i+1);r.setdefault('id',str(i+1));r.setdefault('refs',[]);r.setdefault('sources',[])
   out.append(r)
  return out
 
@@ -98,7 +98,8 @@ def symbol(x,y,num,status,size=15):
  elif status=='hypothese':s=f'<circle cx="{x}" cy="{y}" r="{size}" fill="{PAPER}" stroke="{color}" stroke-width="2.5" stroke-dasharray="4 2"/>'
  else:s=f'<circle cx="{x}" cy="{y}" r="{size}" fill="{color}" stroke="{PAPER}" stroke-width="2.2"/>'
  textcolor=color if status=='hypothese' else 'white'
- return s+f'<text x="{x}" y="{y+4.5}" text-anchor="middle" fill="{textcolor}" font-size="12.5" font-weight="700">{num}</text>'
+ fs=12.5 if len(str(num))<=2 else round(size*0.68,1)
+ return s+f'<text x="{x}" y="{y+fs*0.36:.1f}" text-anchor="middle" fill="{textcolor}" font-size="{fs}" font-weight="700">{num}</text>'
 
 def map_marks(rows,b,pr,mpp,static=True):
  result=[];placed=[]
@@ -111,9 +112,13 @@ def map_marks(rows,b,pr,mpp,static=True):
    rad=max(0,float(r.get('precision_m') or 0))*mpp
    if status!='atteste' or rad>12:
     rad=max(rad,18);shape=f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{rad:.1f}" fill="{col}" fill-opacity=".13" stroke="{col}" stroke-width="1.1" stroke-dasharray="4 3"/>'
+  elif typ in ['LineString','MultiLineString'] and r.get('categorie')=='voie':
+   # rue nommée : un filet, non une bande d'incertitude
+   shape=f'<path d="{path}" stroke="#fffdf8" stroke-width="5" opacity=".8" fill="none" stroke-linecap="round"/><path d="{path}" stroke="{col}" stroke-width="2.4" opacity=".75" fill="none" stroke-linecap="round"/>'
   elif typ in ['LineString','MultiLineString']:
-   width=max(10,min(60,float(r.get('precision_m') or 35)*2*mpp))
-   shape=f'<path d="{path}" stroke="{col}" stroke-width="{width:.1f}" opacity=".18" fill="none" stroke-linecap="round"/><path d="{path}" stroke="{col}" stroke-width="2.2" stroke-dasharray="5 4" fill="none"/>'
+   # tronçon de recherche le long d'une voie : la largeur reste symbolique (precision_m mesure la position le long de la voie)
+   width=max(8,min(16,float(r.get('precision_m') or 35)*2*mpp))
+   shape=f'<path d="{path}" stroke="{col}" stroke-width="{width:.1f}" opacity=".14" fill="none" stroke-linecap="round"/><path d="{path}" stroke="{col}" stroke-width="2.2" stroke-dasharray="5 4" fill="none"/>'
   else:shape=f'<path d="{path}" fill="{col}" fill-opacity=".14" stroke="{col}" stroke-width="1.5" stroke-dasharray="6 4"/>'
   # A number is a callout, not a spurious geocoded address.
   lx,ly=x,y
@@ -124,7 +129,7 @@ def map_marks(rows,b,pr,mpp,static=True):
     angle=step*2.39996;rad=24+step*4;lx=x+rad*math.cos(angle);ly=y+rad*math.sin(angle)
   placed.append((lx,ly))
   connector=f'<path d="M{x:.1f},{y:.1f} L{lx:.1f},{ly:.1f}" stroke="{col}" stroke-width="1.2" fill="none"/>' if abs(lx-x)+abs(ly-y)>5 else ''
-  result.append(f'<g class="lieu" data-id="{esc(r["id"])}" data-status="{status}" tabindex="0" role="button" aria-label="{esc(r["nom"])}"><title>{esc(r["nom"])} — {esc(LAB.get(status,status))}</title>{shape}{connector}{symbol(round(lx,1),round(ly,1),r["num"],status)}</g>')
+  result.append(f'<g class="lieu" data-id="{esc(r["id"])}" data-status="{status}" tabindex="0" role="button" aria-label="{esc(r["nom"])}"><title>{esc(r["nom"])} — {esc(LAB.get(status,status))}</title>{shape}{connector}{symbol(round(lx,1),round(ly,1),r["num"],status,12 if r.get('categorie')=='voie' else 15)}</g>')
  return ''.join(result)
 
 def texts(x,y,lines,size=16,color=INK,step=None,**attrs):
@@ -148,7 +153,7 @@ def annotations(b,pr,zoom):
 def static_svg(rows,features,b,title,subtitle,zoom,filename):
  selected=[r for r in rows if inside(anchor(r.get('geometry')),b) and r.get('carte_principale',r.get('principal',True))]
  # An intentional editorial selection; all records remain accessible in the atlas.
- selected=sorted(selected,key=lambda r:(r.get('priorite',r.get('priority',50)),r['num']))[:18]
+ selected=sorted(selected,key=lambda r:(r.get('priorite',r.get('priority',50)),r['rang']))[:18]
  if not zoom:
   for extra_id in ['mere_brazier','lugdunum']:
    found=next((r for r in rows if r['id']==extra_id and inside(anchor(r.get('geometry')),b)),None)

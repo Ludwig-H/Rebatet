@@ -2,16 +2,19 @@
 """Cartes sur fonds historiques de l'IGN (carte de 1950, photographies aériennes 1950-1965).
 
 Complète generer_cartes.py (cartes vectorielles autonomes sur fond OSM moderne) :
-mêmes données (04_Donnees/lieux.json, itineraires.geojson), même palette, même
-numérotation des notices. Les tuiles IGN (Géoplateforme, Licence ouverte Etalab
+mêmes données (04_Donnees/lieux.json, itineraires.geojson), même palette ; les
+repères sont étiquetés par le code de leur notice (G01, B02…), comme les fiches. Les tuiles IGN (Géoplateforme, Licence ouverte Etalab
 2.0) sont téléchargées une fois puis conservées dans 06_Outils/_cache/ (ignoré
 par git). Le fond de 1950 est postérieur au roman d'une génération : il est plus
 proche de la ville de 1925 qu'un fond actuel, sans la restituer (ponts
 reconstruits après 1944, percées, etc.).
 
 Sorties (05_Cartes/) :
-  lyon_carte_ign_1950.png        centre de Lyon sur la carte IGN de 1950
-  guillotiere_photo_1950.png     de la place Morand à Saint-Louis, photo aérienne 1950-1965
+  lyon_carte_ign_1950.png        vue d'ensemble du centre (carte IGN de 1950) et cadres des planches
+  guillotiere_photo_1950.png     planche 1 : secteur G (photographies aériennes 1950-1965)
+  brotteaux_photo_1950.png       planche 2 : secteur B
+  presquile_photo_1950.png       planche 3 : secteurs P et D
+  atlas_historique.html          atlas interactif sur fonds historiques (repères étiquetés par code)
   itineraires.png                vue d'ensemble des cinq itinéraires reconstitués
   itineraires/itineraire_N.png   une planche par itinéraire (photographies 1950-1965)
   environs_ign_1950.png          Lyon et ses environs
@@ -191,76 +194,139 @@ def echelle(ax, lat, metres, etiquette):
             path_effects=[pe.withStroke(linewidth=3, foreground=PAPER)])
 
 
-def marqueur(ax, l, taille=1.0, avec_zone=True):
-    statut = l["statut"]
-    c = COL[statut]
+ETIQ = {  # étiquette du code de la notice : forme et couleurs selon le statut
+    "atteste": dict(fc=COL["atteste"], ec="white", tc="white", box="round,pad=0.3,rounding_size=0.6", ls="-"),
+    "probable": dict(fc=COL["probable"], ec="white", tc="white", box="square,pad=0.3", ls="-"),
+    "hypothese": dict(fc="white", ec=COL["hypothese"], tc=COL["hypothese"], box="round,pad=0.3", ls="--"),
+}
+
+
+def zone(ax, l, taille=1.0):
+    """Marge de localisation : polygone, segment large ou cercle de précision."""
+    c = COL[l["statut"]]
     g = l["geometry"]
-    lat_ref = ancre(l)[1]
-    k = 1 / math.cos(math.radians(lat_ref))
-    if avec_zone and g["type"] == "Polygon":
-        pts = [merc(*p) for p in g["coordinates"][0]]
-        ax.add_patch(MplPolygon(pts, closed=True, fc=c, ec=c, alpha=0.22, lw=1.4, ls="--", zorder=3))
-    elif avec_zone and g["type"] == "LineString":
-        pts = [merc(*p) for p in g["coordinates"]]
-        ax.plot([p[0] for p in pts], [p[1] for p in pts], color=c, lw=9 * taille, alpha=0.28,
+    k = 1 / math.cos(math.radians(ancre(l)[1]))
+    if g["type"] == "Polygon":
+        pts = [merc(*q) for q in g["coordinates"][0]]
+        ax.add_patch(MplPolygon(pts, closed=True, fc=c, ec=c, alpha=0.2, lw=1.3, ls="--", zorder=3))
+    elif g["type"] == "LineString":
+        pts = [merc(*q) for q in g["coordinates"]]
+        ax.plot([q[0] for q in pts], [q[1] for q in pts], color=c, lw=8 * taille, alpha=0.26,
                 solid_capstyle="round", zorder=3)
-        ax.plot([p[0] for p in pts], [p[1] for p in pts], color=c, lw=1.4, ls="--", zorder=3)
-    elif avec_zone and l.get("precision_m"):
+        ax.plot([q[0] for q in pts], [q[1] for q in pts], color=c, lw=1.3, ls="--", zorder=3)
+    elif l.get("precision_m"):
         x, y = merc(*g["coordinates"])
-        ax.add_patch(Circle((x, y), l["precision_m"] * k, fc=c, ec=c, alpha=0.16, lw=1, ls="--", zorder=3))
+        ax.add_patch(Circle((x, y), l["precision_m"] * k, fc=c, ec=c, alpha=0.14, lw=1, ls="--", zorder=3))
+
+
+def point(ax, l, s=26, couleur=None, zorder=6):
     x, y = merc(*ancre(l))
-    s = 230 * taille
-    if statut == "probable":
-        ax.scatter([x], [y], s=s * 1.1, marker="D", c=c, edgecolors="white", linewidths=1.5, zorder=6)
-        couleur_txt = "white"
-    elif statut == "hypothese":
-        ax.scatter([x], [y], s=s, marker="o", c="white", edgecolors=c, linewidths=1.8, zorder=6)
-        couleur_txt = c
-    else:
-        ax.scatter([x], [y], s=s, marker="o", c=c, edgecolors="white", linewidths=1.5, zorder=6)
-        couleur_txt = "white"
-    ax.text(x, y, str(l["num"]), ha="center", va="center", fontsize=8.5 * taille, fontweight="bold",
-            color=couleur_txt, zorder=7)
+    c = couleur or COL[l["statut"]]
+    plein = couleur or l["statut"] != "hypothese"
+    ax.scatter([x], [y], s=s, marker="D" if l["statut"] == "probable" and not couleur else "o",
+               c=c if plein else "white", edgecolors="white" if plein else c, linewidths=1.1, zorder=zorder)
 
 
-def legende(fig, lieux, x=0.69, y=0.80, titre="LIEUX & DEGRÉS DE CERTITUDE", rues=()):
-    """Légende : symboles de statut, puis liste numérotée (sur deux colonnes si elle est longue)."""
-    fig.text(x, y, titre, fontsize=11, color=MUTED, fontweight="bold")
-    yy = y - 0.035
-    for statut, lib in LIB.items():
-        ax = fig.add_axes([x, yy - 0.006, 0.012, 0.015])
-        ax.axis("off")
-        ax.scatter([0.5], [0.5], s=110, marker="D" if statut == "probable" else "o",
-                   c="white" if statut == "hypothese" else COL[statut], edgecolors=COL[statut], linewidths=1.6)
-        ax.set_xlim(0, 1)
-        ax.set_ylim(0, 1)
-        fig.text(x + 0.02, yy, lib, fontsize=11.5, color=INK, va="center")
-        yy -= 0.026
-    yy -= 0.01
-    note = "Une zone ou un segment ne désignent pas une adresse."
-    if rues:
-        note += " Rues nommées : filets de couleur, sans numéro."
-    fig.text(x, yy, note, fontsize=9.5, color=MUTED, wrap=True)
-    yy -= 0.032
-    deux = len(lieux) > 30
-    pas = 0.0158 if deux else 0.0205
-    largeur, corps = (0.148, 8.6) if deux else (0.30, 10)
-    coupe = 31 if deux else 52
-    y0, col = yy, 0
-    for l in lieux:
-        if yy < 0.075:
-            if deux and col == 0:
-                col, yy = 1, y0
-            else:
-                fig.text(x + col * largeur, yy, "… voir l'atlas et le registre.", fontsize=8.5, color=MUTED)
+def etiqueter(ax, lieux, taille=1.0):
+    """Étiquettes des codes, placées sans chevauchement (recherche gloutonne autour du point),
+    reliées au point par un filet quand elles en sont écartées."""
+    tr = ax.transData
+    inv = tr.inverted()
+    X0, Y0, X1, Y1 = ax.bbox.extents
+    fs = 8.2 * taille
+    px = fs * 100 / 72  # corps en pixels (dpi 100)
+    pos = {l["code"]: tr.transform(merc(*ancre(l))) for l in lieux}
+    occupe = [(x - 4, y - 4, x + 4, y + 4, c) for c, (x, y) in pos.items()]
+
+    def conflit(b, soi):
+        if b[0] < X0 + 2 or b[2] > X1 - 2 or b[1] < Y0 + 2 or b[3] > Y1 - 2:
+            return 1e9
+        s = 0.0
+        for o in occupe:
+            if o[4] == soi and o[2] - o[0] < 9:
+                continue
+            dx = min(b[2], o[2]) - max(b[0], o[0])
+            dy = min(b[3], o[3]) - max(b[1], o[1])
+            if dx > 0 and dy > 0:
+                s += dx * dy
+        return s
+
+    def voisins(l):
+        x, y = pos[l["code"]]
+        return sum(1 for q in pos.values() if abs(q[0] - x) < 45 and abs(q[1] - y) < 45)
+
+    directions = [(1, 0), (-1, 0), (0, 1), (0, -1), (0.75, 0.75), (-0.75, 0.75), (0.75, -0.75), (-0.75, -0.75)]
+    for l in sorted(lieux, key=lambda l: -voisins(l)):
+        code = l["code"]
+        x, y = pos[code]
+        w, h = 0.64 * px * len(code) + 0.6 * px, 1.55 * px
+        meilleur = None
+        for r in (0, 15, 24, 34, 46, 60, 76, 94, 115):
+            for dx, dy in ([(0, 0)] if r == 0 else directions):
+                cx, cy = x + dx * (r + w / 2 * abs(dx)), y + dy * (r + h / 2 * abs(dy))
+                b = (cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2, code)
+                s = conflit(b, code)
+                if meilleur is None or s < meilleur[0]:
+                    meilleur = (s, b, r)
+                if s == 0:
+                    break
+            if meilleur[0] == 0:
                 break
-        xx = x + col * largeur
-        fig.text(xx + 0.011, yy, f"{l['num']}", fontsize=corps, color=COL[l["statut"]], fontweight="bold",
-                 va="center", ha="right")
+        _, b, r = meilleur
+        occupe.append(b)
+        cx, cy = (b[0] + b[2]) / 2, (b[1] + b[3]) / 2
+        st = ETIQ[l["statut"]]
+        if r:
+            (ax_, ay_), (bx_, by_) = inv.transform((x, y)), inv.transform((cx, cy))
+            ax.plot([ax_, bx_], [ay_, by_], color=COL[l["statut"]], lw=0.9, zorder=6)
+        point(ax, l, s=22 * taille, zorder=7)
+        lx, ly = inv.transform((cx, cy))
+        ax.text(lx, ly, code, ha="center", va="center", fontsize=fs, fontweight="bold", color=st["tc"], zorder=8,
+                bbox=dict(boxstyle=st["box"], fc=st["fc"], ec=st["ec"], lw=1.2 if st["ls"] == "--" else 0.9,
+                          ls=st["ls"]))
+
+
+def cle_statuts(fig, x, yy, exemple="G01"):
+    for statut, lib in LIB.items():
+        st = ETIQ[statut]
+        fig.text(x + 0.011, yy, exemple, fontsize=8.2, fontweight="bold", color=st["tc"], ha="center", va="center",
+                 bbox=dict(boxstyle=st["box"], fc=st["fc"], ec=st["ec"], lw=1.1, ls=st["ls"]))
+        fig.text(x + 0.03, yy, lib, fontsize=11.5, color=INK, va="center")
+        yy -= 0.027
+    return yy
+
+
+def legende(fig, lieux, x=0.69, y=0.80, titre="LIEUX & DEGRÉS DE CERTITUDE", rues=(), contexte=False):
+    """Légende : clé des statuts, puis liste complète des notices, par code (deux colonnes si besoin)."""
+    fig.text(x, y, titre, fontsize=11, color=MUTED, fontweight="bold")
+    exemple = min((l["code"] for l in lieux), default="G01")
+    yy = cle_statuts(fig, x, y - 0.035, exemple) - 0.008
+    note = "Étiquette = code de la notice (registre, fiches). Une zone ou un segment ne désignent pas une adresse."
+    if rues:
+        note += " Rues nommées : filets de couleur, codes en fin de liste."
+    if contexte:
+        note += " Points gris : lieux des autres planches."
+    import textwrap
+    lignes = textwrap.wrap(note, 62)
+    fig.text(x, yy, "\n".join(lignes), fontsize=9.2, color=MUTED, va="top", linespacing=1.3)
+    yy -= 0.0175 * len(lignes) + 0.012
+    entrees = sorted(lieux, key=lambda l: l["code"]) + sorted(rues, key=lambda l: l["code"])
+    n = len(entrees)
+    deux = n > 26
+    pas = 0.0148 if deux else 0.0195
+    par_col = (n + 1) // 2 if deux else n
+    pas = min(pas, (yy - 0.06) / max(par_col, 1))
+    largeur, corps = (0.148, 8.3) if deux else (0.30, 10)
+    coupe = 30 if deux else 50
+    for i, l in enumerate(entrees):
+        col, rang = divmod(i, par_col)
+        xx, y_ = x + col * largeur, yy - rang * pas
+        fig.text(xx, y_, l["code"], fontsize=corps, color=COL[l["statut"]], fontweight="bold", va="center")
         nom = l.get("carte_nom") or l["nom"].split(" — ")[0]
+        if est_rue(l):
+            nom = "▬ " + nom
         nom = nom if len(nom) <= coupe else nom[:coupe - 1] + "…"
-        fig.text(xx + 0.015, yy, nom, fontsize=corps, color=INK, va="center")
-        yy -= pas
+        fig.text(xx + 0.024, y_, nom, fontsize=corps, color=INK, va="center")
 
 
 def pied(fig, couche, note):
@@ -282,26 +348,123 @@ def rue(ax, l):
             solid_capstyle="round")
 
 
-def carte_lieux(nom, titre, sous_titre, couche, z, bbox, ech, note, taille=1.0, exclure=(), secteurs=None):
+def rapport_axes():
+    return (0.63 * 16) / (0.76 * 12.8)
+
+
+def emprise_secteurs(secteurs, marge=0.07):
+    pts = [ancre(l) for l in charger_lieux() if l.get("secteur") in secteurs and ancre(l)
+           and l.get("categorie") != "quartier"]
+    x0, y0, x1, y1 = cadrage(pts, rapport_axes(), marge=marge, mini=900)
+    (lon0, lat0), (lon1, lat1) = inv_merc(x0, y0), inv_merc(x1, y1)
+    return lon0, lat0, lon1, lat1
+
+
+def carte_lieux(nom, titre, sous_titre, couche, z, bbox, ech, note, taille=1.0, exclure=(), secteurs=None,
+                contexte=False):
     lon0, lat0, lon1, lat1 = bbox
-    lieux = [l for l in charger_lieux() if dans(l, *bbox) and l["id"] not in exclure
-             and (secteurs is None or l.get("secteur") in secteurs)
-             and l.get("categorie") != "quartier"]  # les quartiers restent dans l'atlas
+    tous = [l for l in charger_lieux() if dans(l, *bbox) and l["id"] not in exclure
+            and l.get("categorie") != "quartier"]  # les quartiers restent dans l'atlas
+    lieux = [l for l in tous if secteurs is None or l.get("secteur") in secteurs]
+    autres = [l for l in tous if l not in lieux and not est_rue(l)] if contexte else []
     rues = [l for l in lieux if est_rue(l)]
     reperes = [l for l in lieux if not est_rue(l)]
     fig = cadre_figure(titre, sous_titre)
     ax = fig.add_axes([0.036, 0.075, 0.63, 0.76])
     fond(ax, couche, lon0, lat0, lon1, lat1, z)
+    for l in autres:
+        point(ax, l, s=14, couleur="#8c8a84", zorder=4)
     for l in rues:
         rue(ax, l)
-    for l in sorted(reperes, key=lambda l: {"hypothese": 0, "probable": 1, "atteste": 2}[l["statut"]]):
-        marqueur(ax, l, taille)
+    for l in reperes:
+        zone(ax, l, taille)
     echelle(ax, (lat0 + lat1) / 2, *ech)
-    legende(fig, reperes, rues=rues)
+    etiqueter(ax, reperes, taille)
+    legende(fig, reperes, rues=rues, contexte=bool(autres))
     pied(fig, couche, note)
     fig.savefig(CARTES / nom, dpi=100, facecolor=PAPER)
     plt.close(fig)
-    print(f"{nom} : {len(reperes)} repères numérotés, {len(rues)} rues")
+    print(f"{nom} : {len(reperes)} repères étiquetés, {len(rues)} rues, {len(autres)} points de contexte")
+
+
+PLANCHES = [  # (fichier, titre, sous-titre, secteurs, note)
+    ("guillotiere_photo_1950.png", "La Guillotière et le cours Gambetta",
+     "Secteur G : domiciles, place Antique, cafés et églises du trio · photographies aériennes 1950-1965",
+     {"G"}, "Clichés postérieurs d'une génération au roman."),
+    ("brotteaux_photo_1950.png", "De la place Morand aux Brotteaux",
+     "Secteur B : rue du Six-Janvier, avenue de Saxe, cours Boudier, parc · photographies aériennes 1950-1965",
+     {"B"}, "Clichés postérieurs d'une génération au roman."),
+    ("presquile_photo_1950.png", "La Presqu'île et la rive droite",
+     "Secteurs P et D : Bellecour, la République, Perrache, Fourvière, Saint-Jean · photographies 1950-1965",
+     {"P", "D"}, "Clichés postérieurs d'une génération au roman ; ponts reconstruits après 1944."),
+]
+
+
+def carte_ensemble():
+    """Vue d'ensemble : tous les lieux localisés du centre, sans étiquette, et le cadre des planches."""
+    bbox = (4.806, 45.737, 4.868, 45.7815)
+    lon0, lat0, lon1, lat1 = bbox
+    lieux = [l for l in charger_lieux() if dans(l, *bbox) and l.get("categorie") != "quartier"
+             and l.get("secteur") in ("G", "B", "P", "D")]
+    fig = cadre_figure("Lyon sur la carte de 1950",
+                       "Les lieux du roman sur la carte IGN la plus proche de leur temps · vue d'ensemble")
+    ax = fig.add_axes([0.036, 0.075, 0.63, 0.76])
+    fond(ax, "carte1950", lon0, lat0, lon1, lat1, 15)
+    for l in lieux:
+        if est_rue(l):
+            rue(ax, l)
+    for l in sorted(lieux, key=lambda l: {"hypothese": 0, "probable": 1, "atteste": 2}[l["statut"]]):
+        if not est_rue(l):
+            point(ax, l, s=46)
+    import textwrap
+    from shapely.geometry import MultiPoint
+    for k, (fichier, titre, _, secteurs, _) in enumerate(PLANCHES):
+        pts = [merc(*ancre(l)) for l in lieux if l.get("secteur") in secteurs]
+        if len(pts) < 3:
+            continue
+        env = MultiPoint(pts).convex_hull.buffer(110, join_style=1)
+        xs, ys = env.exterior.xy
+        ax.add_patch(MplPolygon(list(zip(xs, ys)), closed=True, fc=INK, ec=INK, alpha=0.07, lw=0, zorder=2))
+        ax.add_patch(MplPolygon(list(zip(xs, ys)), closed=True, fc="none", ec=INK, lw=1.5, ls=(0, (6, 3)),
+                                zorder=5))
+        i = max(range(len(ys)), key=lambda j: ys[j] - 0.3 * xs[j] / 1.0)
+        ax.text(xs[i], ys[i], f" {k + 1} ", fontsize=14, fontweight="bold", color=PAPER, va="center", ha="center",
+                zorder=9, bbox=dict(boxstyle="circle,pad=0.25", fc=INK, ec=PAPER, lw=1.5))
+    echelle(ax, (lat0 + lat1) / 2, 1000, "1000 m")
+    x, y = 0.69, 0.80
+    fig.text(x, y, "LIEUX & DEGRÉS DE CERTITUDE", fontsize=11, color=MUTED, fontweight="bold")
+    yy = y - 0.035
+    for statut, lib in LIB.items():
+        a = fig.add_axes([x, yy - 0.006, 0.012, 0.015])
+        a.axis("off")
+        a.scatter([0.5], [0.5], s=70, marker="D" if statut == "probable" else "o",
+                  c="white" if statut == "hypothese" else COL[statut], edgecolors=COL[statut], linewidths=1.4)
+        a.set_xlim(0, 1)
+        a.set_ylim(0, 1)
+        n = sum(1 for l in lieux if l["statut"] == statut and not est_rue(l))
+        fig.text(x + 0.02, yy, f"{lib} ({n})", fontsize=11.5, color=INK, va="center")
+        yy -= 0.026
+    n_rues = sum(1 for l in lieux if est_rue(l))
+    fig.text(x, yy - 0.004, f"Filets : {n_rues} rues nommées par le roman.", fontsize=10, color=MUTED, va="center")
+    yy -= 0.055
+    fig.text(x, yy, "PLANCHES DE DÉTAIL (ENVELOPPES EN TIRETS)", fontsize=11, color=MUTED, fontweight="bold")
+    yy -= 0.032
+    for k, (fichier, titre, sous, secteurs, _) in enumerate(PLANCHES):
+        n = sum(1 for l in charger_lieux() if l.get("secteur") in secteurs and l.get("geometry")
+                and l.get("categorie") != "quartier")
+        fig.text(x, yy, f"{k + 1}", fontsize=13, fontweight="bold", color=INK, va="top")
+        fig.text(x + 0.02, yy, titre, fontsize=12.5, family=SERIF, color=INK, va="top")
+        fig.text(x + 0.02, yy - 0.024, f"05_Cartes/{fichier} · {n} lieux", fontsize=9.5, color=MUTED, va="top")
+        yy -= 0.062
+    fig.text(x, yy - 0.01, "\n".join(textwrap.wrap(
+        "Chaque planche étiquette les lieux par le code de leur notice (G… Guillotière, B… 3e nord et Brotteaux, "
+        "P… Presqu'île, D… rive droite de la Saône). Environs et région : environs_ign_1950.png et "
+        "region_ign_1950.png. Atlas interactif : atlas_historique.html.", 58)),
+        fontsize=10, color=MUTED, va="top", linespacing=1.35)
+    pied(fig, "carte1950", "La carte de 1950 montre les ponts reconstruits après 1944.")
+    fig.savefig(CARTES / "lyon_carte_ign_1950.png", dpi=100, facecolor=PAPER)
+    plt.close(fig)
+    print(f"lyon_carte_ign_1950.png : {len(lieux)} lieux, {len(PLANCHES)} enveloppes de planches")
 
 
 def cadrage(points, ratio, marge=0.18, mini=700):
@@ -476,8 +639,8 @@ header{padding:14px 20px;border-bottom:1px solid #d8d2c6}header h1{font:28px Geo
 header p{margin:0;font-size:13px;color:#687778}#map{position:absolute;top:86px;bottom:0;left:0;right:0}
 .leaflet-popup-content{font-size:13px;line-height:1.45;max-width:340px}.leaflet-popup-content h3{font:18px Georgia,serif;margin:0 0 6px}
 .tag{font-size:11px;font-weight:bold;text-transform:uppercase;letter-spacing:.04em}
-.num{display:flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;color:#fff;font:bold 11px Arial;border:2px solid #fff;box-shadow:0 0 2px #0006}
-.num.probable{border-radius:4px;transform:rotate(45deg)}.num.probable span{transform:rotate(-45deg)}
+.num{display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:20px;padding:0 4px;box-sizing:border-box;border-radius:10px;color:#fff;font:bold 11px Arial;border:2px solid #fff;box-shadow:0 0 2px #0006;white-space:nowrap}
+.num.probable{border-radius:2px}
 .num.hypothese{background:#fff!important;border:2px dashed #b45942;color:#b45942}
 .etape{display:flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;background:#fff;font:bold 10px Arial;border:2px solid}
 .legend{background:#fffdf8ee;padding:8px 10px;border:1px solid #d8d2c6;border-radius:6px;font-size:12px;line-height:1.7}
@@ -506,10 +669,10 @@ function esc(t){return String(t??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt
 for (const l of LIEUX){
   if(!l.geometry) continue; const c = COL[l.statut];
   const g = L.geoJSON(l.geometry,{style:{color:c,weight:l.geometry.type==='LineString'?8:1.5,opacity:.45,dashArray:'5 4',fillOpacity:.18}});
-  let a = l.ancre; const icon = L.divIcon({className:'',html:'<div class="num '+l.statut+'" style="background:'+c+'"><span>'+l.num+'</span></div>',iconSize:[24,24],iconAnchor:[12,12]});
+  let a = l.ancre; const icon = L.divIcon({className:'',html:'<div class="num '+l.statut+'" style="background:'+c+'"><span>'+esc(l.code||l.num)+'</span></div>',iconSize:[40,20],iconAnchor:[20,10]});
   const m = L.marker([a[1],a[0]],{icon,title:l.nom});
   if(l.geometry.type==='Point' && l.precision_m) L.circle([a[1],a[0]],{radius:l.precision_m,color:c,weight:1,dashArray:'4 4',fillOpacity:.1}).addTo(groupes[l.statut]);
-  const html = '<h3>'+l.num+'. '+esc(l.nom)+'</h3><div class="tag" style="color:'+c+'">'+LIB[l.statut]+(l.code?' · '+esc(l.code):'')+'</div><p>'+esc(l.description)+'</p>'+
+  const html = '<h3>'+esc(l.code||l.num)+' · '+esc(l.nom)+'</h3><div class="tag" style="color:'+c+'">'+LIB[l.statut]+(l.certitude?' · certitude '+esc(l.certitude):'')+'</div><p>'+esc(l.description)+'</p>'+
     (l.nom_actuel?'<p><b>Aujourd’hui :</b> '+esc(l.nom_actuel)+'</p>':'')+
     (l.refs&&l.refs.length?'<p><b>Texte :</b> '+esc(l.refs.join(' ; '))+'</p>':'')+
     (l.fiche_lieu||l.fiche?'<p>'+(l.fiche_lieu?'<a href="'+esc(l.fiche_lieu)+'">Fiche du lieu</a>':'')+(l.fiche&&l.fiche.indexOf('par_lieu')<0?(l.fiche_lieu?' · ':'')+'<a href="'+esc(l.fiche)+'">Dossier d’argumentation</a>':'')+'</p>':'')+
@@ -541,7 +704,7 @@ def atlas_historique():
         if not l.get("geometry"):
             continue
         rows.append({"num": l["num"], "id": l["id"], "code": l.get("code", ""), "nom": l["nom"],
-                     "statut": l["statut"], "geometry": l["geometry"], "ancre": ancre(l),
+                     "statut": l["statut"], "certitude": l.get("certitude", ""), "geometry": l["geometry"], "ancre": ancre(l),
                      "precision_m": l.get("precision_m"), "description": l.get("description", ""),
                      "nom_actuel": l.get("nom_actuel", ""), "refs": l.get("refs", []),
                      "sources": l.get("sources", []), "fiche": l.get("fiche", ""),
@@ -561,23 +724,22 @@ def main():
             {"atlas": atlas_historique, "itineraires": carte_itineraires}[nom]()
         return
     atlas_historique()
-    carte_lieux("lyon_carte_ign_1950.png", "Lyon sur la carte de 1950",
-                "Les lieux du roman sur la carte IGN la plus proche de leur temps · centre de Lyon",
-                "carte1950", 15, (4.812, 45.739, 4.862, 45.7795), (1000, "1000 m"),
-                "La carte de 1950 montre les ponts reconstruits après 1944.")
-    carte_lieux("guillotiere_photo_1950.png", "De la place Morand à la Guillotière",
-                "Le quartier du trio sur les photographies aériennes de 1950-1965",
-                "photo1950", 17, (4.8375, 45.7485, 4.8545, 45.7700), (200, "200 m"),
-                "Clichés postérieurs d'une génération au roman.", taille=1.0)
+    carte_ensemble()
+    for fichier, titre, sous, secteurs, note in PLANCHES:
+        bbox = emprise_secteurs(secteurs)
+        largeur = (merc(bbox[2], bbox[1])[0] - merc(bbox[0], bbox[1])[0]) * math.cos(math.radians(bbox[1]))
+        ech = (200, "200 m") if largeur < 2000 else (500, "500 m")
+        carte_lieux(fichier, titre, sous, "photo1950", 17 if largeur < 1800 else 16, bbox, ech, note,
+                    secteurs=secteurs, contexte=True)
     carte_lieux("environs_ign_1950.png", "Lyon et ses environs",
                 "Villas, guinguettes et excursions · carte IGN de 1950",
                 "carte1950", 13, (4.62, 45.655, 4.98, 45.905), (5000, "5 km"),
-                "Les villas et maisons de famille ne sont pas identifiées à la parcelle.", taille=0.9,
+                "Les villas et maisons de famille ne sont pas identifiées à la parcelle.", taille=1.0,
                 secteurs={"E"})
     carte_lieux("region_ign_1950.png", "Du Beaujolais au Dauphiné",
                 "Brouilly, Mongré, Claveisolles, les villages de Michel · carte IGN de 1950",
                 "carte1950", 11, (4.40, 45.25, 5.10, 46.25), (20000, "20 km"),
-                "Noms déguisés (l'Épervière, Saint-Chély) : hypothèses biographiques.", taille=0.9,
+                "Noms déguisés (l'Épervière, Saint-Chély) : hypothèses biographiques.", taille=1.0,
                 secteurs={"R"})
     carte_itineraires()
 

@@ -14,8 +14,11 @@ features = [{'type': 'Feature', 'id': x['id'], 'geometry': x['geometry'],
     'features': features}, ensure_ascii=False, indent=2) + '\n')
 with (folder / 'index_lieux.csv').open('w', newline='', encoding='utf-8') as f:
     w = csv.writer(f)
-    w.writerow(['id', 'nom', 'statut', 'geometrie', 'precision_m', 'references', 'description', 'sources'])
+    w.writerow(['code', 'id', 'nom', 'secteur', 'categorie', 'statut', 'certitude', 'geometrie', 'precision_m',
+                'nom_1925', 'nom_actuel', 'references', 'description', 'sources'])
     for x in lieux:
-        w.writerow([x['id'], x['nom'], x['statut'], x['geometry']['type'] if x['geometry'] else '',
-                    x['precision_m'], ' ; '.join(x['refs']), x['description'], ' ; '.join(x['sources'])])
+        w.writerow([x.get('code', ''), x['id'], x['nom'], x.get('secteur', ''), x.get('categorie', ''), x['statut'],
+                    x.get('certitude', ''), x['geometry']['type'] if x['geometry'] else '', x['precision_m'],
+                    x.get('nom_1925', ''), x.get('nom_actuel', ''), ' ; '.join(x.get('refs', [])),
+                    x.get('description', ''), ' ; '.join(x.get('sources', []))])
 print(f'{len(lieux)} notices exportées ; les géométries nulles restent explicitement non placées.')
