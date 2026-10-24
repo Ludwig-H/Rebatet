@@ -154,11 +154,13 @@ Repères complémentaires : II §82 ; XVII §116 ; XIX §215 ; XXI §82 ; XXVIII
 
 ## Anciens maîtres maristes de Régis
 
-**Statut : hypothese**. L’existence des anciens maîtres maristes est explicite ; leur établissement précis ne l’est pas. L’Externat Sainte-Marie est un candidat lyonnais plausible, établi au 4 montée Saint-Barthélemy depuis 1896. Une identification tirée seulement de la biographie du modèle de Régis serait insuffisante : maintenir cette proposition comme hypothèse.
+**Statut : probable**. L’existence des anciens maîtres maristes est explicite (X §84) ; leur établissement précis ne l’est pas. L’Externat Sainte-Marie (pères maristes), établi au 4 montée Saint-Barthélemy depuis 1896, est le candidat lyonnais. Le modèle biographique est documenté : Rocher (2005, §28), d’après les souvenirs de Varillon (*Beauté du monde et souffrance des hommes*, 1980, p. 24-29), fait du modèle de Régis un « ancien de l’externat Sainte-Marie » ; la notice Folliet du *Dictionnaire historique des académiciens de Lyon* le place en philosophie « chez les maristes de Lyon ». Une catégorie de Wikipédia, non sourcée, le rattache pourtant au lycée Saint-Marc. Le roman ne nommant pas l’école, la transposition reste une inférence. Le même paragraphe fait aussi des maristes les anciens maîtres de Michel à Saint-Chély : hors Lyon, transposition probable du collège mariste de Saint-Chamond, où Rebatet fut interne. Seuls les maîtres de Régis relèvent d’une identification lyonnaise.
 
 Repères textuels : OEBPS/Text/X_christ_est_ressuscite.xhtml#p84.
 
 - https://www.sainte-marie-lyon.fr/sainte-marie-lyon-celebre-ses-130-ans/
+- Ph. Rocher, 2005, §28 et n. 42 : https://books.openedition.org/enseditions/6593 (consulté le 24 octobre 2026)
+- *Études littéraires*, 2004 (Rebatet interne à Saint-Chamond) : https://erudit.org/en/journals/etudlitt/2004-v36-n1-etudlitt874/010633ar.pdf (consulté le 24 octobre 2026)
 
 
 <a id="cercle_rollet"></a>
