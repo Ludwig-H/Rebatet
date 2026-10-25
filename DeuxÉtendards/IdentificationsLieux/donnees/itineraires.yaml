@@ -1,0 +1,132 @@
+# Itinéraires lyonnais des *Deux Étendards*
+#
+# Chaque itinéraire est une suite d'étapes ATTESTÉES par le texte (référence
+# chapitre § en numérotation <p>, cf. METHODE.md). Le tracé entre deux
+# étapes est RECONSTITUÉ par outils/itineraires.py : plus court chemin sur la
+# voirie actuelle (fond OpenStreetMap conservé dans fond_osm.geojson). Il ne
+# prétend pas restituer les rues réellement suivies, que le roman ne donne pas.
+# « via » = point de passage ajouté pour forcer un pont ou un quai nommé par le
+# texte ; « hors_carte » = étape hors du centre (non routée).
+
+itineraires:
+
+- id: IT1
+  titre: Le chemin des amoureux, de la place Morand à la place Antique
+  date: janvier 1925 – mars 1926 (itinéraire type)
+  nature: composite
+  resume: >-
+    Trajet quotidien reconstitué à partir de plusieurs passages : sortie du cours
+    Boudier, avenue de Saxe, café des Alpes (secteur), angle du Six-Janvier, rue Créqui,
+    église Saint-Louis, petite rue Saint-Michel, place Antique, puis retour vers le
+    cours Gambetta par la place du Pont.
+  refs: [IV §24-27, XXII §35, XII §124, XII §155, XXIV §2, XXII §99, XXIII §228, XXV §181]
+  etapes:
+  - {nom: sortie du cours Boudier (« à l'angle de la place Morand »), lieu: B04, lat: 45.76870, lon: 4.84330, ref: XXII §34, a_confirmer: true}
+  - {nom: avenue de Saxe × cours Franklin-Roosevelt, via: true, lat: 45.76863, lon: 4.84390}
+  - {nom: "café des Alpes (avenue de Saxe, « un peu après le cours La Fayette »)",lieu: B02, lat: 45.76259, lon: 4.84517, ref: XXII §35, a_confirmer: true}
+  - {nom: angle du Six-Janvier (Créqui / Rabelais), lieu: B01, lat: 45.76287, lon: 4.84720, ref: XII §124}
+  - {nom: rue Créqui × cours Gambetta (place de l'Abondance), lieu: G20, lat: 45.75320, lon: 4.84903, ref: XXII §99}
+  - {nom: église Saint-Louis, lieu: G19, lat: 45.75104, lon: 4.84820, ref: XXII §99}
+  - {nom: rue Saint-Michel × rue de la Madeleine (voûte Saint-Michel), via: true, lat: 45.75041, lon: 4.84800}
+  - {nom: place Antique, lieu: G01, lat: 45.75340, lon: 4.84270, ref: XXIII §228}
+  - {nom: rue de la Vierge × Grande-Rue, via: true, lat: 45.75381, lon: 4.84411}
+  - {nom: place du Pont, lieu: G13, lat: 45.75520, lon: 4.84300, ref: XXV §181}
+  - {nom: "« 3 bis » cours Gambetta (Villars) : n° 5 au recensement de 1926", lieu: G08, lat: 45.755912, lon: 4.841743, ref: XXIX §106}
+
+- id: IT2
+  titre: Le dimanche 12 juillet 1925 — Saint-Jean, Vaugneray, le Six-Janvier
+  date: 12 juillet 1925
+  nature: attestee
+  resume: >-
+    Messe à Saint-Jean, montée à pied à la gare de Saint-Just, train de Vaugneray
+    (hors carte), descente par la « ficelle », tramway à l'angle du pont Tilsitt,
+    restaurant de la rue des Marronniers, quais du Rhône, pèlerinage au
+    Six-Janvier, retour à l'hôtel de la rue Victor-Hugo.
+  refs: [XV §73, XV §75, XV §189, XV §191, XV §197, XV §199, XV §217, XV §219, XV §255-256, XV §261]
+  etapes:
+  - {nom: Saint-Jean (messe de 7 h 45), lieu: D03, lat: 45.76071, lon: 4.82738, ref: XV §73}
+  - {nom: gare de Saint-Just, lieu: D05, lat: 45.75729, lon: 4.81557, ref: XV §75}
+  - {nom: Vaugneray (train de banlieue), lieu: E08, hors_carte: true, lat: 45.73800, lon: 4.65600, ref: XV §80}
+  - {nom: gare de Saint-Just (retour), lieu: D05, lat: 45.75729, lon: 4.81557, ref: XV §189}
+  - {nom: "« ficelle », gare de Saint-Jean", lat: 45.75990, lon: 4.82610, ref: XV §191}
+  - {nom: angle du pont Tilsitt (tramway), lieu: P26, lat: 45.75922, lon: 4.82957, ref: XV §197}
+  - {nom: rue des Marronniers (restaurant), lieu: P19, lat: 45.75715, lon: 4.83472, ref: XV §217}
+  - {nom: quais du Rhône, lat: 45.75750, lon: 4.83750, ref: XV §219}
+  - {nom: pont de la Guillotière, via: true, lat: 45.75662, lon: 4.83892}
+  - {nom: quai de la Guillotière, via: true, lat: 45.76000, lon: 4.84100}
+  - {nom: angle du Six-Janvier (Créqui / Rabelais), lieu: B01, lat: 45.76287, lon: 4.84720, ref: XV §255-256}
+  - {nom: pont La Fayette, via: true, lat: 45.76357, lon: 4.84063}
+  - {nom: hôtel de la rue Victor-Hugo, lieu: P17, lat: 45.75422, lon: 4.82991, ref: XV §261}
+
+- id: IT3
+  titre: La poursuite de « Gaupette », 14 novembre 1925
+  date: 14 novembre 1925, 18 h
+  nature: attestee
+  resume: >-
+    Michel, en route vers le rendez-vous de la rue Créqui, suit une fillette :
+    rue de la République, quai de Retz, pont Morand, place Morand, avenue de
+    Noailles, boulevard des Belges (hôtel des « V… D… »), puis vers l'avenue du
+    Parc et la tête de ligne des tramways ; le tram traverse ensuite la
+    Guillotière jusqu'au bouge « À la ville d'Oran » (hors carte, non localisé).
+  refs: [XXI §91, XXI §92, XXI §93, XXI §94, XXI §95, XXI §97, XXI §102, XXI §104]
+  etapes:
+  - {nom: angle rue de la République / rue Dubois, lat: 45.76376, lon: 4.83503, ref: XXI §91}
+  - {nom: quai de Retz, lieu: P36, lat: 45.76550, lon: 4.83870, ref: XXI §92}
+  - {nom: pont Morand, lieu: B06, lat: 45.76864, lon: 4.84043, ref: XXI §92}
+  - {nom: place Morand, lieu: B05, lat: 45.76775, lon: 4.84210, ref: XXI §93}
+  - {nom: avenue de Noailles, lieu: B15, lat: 45.77177, lon: 4.84323, ref: XXI §93}
+  - {nom: boulevard des Belges (hôtel des « V… D… »), lieu: B12, lat: 45.77577, lon: 4.84336, ref: XXI §94}
+  - {nom: "avenue du Parc, tête de ligne des tramways",lieu: B16, lat: 45.77680, lon: 4.84411, ref: XXI §95-97}
+
+- id: IT4
+  titre: Les « théologiens de Bellecour », nuit du 6 janvier 1926
+  date: 6 janvier 1926, soir
+  nature: attestee
+  resume: >-
+    Régis attend Michel à l'angle de la place du Pont, sur le chemin de la
+    bibliothèque ; ils vont « jusqu'au quai », font demi-tour à l'entrée du pont
+    Tilsitt, arpentent « la courte rue qui va du quai à la place », puis font des
+    heures durant « le tour de Bellecour » (Maison Dorée, Cercle militaire, rue
+    Gasparin, kiosque), avant d'obliquer vers la rue Victor-Hugo.
+  refs: [XXIII §9, XXIII §13, XXIII §27-28, XXIII §49, XXIII §61, XXIII §94, XXIII §123, XXIII §130]
+  etapes:
+  - {nom: angle de la place du Pont, lieu: G13, lat: 45.75520, lon: 4.84300, ref: XXIII §9}
+  - {nom: pont de la Guillotière, via: true, lat: 45.75662, lon: 4.83892}
+  - {nom: rue de la Barre, via: true, lat: 45.75794, lon: 4.83414}
+  - {nom: entrée du pont Tilsitt (demi-tour), lieu: P26, lat: 45.75923, lon: 4.82937, ref: XXIII §27}
+  - {nom: "le tour de Bellecour : devant la Maison Dorée", lieu: P02, lat: 45.75762, lon: 4.83083, ref: XXIII §28 ; XXIII §49}
+  - {nom: Bellecour angle sud-ouest, via: true, lat: 45.75715, lon: 4.82992}
+  - {nom: Bellecour côté sud, via: true, lat: 45.75660, lon: 4.83273}
+  - {nom: Bellecour angle nord-est, via: true, lat: 45.75791, lon: 4.83432}
+  - {nom: "angle de la rue Gasparin, en face du Cercle militaire", lieu: P07, lat: 45.75822, lon: 4.83314, ref: XXIII §61}
+  - {nom: Bellecour angle nord-ouest, via: true, lat: 45.75885, lon: 4.83076}
+  - {nom: "la grande allée : Maison Dorée et kiosque à musique", lieu: P02, lat: 45.75762, lon: 4.83083, ref: XXIII §94 ; XXIII §123}
+  - {nom: débouché de la rue Victor-Hugo, lieu: P17, lat: 45.75683, lon: 4.83154, ref: XXIII §130}
+
+- id: IT5
+  titre: La dernière nuit, novembre 1927
+  date: début novembre 1927, de la nuit tombée à 2 h
+  nature: attestee
+  resume: >-
+    Après l'enterrement d'Émile : du quai Saint-Clair au pont La Fayette, le
+    Cintra, la brasserie des Archers, le Royal, le quai de Saône face à Saint-Jean
+    et à la cour de la bibliothèque (sans traverser), une ruelle, la place des Célestins (le
+    Perroquet), la rue de la Barre, la place du Pont, la porte des Lanthelme et le
+    « tour traditionnel du pâté de bâtisses, derrière l'Eldorado ».
+  refs: [XXXVII §6, XXXVII §11, XXXVII §14, XXXVII §15, XXXVII §35, XXXVII §43-44, XXXVII §67-73, XXXVII §94, XXXVII §101, XXXVII §141, XXXVII §150, XXXVII §160]
+  etapes:
+  - {nom: quai Saint-Clair (appartement du deuil), lieu: P31, lat: 45.77086, lon: 4.83805, ref: XXXVII §6}
+  - {nom: à la hauteur du pont La Fayette, lat: 45.76486, lon: 4.83819, ref: XXXVII §14}
+  - {nom: le Cintra, lieu: P10, lat: 45.76437, lon: 4.83693, ref: XXXVII §15}
+  - {nom: brasserie des Archers, lieu: P11, lat: 45.75926, lon: 4.83503, ref: XXXVII §35}
+  - {nom: "le Royal (café, 50, rue de la République)", lieu: P04, lat: 45.759761, lon: 4.835173, ref: XXXVII §43-44}
+  - {nom: "quai de Saône, en face de Saint-Jean et de la cour de la bibliothèque (quai des Célestins ?)", lat: 45.76020, lon: 4.82990, ref: XXXVII §67 ; XXXVII §73}
+  - {nom: place des Célestins (le Perroquet), lieu: P12, lat: 45.75961, lon: 4.83213, ref: XXXVII §94 ; XXXVII §101}
+  - {nom: rue de la Barre, lat: 45.75794, lon: 4.83414, ref: XXXVII §141}
+  - {nom: pont de la Guillotière, via: true, lat: 45.75662, lon: 4.83892}
+  - {nom: angle du cours Gambetta et de la place du Pont, lieu: G13, lat: 45.75520, lon: 4.84300, ref: XXXVII §150}
+  - {nom: "porte des Lanthelme (28 cours Gambetta, famille Varillon en 1921 et 1926)", lieu: G10, lat: 45.75472, lon: 4.844265, ref: XXXVII §160}
+  - {nom: tour du pâté de l'Eldorado — rue Bonnefoi, via: true, lat: 45.75448, lon: 4.84595}
+  - {nom: tour du pâté de l'Eldorado — rue Paul-Bert, via: true, lat: 45.75594, lon: 4.84529}
+  - {nom: tour du pâté de l'Eldorado — place du Pont, via: true, lat: 45.75530, lon: 4.84300}
+  - {nom: retour devant la porte des Lanthelme, lieu: G10, lat: 45.75472, lon: 4.844265, ref: XXXVII §160}
